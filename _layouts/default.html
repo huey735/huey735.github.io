@@ -733,14 +733,7 @@
     <body class="home page-template-default page page-id-6 custom-background">
 
 <!--Select includes/main_nav according to page lang-->
-        {% assign translated = site.pages | where:"ref", page.ref | where:"lang", page.lang %}
-        {% for page in translated %}
-          {% if page.lang == "en" %}
             {% include main_nav.html %}
-          {% else %}
-            {% include main_nav_{{ page.lang }}.html %}
-          {% endif %}
-        {% endfor %}
 
 
             {% if page.url == '/' %}
@@ -759,14 +752,7 @@
             {% endif %}
 
 <!-- Select includes/footer according to page lang -->
-            {% assign tfoot = site.pages | where:"lang", page.lang %}
-            {% for page in tfoot limit:1 %}
-              {% if page.lang == "en" %}
                 {% include footer.html %}
-              {% else %}
-                {% include footer_{{ page.lang }}.html %}
-              {% endif %}
-            {% endfor %}
 
 
 
