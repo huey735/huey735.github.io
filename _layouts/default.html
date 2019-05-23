@@ -733,8 +733,8 @@
     <body class="home page-template-default page page-id-6 custom-background">
 
 <!--Select includes/main_nav according to page lang-->
-        {% assign translated = site.pages | where:"lang", page.lang %}
-        {% for page in translated %}
+        {% assign translated = site.pages | where:"ref", page.ref | where:"lang", page.lang %}
+        {% for page in translated limit:1 %}
           {% if page.lang == "en" %}
             {% include main_nav.html %}
           {% else %}
