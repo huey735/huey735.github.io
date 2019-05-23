@@ -753,11 +753,7 @@
 
                 <div class="outter">
 <!-- Select includes/homepage_content according to page lang -->
-                  {% if page.indexContent %}
-                    {% include {{ page.indexContent }} %}
-                  {% else %}
                     {{ content }}
-                  {% endif %}
                 </div>
 
             {% endif %}
