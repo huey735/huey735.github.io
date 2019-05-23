@@ -756,7 +756,14 @@
             {% endif %}
 
 <!-- Select includes/footer according to page lang -->
+            {% assign tfoot = site.pages | where:"lang", page.lang %}
+            {% for page in tfoot limit:1 %}
+              {% if page.lang == "en" %}
                 {% include footer.html %}
+              {% else %}
+                {% include footer_{{ page.lang }}.html %}
+              {% endif %}
+            {% endfor %}
 
 
 
