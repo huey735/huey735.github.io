@@ -1,0 +1,948 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+        <meta name="author" content="Bisq">
+
+        <meta name="description" content="Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative crypto currencies.">
+        <meta name="image" content="http://localhost:4001/images/bisq-og.jpg">
+        <meta itemprop="name" content="Bisq">
+        <meta itemprop="description" content="Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative crypto currencies.">
+        <meta itemprop="image" content="http://localhost:4001/images/bisq-og.jpg">
+        <meta name="og:title" content="Why Some Bitcoin Companies Go Rogue: An Interview with Janine from Block Digest">
+        <meta name="og:description" content="Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative crypto currencies.">
+        <meta name="og:image" content="http://localhost:4001/images/bisq-og.jpg">
+        <meta name="og:site_name" content="Bisq - The decentralized Bitcoin exchange">
+        <meta name="og:type" content="website">
+        <meta property="twitter:title" content="Why Some Bitcoin Companies Go Rogue: An Interview with Janine from Block Digest">
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:site" content="Bisq - The decentralized Bitcoin exchange">
+        <meta name="twitter:creator" content="@bisq_network">
+        <link rel="canonical" href="http://localhost:4001/blog/ricardo-janine-rogue-bitcoin-interview/">
+
+        <style>
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Mono ExtraLight'), local('IBMPlexMono-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexmono/v4/-F6qfjptAgt5VM-kVkqdyU8n3uALwl1FgsAXHNlYzg.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Mono ExtraLight'), local('IBMPlexMono-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexmono/v4/-F6qfjptAgt5VM-kVkqdyU8n3uALwlRFgsAXHNlYzg.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Mono ExtraLight'), local('IBMPlexMono-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexmono/v4/-F6qfjptAgt5VM-kVkqdyU8n3uALwl9FgsAXHNlYzg.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Mono ExtraLight'), local('IBMPlexMono-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexmono/v4/-F6qfjptAgt5VM-kVkqdyU8n3uALwl5FgsAXHNlYzg.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Mono ExtraLight'), local('IBMPlexMono-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexmono/v4/-F6qfjptAgt5VM-kVkqdyU8n3uALwlBFgsAXHNk.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin Italic'), local('IBMPlexSans-ThinItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX8KVElMYYaJe8bpLHnCwDKhdTmdJZGUdLBDGN9yT0.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin Italic'), local('IBMPlexSans-ThinItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX8KVElMYYaJe8bpLHnCwDKhdTmdJZPUdLBDGN9yT0.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin Italic'), local('IBMPlexSans-ThinItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX8KVElMYYaJe8bpLHnCwDKhdTmdJZEUdLBDGN9yT0.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin Italic'), local('IBMPlexSans-ThinItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX8KVElMYYaJe8bpLHnCwDKhdTmdJZFUdLBDGN9yT0.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin Italic'), local('IBMPlexSans-ThinItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX8KVElMYYaJe8bpLHnCwDKhdTmdJZLUdLBDGN9.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight Italic'), local('IBMPlexSans-ExtraLightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm2Idce_fuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight Italic'), local('IBMPlexSans-ExtraLightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm2IdccvfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight Italic'), local('IBMPlexSans-ExtraLightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm2IdceffuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight Italic'), local('IBMPlexSans-ExtraLightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm2IdcePfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight Italic'), local('IBMPlexSans-ExtraLightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm2IdcdvfuJGl18Q.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* sampled usage */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/stats/IBM+Plex+Sans/italic/200);
+            unicode-range: U+20;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light Italic'), local('IBMPlexSans-LightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRce_fuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light Italic'), local('IBMPlexSans-LightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRccvfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light Italic'), local('IBMPlexSans-LightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRceffuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light Italic'), local('IBMPlexSans-LightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRcePfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light Italic'), local('IBMPlexSans-LightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRcdvfuJGl18Q.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans Italic'), local('IBMPlexSans-Italic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKhdTuGqZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans Italic'), local('IBMPlexSans-Italic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKhdTuE6ZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans Italic'), local('IBMPlexSans-Italic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKhdTuGKZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans Italic'), local('IBMPlexSans-Italic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKhdTuGaZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans Italic'), local('IBMPlexSans-Italic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKhdTuF6ZJW9XjDg.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium Italic'), local('IBMPlexSans-MediumItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVce_fuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium Italic'), local('IBMPlexSans-MediumItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVccvfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium Italic'), local('IBMPlexSans-MediumItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVceffuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium Italic'), local('IBMPlexSans-MediumItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVcePfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium Italic'), local('IBMPlexSans-MediumItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVcdvfuJGl18Q.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold Italic'), local('IBMPlexSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJce_fuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold Italic'), local('IBMPlexSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJccvfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold Italic'), local('IBMPlexSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJceffuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold Italic'), local('IBMPlexSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJcePfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold Italic'), local('IBMPlexSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJcdvfuJGl18Q.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold Italic'), local('IBMPlexSans-BoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmrINce_fuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold Italic'), local('IBMPlexSans-BoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmrINccvfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold Italic'), local('IBMPlexSans-BoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmrINceffuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold Italic'), local('IBMPlexSans-BoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmrINcePfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold Italic'), local('IBMPlexSans-BoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmrINcdvfuJGl18Q.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin'), local('IBMPlexSans-Thin'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKjbLuGqZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin'), local('IBMPlexSans-Thin'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKjbLuE6ZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin'), local('IBMPlexSans-Thin'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKjbLuGKZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin'), local('IBMPlexSans-Thin'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKjbLuGaZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin'), local('IBMPlexSans-Thin'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKjbLuF6ZJW9XjDg.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight'), local('IBMPlexSans-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjR7_AIxsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight'), local('IBMPlexSans-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjR7_AIVsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight'), local('IBMPlexSans-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjR7_AI5sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight'), local('IBMPlexSans-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjR7_AI9sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight'), local('IBMPlexSans-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjR7_AIFsdP3pBms.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIxsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIVsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjXr8AI5sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjXr8AI9sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIFsdP3pBms.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans'), local('IBMPlexSans'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYXgKVElMYYaJe8bpLHnCwDKhdzeFaxOedfTDw.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans'), local('IBMPlexSans'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYXgKVElMYYaJe8bpLHnCwDKhdXeFaxOedfTDw.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans'), local('IBMPlexSans'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYXgKVElMYYaJe8bpLHnCwDKhd7eFaxOedfTDw.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans'), local('IBMPlexSans'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYXgKVElMYYaJe8bpLHnCwDKhd_eFaxOedfTDw.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans'), local('IBMPlexSans'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYXgKVElMYYaJe8bpLHnCwDKhdHeFaxOedc.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium'), local('IBMPlexSans-Medium'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjSL9AIxsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium'), local('IBMPlexSans-Medium'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjSL9AIVsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium'), local('IBMPlexSans-Medium'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjSL9AI5sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium'), local('IBMPlexSans-Medium'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjSL9AI9sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium'), local('IBMPlexSans-Medium'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjSL9AIFsdP3pBms.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold'), local('IBMPlexSans-SemiBold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjQ76AIxsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold'), local('IBMPlexSans-SemiBold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjQ76AIVsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold'), local('IBMPlexSans-SemiBold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjQ76AI5sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold'), local('IBMPlexSans-SemiBold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjQ76AI9sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold'), local('IBMPlexSans-SemiBold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjQ76AIFsdP3pBms.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold'), local('IBMPlexSans-Bold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjWr7AIxsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold'), local('IBMPlexSans-Bold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjWr7AIVsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold'), local('IBMPlexSans-Bold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjWr7AI5sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold'), local('IBMPlexSans-Bold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjWr7AI9sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold'), local('IBMPlexSans-Bold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjWr7AIFsdP3pBms.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+
+        </style>
+        <link href="/css/styles.css" rel="stylesheet">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4001/images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:4001/images/bisq-fav.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:4001/images/bisq-fav.png">
+        <link rel="icon" type="image/x-icon" href="http://localhost:4001/favicon.ico" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#404040">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="theme-color" content="#ffffff">
+
+        <title>Why Some Bitcoin Companies Go Rogue: An Interview with Janine from Block Digest</title>
+
+        <script defer src="http://localhost:4001/js/jquery-3.3.1.min.js"></script>
+        <script defer src="http://localhost:4001/js/popper.min.js"></script>
+        <script defer src="http://localhost:4001/js/bootstrap.min.js"></script>
+        <script defer src="http://localhost:4001/js/scripts.js"></script>
+
+    </head>
+
+    <body class="home page-template-default page page-id-6 custom-background">
+
+<!--Select includes/main_nav according to page lang-->
+        
+        
+
+
+            
+
+                <div class="outter">
+<!-- Select includes/homepage_content according to page lang -->
+                  
+                    <div class="container pb-5 mb-5">
+    <div class="row align-items-center">
+      <!-- <div class="col-md-8 order-md-1 text-md-left pr-md-5"> -->
+      <div class="col-md-12 order-md-1 text-md-left">
+         <div id="bcont" class="pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+  <article id="post-802" class="post-802 post type-post status-publish format-standard hentry category-news">
+    <div class="dets_wrap">
+      <div class="dets">
+        <h2><a href="/blog/ricardo-janine-rogue-bitcoin-interview/">Why Some Bitcoin Companies Go Rogue: An Interview with Janine from Block Digest</a></h2>
+        <p class='post-meta grey'>
+          Posted by <span>Ricardo Martinez</span> on <span>30 April 2019</span>
+        </p>
+      </div>
+    </div>
+    <div class="content_wrap">
+      <div class="content">
+        <div id="page" class="scol">
+          <hr />
+
+<p><em>Ricardo writes for <a href="https://coincache.net">Coincache.net</a> and is a Bitcoin maximalist, who lives with his wife and son in Colombia.</em></p>
+
+<p><em>If you’d like to contribute a post, please reach out on <a href="https://bisq.network/slack-invite">Slack</a>!</em></p>
+
+<hr />
+
+<p>In Bitcoin, reputation means nothing—code and actions is what truly matters. We have seen both Bitcoiners and Bitcoin companies like Bitpay, Coinbase and Bitfury destroy their reputations in the eyes of hard core Bitcoiners, either by attacking Bitcoin or trying to control it and twist it to their own purpose. Bitcoin maximalists are people who have a strong belief that Bitcoin will become the world reserve currency at some point in the future. Their base is made up of cypherpunks, software developers, anonymous Bitcoin enthusiasts and others who believe in the Austrian School of economics, whose principles have been coded into Bitcoin’s deflationary monetary policy. They’re often called toxic because they call out these kinds of shenanigans when they see them, and they pull no punches. We have seen many companies engage in questionable practices that drew the ire of the the more ideological sector of Bitcoin users, and we have seen some of Bitcoin’s most famous personalities meet the same ruthless judgment when they do things deemed harmful to Bitcoin.</p>
+
+<p>I wanted to delve deeper into why these companies who became successful as Bitcoin companies, decide to turn on Bitcoin, the very same thing that made them successful in the first place. I was able to get in touch with Janine of the <a href="https://www.youtube.com/channel/UCb53lXz2IzEFT5JNHSbdvPg">Block Digest Podcast</a>. She was kind enough to let me bombard her with questions for over an hour. She patiently and intelligently answered all my questions and gave me some remarkable insights into rogue Bitcoin companies.</p>
+
+<p>If you haven’t checked out Block Digest, I highly recommend it. It’s my favorite Bitcoin podcast, and one of the best available. They are always covering the most important stories in Bitcoin, from a maximalist perspective. I wanted to interview Janine in particular, because she is a <a href="https://einzelgaengerinmotte.wordpress.com/">world-class journalist</a> with Bitcoin expertise and a stellar track record. Her work for Block Digest as a presenter and commentator of Bitcoin news and current events, together with Shinobius and Crypto Rick, is some of the best in the space. Her privacy-conscious perspective has been huge for my personal process in learning how to use Bitcoin properly. I wanted to give respect where respect is due.</p>
+
+<h2 id="the-interview">The Interview</h2>
+
+<p><strong>Q: Why do companies that became successful because of Bitcoin, decide to turn on Bitcoin, in your opinion?</strong></p>
+
+<p>A: Well, for instance with the #deletecoinbase movement, there was a few people, Roger Ver was the biggest one, that was saying we shouldn’t criticize Coinbase because they made Bitcoin successful. I think that mindset is part of it, because if a company in this space has that perspective, that it’s them helping Bitcoin, not Bitcoin helping them in their business, and obviously to make money, then they get this entitled attitude when it comes to consensus changes, development, etc.</p>
+
+<p>They feel like they have less responsibility to do things which benefit the network and not their business. They feel like they’re entitled to more than they have already been given; most Bitcoin development happens through volunteers. Some developers are sponsored, but a lot of development happens as free volunteer work. Coinbase, for example, is notorious for not giving a whole lot back to the community or sponsoring development, like a lot of other companies in Bitcoin do. So this attitude of “we’re helping Bitcoin, Bitcoin isn’t helping us, is what can turn a lot of companies to becoming rogue or just not being conducive to the consensus process.
+As far as Segwit 2x, a lot of those companies were based in or around Silicon Valley. A lot of Silicon Valley companies have a very limited perspective when it comes to privacy, revenue models, for instance, how to fund a startup. They have a lot of local pressures like super high rent, etc.</p>
+
+<p>This incentivizes and pressures them to try to make money a lot more than businesses elsewhere, and so when they don’t have a financial model to generate revenue, they go with a freemium model. This freemium model appears free but isn’t at all good for your privacy or security, or they end up being very closed companies which don’t really build out this open financial system that a company like Coinbase talks about. They keep saying they want to build this open financial system but they end up building something a lot more closed than, say Paypal, they have a lot more requirements and restrictions. That’s due to this Silicon Valley mindset, and the mindset that they are contributing more than Bitcoin is contributing back to their business.</p>
+
+<p><strong>Q: What have been some of the methods they have used to try and undermine Bitcoin?</strong></p>
+
+<p>A: It reminds me of Andreas Antonopoulos’ talk on the <a href="https://www.youtube.com/watch?v=43Ucj6_Erb0">five stages of grief for banking</a>. I think it kind of applies to companies in a similar way, but they aren’t exactly trying to work in opposition to Bitcoin, they are trying to apply their business model on to Bitcoin.</p>
+
+<p>The five stages of grief are:</p>
+
+<ol>
+  <li>Denial</li>
+  <li>Anger</li>
+  <li>Bargaining</li>
+  <li>Depression</li>
+  <li>Acceptance</li>
+</ol>
+
+<p>Companies go through it as well, so sometimes they pursue strategies that people in Bitcoin might think of as malicious or attacks, but they tend to line up with the five different stages of grief. At first, they go through this denial phase where they say, “our business isn’t working because something is wrong with Bitcoin.” It’s not “there’s something wrong with our business model” or “we’re doing something wrong.” There is this denial there.</p>
+
+<p>Then they go into anger, when they go up against the consensus process, where people have noisy, intense debates for months on end, or sometimes, even years on end, and then they don’t reach a conclusion. I’m reminded of the recent <a href="https://avc.com/2019/03/video-of-the-week-vitalik-buterin-the-unchained-podcast-interview/">Laura Shin interview with Vitalik Buterin</a>, and the first thing they talked about was Fred Wilson. Fred Wilson was saying “I wish I could just walk into the Ethereum foundation, and say Vitalik, you need to hurry up and make a decision, we can’t just sit around waiting, it’s destroying Ethereum.” He comes from that Silicon Valley mindstate, where, a CEO, or board of directors, will come in and say, “OK, you’ve had your discussion, but now we are going to do this. End of debate.” You can’t do this in Bitcoin, because Bitcoin doesn’t have a CEO. A lot of the CEOs of these companies, try to act like they are the CEO of Bitcoin because they run what are considered successful companies in the space. That’s the anger phase, they get angry when they don’t have as much influence over consensus as they imagined, because of their influence in their respective companies, and their success.</p>
+
+<p>So, then they get to bargaining. If we use Segwit 2x as an example, they had the <a href="https://bravenewcoin.com/insights/segwit2x-the-new-york-agreement">New York agreement</a>, where these CEOs said we’ll implement Segwit, but then we’ll also have a 2mb block hard fork in addition to Segwit. It was just reframing the issue because Segwit already was enabling more blockspace. That was the bargaining stage though, and the problem was the way they bargained.</p>
+
+<p>They got this group of CEOs together to write up a document, based on a discussion at a conference, but the NY agreement wasn’t open. It took place behind closed doors and was a lot more restricted. They figured since they were CEOs, and saw themselves as influencers, they thought whatever agreement they came to would be seen as legitimate. Then over the next 6 months, they saw that, no, it wasn’t legitimate. Yes, you may be successful and influential, but just because a few people in a room made a decision, consensus didn’t reach the same conclusion.</p>
+
+<p>Now, they reach the depression stage. Again, to use Segwit 2x as the example, it was already failing and a lot of people dropped out ahead of time because it was failing. Then, with the “off by one” error in the code, it could have potentially broken the network if it had been enacted, they ended up canceling it. It was in the Bitcoin mailing list and I think only 6 people signed it, so they went to the depression phase. In the depression phase a lot of them stopped posting, they were trying to figure out what happened.</p>
+
+<p>Then we come to the acceptance phase. Finally, in the last couple of months, I have seen them (these same CEOs) start talking about it again. From their view, they’re asking things like where did we go wrong? How could we have done better? Their conclusions are a lot different than the people who they were fighting against, who thought the conclusion was good, and that it was a catastrophe we narrowly avoided. All of the doomsday predictions they were making about Segwit turned out to be untrue. I think it’s been about a year and a half and some them still haven’t reached the acceptance phase yet. Some reached the acceptance stage just a few months after the 2x disaster, but others still haven’t reached it.</p>
+
+<p><strong>Q: Why do they structure themselves in a way which leaves them vulnerable to outside influences like regulatory pressure?</strong></p>
+
+<p>A: I think there are several factors that make them vulnerable to actors like governments, or even just very powerful banks, who don’t have an interest in seeing Bitcoin succeed, but in the short term might partner with influential companies in the space. They may do this either to see what’s going on, or because they think they may be able to hurt Bitcoin in some way if they can hurt some of the companies involved.</p>
+
+<p>It also depends on your location, different legal jurisdictions have different sets of rules and tradeoffs, in terms of what kind of legal structure you can set up. It also depends on what kind of business you are, and what kind of customers you’re serving, or what kind of service you’re offering. For example, if you are offering a custodial service, that puts you in the most scrutiny from a legal and regulatory perspective, wherever you’re at. Some places may be less strict, but in general, if you’re running a centralized, custodial service, it’s a big deal, in terms of what kind of pressures you face.</p>
+
+<p>That’s why in Coinbase’s case, we have seen them decide it’s beneficial to be one of the few companies to kiss up to the authorities and say, “yes, we’ll go by your rules”, and if they do that and no one else does, they will become the defacto crypto bank. Then nobody else will be able to compete with them since they spent so many years ingratiating themselves to the financial structure (particularly, the U.S. regulatory structure). This happens over and over in other industries, so it’s not a surprise to see that this is their business model.</p>
+
+<p>So, I think, the location, size, culture, corporate structure (if you have a corporation at all!) of the companies, matters a lot. I know Bisq doesn’t do things this way and tries to stay as spread out as possible, which gives you the advantage of not having a single point of pain to target if somebody were to try and take it down. I am definitely curious about different legal structures, and geography and how they can best be taken advantage of.</p>
+
+<p>A structure that’s more decentralized is better for the employees as well, they can express themselves more, and it’s not as top-down as other organizations. If your organization is centralized and very top-down, if there is one person at the head, this leaves you open to someone either trying to replace you or influence you in some way, so they can influence the rest of the company, and if the service is custodial and centralized then you influence all their customers by default.</p>
+
+<p><strong>Q: Is there any viable solution to the poor governance models of existing businesses to relieve legal or regulatory pressures?</strong></p>
+
+<p>A: Corporate structure is not my area of expertise. I do have an interest, but one thing I think could be really beneficial for me at work is, as an employee, having more control over your work. For example, I have an unusual employment contract, unusual in the sense that I haven’t come across anyone else that has a contract like this. My contract says that I retain any copyright ownership over original, creative work I come up with, but I give my employer a creative commons license in perpetuity.</p>
+
+<p>This means they can use it, but I retain ownership over my work, which is extremely unusual, considering that anything you do on company time, even if it’s not something you were doing for them, an employer can say, “well, you did it on company time or with company resources, etc.” I have met a lot of people that were disgruntled because they came up with an idea or something and the company was like we own this, we can put you on the patent, but we will make all the money from this. This is something I have personal experience with, I have heard a lot stories from friends of mine in the software world, who’ve gone through something like this, and feel disgruntled.</p>
+
+<p><strong>Q: Why do these companies switch their focus to altcoins and ICO/STO coins after they reach a certain level of success with BTC?</strong></p>
+
+<p>A: I’d say it has to do with a few different factors, like what stage of the business cycle they’re in when they were developing. It might also have to do with the people running the company, they might be into other kinds of coins and just try to incorporate that into their business. They may think it’s a good strategy, others might be into other coins and add that in, not even thinking how it will be perceived from a business standpoint. They could also be under the influence of friends or colleagues who convinced them to add them.</p>
+
+<p>I think from a business cycle perspective, it is a very easy thing to do if you mostly focus on Bitcoin, but then, maybe financially you’ve run into hard times, or it’s been a while since you’ve added a new feature people are excited about, and the easiest thing to do, is to say “look we’ve added a new coin”. A lot of their user base might buy it, thinking, it’s worth a penny now, but it might be worth a lot more just like Bitcoin. They think that since bitcoin was so successful, any other coin could be too.</p>
+
+<p>There used to be this phenomenon when a coin would get listed on Coinbase, it would shoot way up in price, and it’s been happening less and less. Who really knows why, but it could be that once you buy one of these coins and don’t get rich, you’re less likely to do it again. It could also be that timing has to do with it. During the bull market, there was a lot more enthusiasm for buying any new coin, and now during the bear market, there isn’t as much, so it isn’t generating as much hype. It’s interesting, with XRP they expected a huge price pump from being listed finally on Coinbase, and it didn’t really happen. It could have been that they caught the wrong end of the Neutrino controversy so people didn’t want to use the Coinbase wallet, or they didn’t know what would happen, so they stayed away.</p>
+
+<p><strong>Q: Do you think the technical disconnect between business owners and the actual devs working on the protocol affects the kind of services we are seeing offered to Bitcoiners?</strong></p>
+
+<p>A: I think even outside of Bitcoin there is a disconnect between the “manager” class and the “developer” class. They generally have different perspectives and incentives. Developers want to be creative and work on things, while employers want to make more money or attract more users. What it takes to make the company successful may not be immediately obvious, but I think there’s always been a pretty big disconnect between the developers and the CEOs.</p>
+
+<p>I think it’s particularly pronounced in Bitcoin because of the ideological aspect that isn’t present with a lot of other technologies. So, developers who work on it, have this ideology, like with Linux and open source software we see this a lot too, that the disconnect is pretty pronounced.</p>
+
+<p>We have a thing where it’s not just being creative but you want to work on things that reflect your values as well. If your employer doesn’t share the same values, it could cause a lot of dissent. This is especially true in Bitcoin. It’s also hard because there are not as many competent Bitcoin developers like there are in other industries. I think a lot of owners of Bitcoin companies are under pressure to make their developers happy because if they are dissatisfied, they can easily go to any other company and get a job. The companies that don’t understand how valuable they are will just stop working after a while if they don’t understand. It may happen slowly over a long term period of time, and they’ll go down.</p>
+
+<p>We’ve seen a lot of companies go away in the last year, and people think it’s the bear market, but I think the bear market was just a catalyst that shows maybe they have been doing things badly for a long time and it finally caught up with them, like Bitmain, for example. They have been going down for a long time but it took this big correction in the market to show that whatever they were doing before wasn’t working for a long time. Now they have no other options left to keep covering that up, or to keep putting band-aids on it.</p>
+
+<p><strong>Q: I was going to ask you about Bitmain later, but since you brought it up, what are your thoughts on Bitmain’s epic decline?</strong></p>
+
+<p>A: Shinobi (of Block Digest) would probably have better answers than me, but the mistake Bitmain has made, is since they’re a mining company, they have a lot more influence on Bitcoin consensus than companies who don’t mine. I think a huge mistake they’ve made is the arrogant assumption that since they’re a big mining company, they’re the ones who’ve made Bitcoin successful.</p>
+
+<p>Then they made the biggest mistake of their trajectory by putting a lot of resources behind Bitcoin Cash, thinking we’re Bitmain, we have a lot of influence, if we do this then Bitcoin Cash will be successful. Then they realized how powerful Bitcoin’s user base is, and when they didn’t get that user base, Bitcoin Cash didn’t matter anymore, if no one is using it, there is no value, and it will go down. That was a huge problem for them because they put so many resources behind it, they couldn’t just trade it back for Bitcoin that easily. Then they got caught in a cycle where they could never catch back up to where they were. This was in parallel with problems they were having with manufacturing mining hardware, I am not an expert in mining hardware, but they were having troubles with their mining chips in addition to backing Bitcoin Cash.</p>
+
+<p><strong>Q: How important is it for Bitcoin users to protect their data from companies who have no accountability to keep it safe, secure &amp; private, in the age of data monetization as a profit strategy in today’s surveillance economy?</strong></p>
+
+<p>A: It’s extremely important. I think it’s not only important for me to do it, but also for others. What one person does in Bitcoin will affect everyone else. If it’s just one person, chances are small, but if everyone has the same bad strategies in terms of caring about data privacy, it will affect everyone else. It goes back to the difference between privacy and anonymity. You can wear a mask in a town square, but it’s a lot better if everyone in the square is wearing masks too. It’s a lot more powerful.</p>
+
+<p>For example with this Quadriga thing that’s happening, it’s more significant than the loss of funds, because we’ve seen that a lot. This is the first example we’ve seen allegations where someone like a co-founder has changed their identity multiple times and had been imprisoned for credit card fraud and identity theft schemes. To me, this is a giant red flag for trusting these custodial exchange companies, not just with your crypto data, and how you’re buying or selling coins or who you’re sending to or receiving from, but also with any other sensitive personal identity information you’re forced to give up to use these services.</p>
+
+<p>It will eventually become clear that the only way to have privacy is not to use any custodial services and to use Bitcoin as it was intended to be used, where you control your private keys as much as possible. It should be a priority to make wallets and decentralized exchanges as easy to use as possible. Data privacy is important, but also it’s important financially because nobody knows who is running these companies, their history or whatever. We also can’t trust the government to actually do the due diligence necessary when they say they are regulating them. If they don’t do it for regular financial companies, they probably can’t do it for companies using technologies they don’t even understand.</p>
+
+<p>People need to be a lot more aware of this especially with Bitcoin, which has irreversible transactions, you better make sure the information in the transaction can’t come back to hurt you. A lot of people using custodial wallets never consider “what if the company goes bad?” or “what if the country the company is in goes bad and the government uses the information against me or others?” I think of data privacy from a long-term perspective. I don’t want to worry if my digital life can come back to haunt me, if I can take precautionary steps which prevent that.</p>
+
+<p><strong>Q: Do you see actually disruptive startup Bitcoin enterprises overtaking companies like Bitpay, Bitfury or Coinbase?</strong></p>
+
+<p>A: I definitely see lots of opportunity for companies competing with companies that have become bitbanks essentially, except with none of the benefits of a bank. I see plenty of areas for that to happen, especially with Coinbase. One of the things I heard during the delete Coinbase movement was, “I’d delete my account, but they have zero fees.” My first thought was “you can destroy your privacy for zero fees, I guess, if that’s what you want to do.” Then about two weeks after that, Coinbase announced that they were adding fees and maker fees and a bunch of other stuff, and it was funny because then everyone got mad. Even those people had to admit, ok now I have to quit Coinbase.</p>
+
+<p>I see a lot of opportunity for smaller less-centralized companies. Any company as big as Coinbase that’s cozy with regulators, they can’t do a lot of things that a smaller more agile company may be able to do. Their whole thing about building an open financial system is impossible to do with how closed-off they are. They did a virtue signaling interview with a lady from <a href="https://www.codetoinspire.org/">Code to Inspire</a>, a nonprofit, that teaches women in Afghanistan to code and pays them with cryptocurrency. One of the points she made, was that many crypto companies build platforms for people who are already privileged. They don’t build things for people in a life or death situation like the women learning to code in Afghanistan. It’s a plaything for them.</p>
+
+<p>Coinbase doesn’t even offer service in S. E. Asia so that the women of Code to Inspire could use their platform. I doubt they were given special access, even if they were, normally no one in Afghanistan can use Coinbase. From Coinbase’s perspective, they can do the interview, but they’ll never take the risk of really offering their services in Afghanistan. Something like Bisq works anywhere in the world. Coinbase is not agile enough to compete with smaller organizations that can do this kind of real open finance, so their gilded cage will just get smaller and smaller.</p>
+
+<p><strong>Q: How do you feel about the Lightning Peach, Bitfury’s Lightning Network Implementation?</strong></p>
+
+<p>A: It was a really interesting incident because I actually challenged them at the Lightning Hack Day in Berlin, last September. They were announcing Lightning Peach, I don’t know if it was the first announcement, but it was pretty early on. I didn’t like Bitfury already, going in, because at the time they were building blockchain analysis software called Crystal which they were selling to law enforcement. I know they were different projects but there was potential for a conflict of interest there. I’m sure plenty of blockchain analytics companies want to have a peek at what is happening on the Lightning Network, and if you’re building a wallet that could do that…I am not saying they were but it is highly possible. So I challenged them about it after they gave a talk.</p>
+
+<p>The question I asked was, would they integrate blockchain analytics with Peach? He never gave me a straight yes or no answer, instead, he went into a long speech about how in order for Bitcoin to be successful, we have to comply with regulators regarding this stuff. I was immediately suspicious because Peach is supposed to be noncustodial, why would that matter? The biggest targets for regulators are custodial services. So it was suspicious and he didn’t seem to appreciate my concerns. Or at least they seemed to value their relationship with regulators more than privacy or security.</p>
+
+<p>That was in September 2018, then in February of this year, Shinobi pointed out a bunch of really concerning language in their terms of service and privacy policy that gave us a ton of red flags. I think their privacy policy may even have been up for a while, but unless I am using a service, or someone tips me off to a privacy policy like this, I am not usually going to read a privacy policy. Most people don’t ever read them so it went unnoticed. You can look up the details online, but it said they would be collecting a huge amount of sensitive data.</p>
+
+<p>Then, their response was initially very dismissive, and they issued a bunch of contradictory statements about what it did and didn’t collect. They said we don’t collect this data, then the policy specifically said they did collect it, and here’s how they plan on using it. There are really only two possibilities for this, they either had the most terrible lawyer who didn’t understand the technology at all and it was their lawyers fault for being incompetent, or they were trying to hide the fact they were collecting all this data and making it as confusing as possible hoping people wouldn’t notice the discrepancies. We made it a big deal, and they ended up changing part of their policies, and kind of went quiet after that.</p>
+
+<p>What was disappointing to me is that I didn’t see other Lightning developers participating with getting that info out. I don’t know why. It could be a PR problem for Lightning as a whole, someone could misinterpret the situation. I was doing it because I am hyper-vigilant about privacy. I just hope it was enough to warn people or to stop them from using it.</p>
+
+<p><strong>Q: What do you think of Coinbase’s Neutrino scandal, and blockchain analysis?</strong></p>
+
+<p>A: With the Neutrino acquisition what disappoints me is that Coinbase initially had three contradictory responses. The first one was issued when it was breaking and people were tweeting about it all. Then was Christine Sandler’s response to Cheddar, which sparked a whole new investigation into whether or not there had been a data leak at Coinbase from a blockchain analytics vendor or if she misinterpreted something. Finally, there was Brian Armstrong’s response on Medium. They were all enraging in different ways, and they all tried to do a PR spin on it, and tried to say it was because of regulatory requirements, completely skating over the issue.</p>
+
+<p>It was like yes, you’re a custodial Bitcoin company facing regulatory pressures to use blockchain analytics, but it’s another thing completely to hire the blockchain analytics company founded by people facilitating egregious human rights violations all over the world. Yes, you claim you chose them for multicoin support, but you value the multicoin support over the safety of all your customers, it just doesn’t make any sense.</p>
+
+<p>Coinbase can’t even say they didn’t know, because they did know. In terms of making the proverbial deal with the devil over blockchain analytics, they chose the absolute worst of the worst group of people to do a deal with. I am glad Brian announced that they would “transition out” the people who worked for Hacking Team, but as people have said, it’s very vague, we don’t know what that means, they could stay on as contractors. We haven’t received any clarity on if they’ve even left, or if they had access to customer info because it’s not even clear what Neutrino’s software actually does beyond blockchain analytics and clustering. Neutrino claims to do stuff with AML/KYC which means dealing with a lot more sensitive data than just blockchain data.</p>
+
+<p>We can assume Christine Sandler’s statement was correct, and they did have a data leak with the previous vendor selling data to outside parties sparking the Neutrino acquisition. We can assume Neutrino took over those duties, so what did they have access to? Coinbase didn’t disclose this and they are being vague about hiring potentially dangerous people. I wouldn’t ever want to be a customer if this is how they handle this kind of situation. Thankfully, I have never been a Coinbase customer, and will never be a Coinbase customer because their behavior is simply unacceptable to me.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>This concludes my interview with Janine, from the Block Digest podcast. I’d like to thank her again for her patience in fielding my questions. I had to conduct the interview from an internet cafe with terrible background noise from a busy intersection. It was difficult for us to hear each other clearly, and she was able to give me excellent and thoughtful responses despite the circumstances.</p>
+
+<p>Even though buses and motorcycles were screaming by every 30 seconds, making life difficult, I really enjoyed hearing her take on why companies in Bitcoin sometimes turn to the dark side. Hopefully you learned as much as I did. Please check out Block Digest, it really is the best Bitcoin podcast, in my opinion. They bring the best Bitcoin coverage twice a week.</p>
+
+<p>You can <a href="https://www.youtube.com/channel/UCb53lXz2IzEFT5JNHSbdvPg">find the Block Digest Podcast here</a>.</p>
+
+<p>You can <a href="https://twitter.com/BlockDigest">follow Block Digest on Twitter here</a>.</p>
+
+<p>You can <a href="https://twitter.com/J9Roem">follow Janine on Twitter here</a>.</p>
+
+<p>You can <a href="https://twitter.com/brian_trollz">follow Shinobi on Twitter here</a>.</p>
+
+<p>You can <a href="https://twitter.com/cryptorick">follow Rick on Twitter here</a>.</p>
+
+        </div>
+      </div>
+    </div>
+  </article>
+  <br>
+  <br>
+  <br>
+  <a href="http://localhost:4001/blog">« Back to Blog</a>
+</div>
+
+      </div>
+    </div>
+</div>
+
+                  
+                </div>
+
+            
+
+<!-- Select includes/footer according to page lang -->
+            
+            
+
+
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-104074395-1', 'auto');
+            
+            ga('send', 'pageview');
+            
+        </script>
+
+    </body>
+</html>

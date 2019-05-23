@@ -1,0 +1,28 @@
+links:
+
+  - title: Visão
+    url: /pt/vision_pt
+
+  - title: OAD do Bisq
+    url: /pt/dao_pt/
+
+  - title: Estatísticas
+    url: /pt/stats_pt
+
+  - title: FAQ
+    url: /faq/
+
+  - title: Mercados
+    url: /markets/
+
+mobile_links:
+
+  - title: Comunidade
+    url: /comunidade/
+
+  - title: Blog
+    url: /pt/blog_pt/
+
+  - title: Documentação
+    url: https://docs.bisq.network/
+    target: _blank

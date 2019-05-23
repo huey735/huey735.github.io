@@ -1,0 +1,112 @@
+#
+# See https://www.netlify.com/docs/redirects/
+#
+
+# bitsquare.io
+http://bitsquare.io/* https://bisq.network/:splat 301!
+http://bitsquare.io https://bisq.network 301
+
+https://bitsquare.io/* https://bisq.network/:splat 301!
+https://bitsquare.io https://bisq.network 301
+
+
+# bisq.io
+http://bisq.io/* https://bisq.network/:splat 301!
+http://bisq.io https://bisq.network 301
+
+https://bisq.io/* https://bisq.network/:splat 301!
+https://bisq.io https://bisq.network 301
+
+# main page on docs for dao with links to further content
+/docs/dao https://docs.bisq.network/dao.html 302
+
+# main dao overview on docs
+/docs/dao/intro https://docs.bisq.network/user-dao-intro.html 302
+
+# dao user guide
+/docs/dao/user-guide https://docs.bisq.network/getting-started-dao.html 302
+
+# in depth concept overview
+/phase-zero https://docs.bisq.network/dao/phase-zero.html 302
+
+# tech spec
+/docs/dao/specification https://docs.bisq.network/dao/specification.html 302
+
+# for genesis distribution
+/docs/dao/genesis https://docs.bisq.network/compensation.html#get-added-to-genesis 302
+
+# setup full node docs
+/docs/dao-full-node https://github.com/bisq-network/bisq/blob/master/docs/dao-setup.md 302
+
+# not sure where it is used (not in app), keep it just in case.
+/dao-testnet https://docs.bisq.network/user-dao-intro.html#now-you-try 302
+
+# Overview about Bisq and the DAO (written by Chris), superseded by phase zero doc. Keep it for archive
+/docs/dao/overview https://docs.bisq.network/dao/overview.html 302
+
+
+/list-token https://bisq.network/list-asset 301
+/list-asset https://docs.bisq.network/exchange/howto/list-asset.html 302
+/intro https://docs.bisq.network/intro.html 302
+/contrib-checklist /contributor-checklist 302
+/contributor-checklist https://docs.bisq.network/contributor-checklist.html 302
+/get-started https://docs.bisq.network/getting-started.html 302
+/getting-started https://docs.bisq.network/getting-started.html 302
+/contribute https://docs.bisq.network/contributor-checklist.html 301
+
+/arbitration_system.pdf /docs/exchange/arbitration-system 301
+/docs/arbitration-system.pdf /docs/exchange/arbitration-system 301
+/docs/exchange/arbitration-system https://docs.google.com/document/d/1DXEVEfk4x1qN6QgIcb2PjZwU4m7W6ib49wCdktMMjLw 302
+
+/whitepaper.pdf /docs/exchange/whitepaper 301
+/bitsquare.pdf /docs/exchange/whitepaper 301
+/docs/bitsquare.pdf /docs/exchange/whitepaper 301
+/docs/exchange/whitepaper https://docs.bisq.network/exchange/whitepaper.html 302
+
+/risk_analysis.pdf /docs/exchange/risk-analysis 301
+/docs/risk-analysis.pdf /docs/exchange/risk-analysis 301
+/docs/exchange/risk-analysis https://docs.google.com/document/d/1sHwU7K7C8Nl-fS4Z6X88L-NVJ_WBiKnsSpYpYfyqUXA/edit# 302
+
+/mobile-notifications https://docs.bisq.network/bisq-mobile.html#notifications 302
+
+
+# blog
+/blog/tag/ /blog/ 302
+/blog/tag/* /blog/ 302
+/blog/category/ /blog/ 302
+/blog/category/* /blog/ 302
+
+/feed /blog/feed.atom 301
+
+
+# misc
+/team / 302
+
+/slack-invite https://join.slack.com/t/bisq/shared_invite/enQtNDM2MDU4OTMyMzY5LThiMGVlZDZmZjRjM2FhODRlNGNlNzMxYmQwYjFlYzZkYTIwYjZjMGE5NjI0NTBiMTAwMGI3ZDI3ZDk1ZjNmMzI 302
+
+/events https://calendar.google.com/calendar/embed?src=adfiuiokq9jtac8t9keomc00b0%40group.calendar.google.com 302
+/calendar /events 301
+
+/volume https://docs.google.com/spreadsheets/d/1M8y2cIlHv5Hx5UAt4WZ961Ac8xaNSLiiavjxabNf0qc/edit#gid=1242111088 302
+
+/release-stats http://www.somsubhra.com/github-release-stats/?username=bisq-network&repository=bisq 302
+
+/survey https://goo.gl/forms/UcKr2D7WNYUZl3Cf1 302
+
+/dao-proposals/:id https://github.com/bisq-network/proposals/issues/:id 302
+/dao-proposals https://github.com/bisq-network/proposals/issues 302
+/dao-compensation/:id https://github.com/bisq-network/compensation/issues/:id 302
+/dao-compensation https://github.com/bisq-network/compensation/issues 302
+/roles/:id https://github.com/bisq-network/roles/issues/:id 302
+/roles https://github.com/bisq-network/roles/issues 302
+/dao-reimbursement/:id https://github.com/bisq-network/support/issues/:id 302
+/dao-reimbursement https://github.com/bisq-network/support/issues 302
+
+/downloads/archive/:version.zip https://github.com/bisq-network/bisq/archive/:version.zip 302
+/downloads/archive/:version.tar.gz https://github.com/bisq-network/bisq/archive/:version.tar.gz 302
+
+/downloads/:version https://github.com/bisq-network/bisq/releases/tag/:version 302
+/downloads/:version/:filename https://github.com/bisq-network/bisq/releases/download/:version/:filename 302
+
+/source https://github.com/bisq-network 302
+/source/* https://github.com/bisq-network/:splat 302

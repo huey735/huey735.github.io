@@ -1,0 +1,90 @@
+ <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top pl-md-5 pr-md-5 pl-sm-3 pr-0">
+
+    <a class="navbar-brand" href="{{ site.url }}"><img src="{{ site.url }}/images/bisq-logo.svg" height="30"/></a>
+    <button class="navbar-toggler pr-3 pr-md-0 collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+<!-- Language selector -->
+      <span>
+        <!--{% assign posts = site.posts | where:"ref", page.ref | sort: 'lang' %}
+        {% for post in posts %}
+            <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+        {% endfor %}-->
+
+        {% assign pages = site.pages | where:"ref", page.ref | sort: 'lang' %}
+        {% for page in pages %}
+            <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+        {% endfor %}
+      </span>
+
+
+      <ul class="navbar-nav ml-auto">
+
+        {% for item in site.data.main_nav_pt.links %}
+          <li class="nav-item {% if page.url == item.url | append: '/' %}current{% endif %}">
+            {% if item.target == "_blank" %}
+              <a class="nav-link" rel="noopener" target="{{ item.target }}" href="{{ item.url }}">{{ item.title }}</a>
+            {% else %}
+              <a class="nav-link" href="{{ site.url }}{{ item.url }}">{{ item.title }}</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+
+        {% for item in site.data.main_nav_pt.mobile_links %}
+          <li class="downloads-mobile nav-item {% if page.url == item.url | append: '/' %}current{% endif %}">
+            {% if item.target == "_blank" %}
+              <a class="nav-link" rel="noopener" target="{{ item.target }}" href="{{ item.url }}">{{ item.title }}</a>
+            {% else %}
+              <a class="nav-link" href="{{ site.url }}{{ item.url }}">{{ item.title }}</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+
+
+
+
+          <li class="downloads-mobile nav-item {% if page.url == item.url %}current{% endif %}">
+              <a class="nav-link" href="{{ site.url }}/downloads">Downloads</a>
+          </li>
+
+          <li class="downloads-desktop more-info-desktop nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Aprender Mais
+            </a>
+            <div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="navbarDropdown">
+              <div class="dropdown-item btn-icon">
+                <div class="float-right">
+                  <a href="https://docs.bisq.network/" target='_blank'>Documentação</a>
+                </div>
+              </div>
+
+              <div class="dropdown-item btn-icon">
+                <div class="float-right">
+                  <a href="{{ site.url }}/blog/">Blog</a>
+                </div>
+              </div>
+
+              <div class="dropdown-item btn-icon">
+                <div class="float-right">
+                  <a href="{{ site.url }}/community/">Comunidade</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+
+          <li class="downloads-desktop nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Downloads
+            </a>
+            <div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="navbarDropdown">
+              {% include os_selector_options_pt.html %}
+            </div>
+          </li>
+
+      </ul>
+    </div>
+</nav>

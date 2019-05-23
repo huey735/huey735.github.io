@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4001/blog/feed.atom" rel="self" type="application/atom+xml" /><link href="http://localhost:4001/" rel="alternate" type="text/html" /><updated>2019-05-23T17:07:08+01:00</updated><id>http://localhost:4001/blog/feed.atom</id><title type="html">Bisq</title><subtitle>Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative crypto currencies.</subtitle><entry><title type="html">Time for the DAO to take over</title><link href="http://localhost:4001/blog/let-the-dao-work/" rel="alternate" type="text/html" title="Time for the DAO to take over" /><published>2019-05-16T00:00:00+01:00</published><updated>2019-05-16T00:00:00+01:00</updated><id>http://localhost:4001/blog/let-the-dao-work</id><content type="html" xml:base="http://localhost:4001/blog/let-the-dao-work/">&lt;p&gt;Dear Bisq community,&lt;/p&gt;
+
+&lt;p&gt;With the successful launch of the DAO, Bisq is entering a new phase. The bootstrapping phase where founders are steering the project forward is over, and the Bisq DAO is now the infrastructure which enables that Bisq is managed by its stakeholders and contributors. The DAO was envisioned from the very beginning of the project. It was also clear from the beginning that the founders need to step back to ensure that the project can develop to its full potential as a decentralised organisation. We see in all crypto-currency projects where the founder is still around that those projects suffers from some sort of centralisation. Satoshi did Bitcoin a great favour by stepping out. Bitcoin would not be the same if he would be still around as an authority, and Bitcoin developers would not be able to develop their full potential. Of course such events might be a bit disruptive and challenging for some but it really should be seen as that what it is: &lt;strong&gt;a necessary step to enable Bisq to be a decentralized autonomous organization.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;So with all that in mind I had planned to step back from most of my roles in Bisq after the DAO was launched. It was planned as a slow fade-out to make it as least disruptive as possible. Unfortunately this plan was interrupted by some exceptionally stressful event just around the time when we launched the DAO: Bisq got attacked by a chargeback scammer. Instead of celebrating and resting a bit after the quite exhaustive work to get the DAO ready for launch, I spent overtime on fighting the scammer. With the stress level that event caused it became clear to me that I have to take more care of myself to not risk any serious health issues or a burnout by constantly working over my limits. Knowing myself to be not very good in handling work-life balance I realised I cannot make my departure as a slow fade-out, but rather I need to make a hard cut, otherwise it would get delayed indefinitely. Of course I will be still around for helping and answering questions but I will step back from all my roles and activities in Bisq (beside a few trivial ones like running a Bitcoin node).&lt;/p&gt;
+
+&lt;p&gt;So this moment might be a good occasion to look back to what we have achieved and look forward what is on our roadmap.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Bisq is the only really decentralised Bitcoin-Fiat exchange&lt;/li&gt;
+  &lt;li&gt;We have developed the first Bitcoin based DAO&lt;/li&gt;
+  &lt;li&gt;We built up a strong community of contributors&lt;/li&gt;
+  &lt;li&gt;We earned a great reputation and Bisq became a quite well recognised brand in the Bitcoin community&lt;/li&gt;
+  &lt;li&gt;Already more than 50% of Bisq traders are using BSQ after just a few weeks. So the DAO is not only working on the contributors’ side but is also accepted by our traders.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;But there is more. Many interesting ideas and proposals are out and waiting for developers to set them into reality:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;New &lt;a href=&quot;https://github.com/bisq-network/proposals/issues/78&quot;&gt;innovative&lt;/a&gt; &lt;a href=&quot;https://github.com/bisq-network/proposals/issues/79&quot;&gt;protection&lt;/a&gt; &lt;a href=&quot;https://github.com/bisq-network/proposals/issues/83&quot;&gt;tools&lt;/a&gt; against chargeback scam&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bisq-network/proposals/issues/52&quot;&gt;New trade protocol&lt;/a&gt; based on direct communication and mediators instead of arbitrators&lt;/li&gt;
+  &lt;li&gt;Ideas for an &lt;a href=&quot;https://github.com/bisq-network/proposals/issues/32&quot;&gt;off-chain&lt;/a&gt; &lt;a href=&quot;https://github.com/bisq-network/proposals/issues/76&quot;&gt;trade protocol&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bisq-network/proposals/issues/85&quot;&gt;Decentralised CFD&lt;/a&gt; for those who are primarily interested in speculative trading&lt;/li&gt;
+  &lt;li&gt;Automate trading with &lt;a href=&quot;https://github.com/bisq-network/bisq/tree/http-api&quot;&gt;APIs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bisq-network/proposals/issues/87&quot;&gt;Automate altcoin trading&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Integrate &lt;a href=&quot;https://github.com/bisq-network/proposals/issues/86&quot;&gt;tx proof verification&lt;/a&gt; for Monero traders&lt;/li&gt;
+  &lt;li&gt;Add &lt;a href=&quot;https://github.com/bisq-network/bitcoinj/issues/33&quot;&gt;Segwit support&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/bisq-network/proposals/issues/88&quot;&gt;Hardware wallet&lt;/a&gt; integration&lt;/li&gt;
+  &lt;li&gt;Add &lt;a href=&quot;https://github.com/bisq-network/proposals/issues/89&quot;&gt;deterministic build&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So you can see a lot of challenging work is waiting for talented developers who want to become part of Bisq and help to build the infrastructure Bitcoin deserves: &lt;strong&gt;a privacy protecting on-ramp which follows the principles of Bitcoin and not those of the banks.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are interested to work in a project that’s permissionless and non-hierarchical by design, Bisq might be your &lt;a href=&quot;https://docs.bisq.network/contributor-checklist.html&quot;&gt;place&lt;/a&gt;.&lt;/p&gt;</content><author><name>Manfred Karrer</name></author><summary type="html">With the DAO in place Bisq has to evolve its organisational structure without its founders. The departure of the founders was planned from the very beginning. Now it is time to fulfill that plan.</summary></entry><entry><title type="html">Why Some Bitcoin Companies Go Rogue: An Interview with Janine from Block Digest</title><link href="http://localhost:4001/blog/ricardo-janine-rogue-bitcoin-interview/" rel="alternate" type="text/html" title="Why Some Bitcoin Companies Go Rogue: An Interview with Janine from Block Digest" /><published>2019-04-30T00:00:00+01:00</published><updated>2019-04-30T00:00:00+01:00</updated><id>http://localhost:4001/blog/ricardo-janine-rogue-bitcoin-interview</id><content type="html" xml:base="http://localhost:4001/blog/ricardo-janine-rogue-bitcoin-interview/">&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Ricardo writes for &lt;a href=&quot;https://coincache.net&quot;&gt;Coincache.net&lt;/a&gt; and is a Bitcoin maximalist, who lives with his wife and son in Colombia.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you’d like to contribute a post, please reach out on &lt;a href=&quot;https://bisq.network/slack-invite&quot;&gt;Slack&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;In Bitcoin, reputation means nothing—code and actions is what truly matters. We have seen both Bitcoiners and Bitcoin companies like Bitpay, Coinbase and Bitfury destroy their reputations in the eyes of hard core Bitcoiners, either by attacking Bitcoin or trying to control it and twist it to their own purpose. Bitcoin maximalists are people who have a strong belief that Bitcoin will become the world reserve currency at some point in the future. Their base is made up of cypherpunks, software developers, anonymous Bitcoin enthusiasts and others who believe in the Austrian School of economics, whose principles have been coded into Bitcoin’s deflationary monetary policy. They’re often called toxic because they call out these kinds of shenanigans when they see them, and they pull no punches. We have seen many companies engage in questionable practices that drew the ire of the the more ideological sector of Bitcoin users, and we have seen some of Bitcoin’s most famous personalities meet the same ruthless judgment when they do things deemed harmful to Bitcoin.&lt;/p&gt;
+
+&lt;p&gt;I wanted to delve deeper into why these companies who became successful as Bitcoin companies, decide to turn on Bitcoin, the very same thing that made them successful in the first place. I was able to get in touch with Janine of the &lt;a href=&quot;https://www.youtube.com/channel/UCb53lXz2IzEFT5JNHSbdvPg&quot;&gt;Block Digest Podcast&lt;/a&gt;. She was kind enough to let me bombard her with questions for over an hour. She patiently and intelligently answered all my questions and gave me some remarkable insights into rogue Bitcoin companies.&lt;/p&gt;
+
+&lt;p&gt;If you haven’t checked out Block Digest, I highly recommend it. It’s my favorite Bitcoin podcast, and one of the best available. They are always covering the most important stories in Bitcoin, from a maximalist perspective. I wanted to interview Janine in particular, because she is a &lt;a href=&quot;https://einzelgaengerinmotte.wordpress.com/&quot;&gt;world-class journalist&lt;/a&gt; with Bitcoin expertise and a stellar track record. Her work for Block Digest as a presenter and commentator of Bitcoin news and current events, together with Shinobius and Crypto Rick, is some of the best in the space. Her privacy-conscious perspective has been huge for my personal process in learning how to use Bitcoin properly. I wanted to give respect where respect is due.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-interview&quot;&gt;The Interview&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: Why do companies that became successful because of Bitcoin, decide to turn on Bitcoin, in your opinion?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: Well, for instance with the #deletecoinbase movement, there was a few people, Roger Ver was the biggest one, that was saying we shouldn’t criticize Coinbase because they made Bitcoin successful. I think that mindset is part of it, because if a company in this space has that perspective, that it’s them helping Bitcoin, not Bitcoin helping them in their business, and obviously to make money, then they get this entitled attitude when it comes to consensus changes, development, etc.&lt;/p&gt;
+
+&lt;p&gt;They feel like they have less responsibility to do things which benefit the network and not their business. They feel like they’re entitled to more than they have already been given; most Bitcoin development happens through volunteers. Some developers are sponsored, but a lot of development happens as free volunteer work. Coinbase, for example, is notorious for not giving a whole lot back to the community or sponsoring development, like a lot of other companies in Bitcoin do. So this attitude of “we’re helping Bitcoin, Bitcoin isn’t helping us, is what can turn a lot of companies to becoming rogue or just not being conducive to the consensus process.
+As far as Segwit 2x, a lot of those companies were based in or around Silicon Valley. A lot of Silicon Valley companies have a very limited perspective when it comes to privacy, revenue models, for instance, how to fund a startup. They have a lot of local pressures like super high rent, etc.&lt;/p&gt;
+
+&lt;p&gt;This incentivizes and pressures them to try to make money a lot more than businesses elsewhere, and so when they don’t have a financial model to generate revenue, they go with a freemium model. This freemium model appears free but isn’t at all good for your privacy or security, or they end up being very closed companies which don’t really build out this open financial system that a company like Coinbase talks about. They keep saying they want to build this open financial system but they end up building something a lot more closed than, say Paypal, they have a lot more requirements and restrictions. That’s due to this Silicon Valley mindset, and the mindset that they are contributing more than Bitcoin is contributing back to their business.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: What have been some of the methods they have used to try and undermine Bitcoin?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: It reminds me of Andreas Antonopoulos’ talk on the &lt;a href=&quot;https://www.youtube.com/watch?v=43Ucj6_Erb0&quot;&gt;five stages of grief for banking&lt;/a&gt;. I think it kind of applies to companies in a similar way, but they aren’t exactly trying to work in opposition to Bitcoin, they are trying to apply their business model on to Bitcoin.&lt;/p&gt;
+
+&lt;p&gt;The five stages of grief are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Denial&lt;/li&gt;
+  &lt;li&gt;Anger&lt;/li&gt;
+  &lt;li&gt;Bargaining&lt;/li&gt;
+  &lt;li&gt;Depression&lt;/li&gt;
+  &lt;li&gt;Acceptance&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Companies go through it as well, so sometimes they pursue strategies that people in Bitcoin might think of as malicious or attacks, but they tend to line up with the five different stages of grief. At first, they go through this denial phase where they say, “our business isn’t working because something is wrong with Bitcoin.” It’s not “there’s something wrong with our business model” or “we’re doing something wrong.” There is this denial there.&lt;/p&gt;
+
+&lt;p&gt;Then they go into anger, when they go up against the consensus process, where people have noisy, intense debates for months on end, or sometimes, even years on end, and then they don’t reach a conclusion. I’m reminded of the recent &lt;a href=&quot;https://avc.com/2019/03/video-of-the-week-vitalik-buterin-the-unchained-podcast-interview/&quot;&gt;Laura Shin interview with Vitalik Buterin&lt;/a&gt;, and the first thing they talked about was Fred Wilson. Fred Wilson was saying “I wish I could just walk into the Ethereum foundation, and say Vitalik, you need to hurry up and make a decision, we can’t just sit around waiting, it’s destroying Ethereum.” He comes from that Silicon Valley mindstate, where, a CEO, or board of directors, will come in and say, “OK, you’ve had your discussion, but now we are going to do this. End of debate.” You can’t do this in Bitcoin, because Bitcoin doesn’t have a CEO. A lot of the CEOs of these companies, try to act like they are the CEO of Bitcoin because they run what are considered successful companies in the space. That’s the anger phase, they get angry when they don’t have as much influence over consensus as they imagined, because of their influence in their respective companies, and their success.&lt;/p&gt;
+
+&lt;p&gt;So, then they get to bargaining. If we use Segwit 2x as an example, they had the &lt;a href=&quot;https://bravenewcoin.com/insights/segwit2x-the-new-york-agreement&quot;&gt;New York agreement&lt;/a&gt;, where these CEOs said we’ll implement Segwit, but then we’ll also have a 2mb block hard fork in addition to Segwit. It was just reframing the issue because Segwit already was enabling more blockspace. That was the bargaining stage though, and the problem was the way they bargained.&lt;/p&gt;
+
+&lt;p&gt;They got this group of CEOs together to write up a document, based on a discussion at a conference, but the NY agreement wasn’t open. It took place behind closed doors and was a lot more restricted. They figured since they were CEOs, and saw themselves as influencers, they thought whatever agreement they came to would be seen as legitimate. Then over the next 6 months, they saw that, no, it wasn’t legitimate. Yes, you may be successful and influential, but just because a few people in a room made a decision, consensus didn’t reach the same conclusion.&lt;/p&gt;
+
+&lt;p&gt;Now, they reach the depression stage. Again, to use Segwit 2x as the example, it was already failing and a lot of people dropped out ahead of time because it was failing. Then, with the “off by one” error in the code, it could have potentially broken the network if it had been enacted, they ended up canceling it. It was in the Bitcoin mailing list and I think only 6 people signed it, so they went to the depression phase. In the depression phase a lot of them stopped posting, they were trying to figure out what happened.&lt;/p&gt;
+
+&lt;p&gt;Then we come to the acceptance phase. Finally, in the last couple of months, I have seen them (these same CEOs) start talking about it again. From their view, they’re asking things like where did we go wrong? How could we have done better? Their conclusions are a lot different than the people who they were fighting against, who thought the conclusion was good, and that it was a catastrophe we narrowly avoided. All of the doomsday predictions they were making about Segwit turned out to be untrue. I think it’s been about a year and a half and some them still haven’t reached the acceptance phase yet. Some reached the acceptance stage just a few months after the 2x disaster, but others still haven’t reached it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: Why do they structure themselves in a way which leaves them vulnerable to outside influences like regulatory pressure?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: I think there are several factors that make them vulnerable to actors like governments, or even just very powerful banks, who don’t have an interest in seeing Bitcoin succeed, but in the short term might partner with influential companies in the space. They may do this either to see what’s going on, or because they think they may be able to hurt Bitcoin in some way if they can hurt some of the companies involved.&lt;/p&gt;
+
+&lt;p&gt;It also depends on your location, different legal jurisdictions have different sets of rules and tradeoffs, in terms of what kind of legal structure you can set up. It also depends on what kind of business you are, and what kind of customers you’re serving, or what kind of service you’re offering. For example, if you are offering a custodial service, that puts you in the most scrutiny from a legal and regulatory perspective, wherever you’re at. Some places may be less strict, but in general, if you’re running a centralized, custodial service, it’s a big deal, in terms of what kind of pressures you face.&lt;/p&gt;
+
+&lt;p&gt;That’s why in Coinbase’s case, we have seen them decide it’s beneficial to be one of the few companies to kiss up to the authorities and say, “yes, we’ll go by your rules”, and if they do that and no one else does, they will become the defacto crypto bank. Then nobody else will be able to compete with them since they spent so many years ingratiating themselves to the financial structure (particularly, the U.S. regulatory structure). This happens over and over in other industries, so it’s not a surprise to see that this is their business model.&lt;/p&gt;
+
+&lt;p&gt;So, I think, the location, size, culture, corporate structure (if you have a corporation at all!) of the companies, matters a lot. I know Bisq doesn’t do things this way and tries to stay as spread out as possible, which gives you the advantage of not having a single point of pain to target if somebody were to try and take it down. I am definitely curious about different legal structures, and geography and how they can best be taken advantage of.&lt;/p&gt;
+
+&lt;p&gt;A structure that’s more decentralized is better for the employees as well, they can express themselves more, and it’s not as top-down as other organizations. If your organization is centralized and very top-down, if there is one person at the head, this leaves you open to someone either trying to replace you or influence you in some way, so they can influence the rest of the company, and if the service is custodial and centralized then you influence all their customers by default.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: Is there any viable solution to the poor governance models of existing businesses to relieve legal or regulatory pressures?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: Corporate structure is not my area of expertise. I do have an interest, but one thing I think could be really beneficial for me at work is, as an employee, having more control over your work. For example, I have an unusual employment contract, unusual in the sense that I haven’t come across anyone else that has a contract like this. My contract says that I retain any copyright ownership over original, creative work I come up with, but I give my employer a creative commons license in perpetuity.&lt;/p&gt;
+
+&lt;p&gt;This means they can use it, but I retain ownership over my work, which is extremely unusual, considering that anything you do on company time, even if it’s not something you were doing for them, an employer can say, “well, you did it on company time or with company resources, etc.” I have met a lot of people that were disgruntled because they came up with an idea or something and the company was like we own this, we can put you on the patent, but we will make all the money from this. This is something I have personal experience with, I have heard a lot stories from friends of mine in the software world, who’ve gone through something like this, and feel disgruntled.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: Why do these companies switch their focus to altcoins and ICO/STO coins after they reach a certain level of success with BTC?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: I’d say it has to do with a few different factors, like what stage of the business cycle they’re in when they were developing. It might also have to do with the people running the company, they might be into other kinds of coins and just try to incorporate that into their business. They may think it’s a good strategy, others might be into other coins and add that in, not even thinking how it will be perceived from a business standpoint. They could also be under the influence of friends or colleagues who convinced them to add them.&lt;/p&gt;
+
+&lt;p&gt;I think from a business cycle perspective, it is a very easy thing to do if you mostly focus on Bitcoin, but then, maybe financially you’ve run into hard times, or it’s been a while since you’ve added a new feature people are excited about, and the easiest thing to do, is to say “look we’ve added a new coin”. A lot of their user base might buy it, thinking, it’s worth a penny now, but it might be worth a lot more just like Bitcoin. They think that since bitcoin was so successful, any other coin could be too.&lt;/p&gt;
+
+&lt;p&gt;There used to be this phenomenon when a coin would get listed on Coinbase, it would shoot way up in price, and it’s been happening less and less. Who really knows why, but it could be that once you buy one of these coins and don’t get rich, you’re less likely to do it again. It could also be that timing has to do with it. During the bull market, there was a lot more enthusiasm for buying any new coin, and now during the bear market, there isn’t as much, so it isn’t generating as much hype. It’s interesting, with XRP they expected a huge price pump from being listed finally on Coinbase, and it didn’t really happen. It could have been that they caught the wrong end of the Neutrino controversy so people didn’t want to use the Coinbase wallet, or they didn’t know what would happen, so they stayed away.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: Do you think the technical disconnect between business owners and the actual devs working on the protocol affects the kind of services we are seeing offered to Bitcoiners?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: I think even outside of Bitcoin there is a disconnect between the “manager” class and the “developer” class. They generally have different perspectives and incentives. Developers want to be creative and work on things, while employers want to make more money or attract more users. What it takes to make the company successful may not be immediately obvious, but I think there’s always been a pretty big disconnect between the developers and the CEOs.&lt;/p&gt;
+
+&lt;p&gt;I think it’s particularly pronounced in Bitcoin because of the ideological aspect that isn’t present with a lot of other technologies. So, developers who work on it, have this ideology, like with Linux and open source software we see this a lot too, that the disconnect is pretty pronounced.&lt;/p&gt;
+
+&lt;p&gt;We have a thing where it’s not just being creative but you want to work on things that reflect your values as well. If your employer doesn’t share the same values, it could cause a lot of dissent. This is especially true in Bitcoin. It’s also hard because there are not as many competent Bitcoin developers like there are in other industries. I think a lot of owners of Bitcoin companies are under pressure to make their developers happy because if they are dissatisfied, they can easily go to any other company and get a job. The companies that don’t understand how valuable they are will just stop working after a while if they don’t understand. It may happen slowly over a long term period of time, and they’ll go down.&lt;/p&gt;
+
+&lt;p&gt;We’ve seen a lot of companies go away in the last year, and people think it’s the bear market, but I think the bear market was just a catalyst that shows maybe they have been doing things badly for a long time and it finally caught up with them, like Bitmain, for example. They have been going down for a long time but it took this big correction in the market to show that whatever they were doing before wasn’t working for a long time. Now they have no other options left to keep covering that up, or to keep putting band-aids on it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: I was going to ask you about Bitmain later, but since you brought it up, what are your thoughts on Bitmain’s epic decline?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: Shinobi (of Block Digest) would probably have better answers than me, but the mistake Bitmain has made, is since they’re a mining company, they have a lot more influence on Bitcoin consensus than companies who don’t mine. I think a huge mistake they’ve made is the arrogant assumption that since they’re a big mining company, they’re the ones who’ve made Bitcoin successful.&lt;/p&gt;
+
+&lt;p&gt;Then they made the biggest mistake of their trajectory by putting a lot of resources behind Bitcoin Cash, thinking we’re Bitmain, we have a lot of influence, if we do this then Bitcoin Cash will be successful. Then they realized how powerful Bitcoin’s user base is, and when they didn’t get that user base, Bitcoin Cash didn’t matter anymore, if no one is using it, there is no value, and it will go down. That was a huge problem for them because they put so many resources behind it, they couldn’t just trade it back for Bitcoin that easily. Then they got caught in a cycle where they could never catch back up to where they were. This was in parallel with problems they were having with manufacturing mining hardware, I am not an expert in mining hardware, but they were having troubles with their mining chips in addition to backing Bitcoin Cash.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: How important is it for Bitcoin users to protect their data from companies who have no accountability to keep it safe, secure &amp;amp; private, in the age of data monetization as a profit strategy in today’s surveillance economy?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: It’s extremely important. I think it’s not only important for me to do it, but also for others. What one person does in Bitcoin will affect everyone else. If it’s just one person, chances are small, but if everyone has the same bad strategies in terms of caring about data privacy, it will affect everyone else. It goes back to the difference between privacy and anonymity. You can wear a mask in a town square, but it’s a lot better if everyone in the square is wearing masks too. It’s a lot more powerful.&lt;/p&gt;
+
+&lt;p&gt;For example with this Quadriga thing that’s happening, it’s more significant than the loss of funds, because we’ve seen that a lot. This is the first example we’ve seen allegations where someone like a co-founder has changed their identity multiple times and had been imprisoned for credit card fraud and identity theft schemes. To me, this is a giant red flag for trusting these custodial exchange companies, not just with your crypto data, and how you’re buying or selling coins or who you’re sending to or receiving from, but also with any other sensitive personal identity information you’re forced to give up to use these services.&lt;/p&gt;
+
+&lt;p&gt;It will eventually become clear that the only way to have privacy is not to use any custodial services and to use Bitcoin as it was intended to be used, where you control your private keys as much as possible. It should be a priority to make wallets and decentralized exchanges as easy to use as possible. Data privacy is important, but also it’s important financially because nobody knows who is running these companies, their history or whatever. We also can’t trust the government to actually do the due diligence necessary when they say they are regulating them. If they don’t do it for regular financial companies, they probably can’t do it for companies using technologies they don’t even understand.&lt;/p&gt;
+
+&lt;p&gt;People need to be a lot more aware of this especially with Bitcoin, which has irreversible transactions, you better make sure the information in the transaction can’t come back to hurt you. A lot of people using custodial wallets never consider “what if the company goes bad?” or “what if the country the company is in goes bad and the government uses the information against me or others?” I think of data privacy from a long-term perspective. I don’t want to worry if my digital life can come back to haunt me, if I can take precautionary steps which prevent that.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: Do you see actually disruptive startup Bitcoin enterprises overtaking companies like Bitpay, Bitfury or Coinbase?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: I definitely see lots of opportunity for companies competing with companies that have become bitbanks essentially, except with none of the benefits of a bank. I see plenty of areas for that to happen, especially with Coinbase. One of the things I heard during the delete Coinbase movement was, “I’d delete my account, but they have zero fees.” My first thought was “you can destroy your privacy for zero fees, I guess, if that’s what you want to do.” Then about two weeks after that, Coinbase announced that they were adding fees and maker fees and a bunch of other stuff, and it was funny because then everyone got mad. Even those people had to admit, ok now I have to quit Coinbase.&lt;/p&gt;
+
+&lt;p&gt;I see a lot of opportunity for smaller less-centralized companies. Any company as big as Coinbase that’s cozy with regulators, they can’t do a lot of things that a smaller more agile company may be able to do. Their whole thing about building an open financial system is impossible to do with how closed-off they are. They did a virtue signaling interview with a lady from &lt;a href=&quot;https://www.codetoinspire.org/&quot;&gt;Code to Inspire&lt;/a&gt;, a nonprofit, that teaches women in Afghanistan to code and pays them with cryptocurrency. One of the points she made, was that many crypto companies build platforms for people who are already privileged. They don’t build things for people in a life or death situation like the women learning to code in Afghanistan. It’s a plaything for them.&lt;/p&gt;
+
+&lt;p&gt;Coinbase doesn’t even offer service in S. E. Asia so that the women of Code to Inspire could use their platform. I doubt they were given special access, even if they were, normally no one in Afghanistan can use Coinbase. From Coinbase’s perspective, they can do the interview, but they’ll never take the risk of really offering their services in Afghanistan. Something like Bisq works anywhere in the world. Coinbase is not agile enough to compete with smaller organizations that can do this kind of real open finance, so their gilded cage will just get smaller and smaller.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: How do you feel about the Lightning Peach, Bitfury’s Lightning Network Implementation?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: It was a really interesting incident because I actually challenged them at the Lightning Hack Day in Berlin, last September. They were announcing Lightning Peach, I don’t know if it was the first announcement, but it was pretty early on. I didn’t like Bitfury already, going in, because at the time they were building blockchain analysis software called Crystal which they were selling to law enforcement. I know they were different projects but there was potential for a conflict of interest there. I’m sure plenty of blockchain analytics companies want to have a peek at what is happening on the Lightning Network, and if you’re building a wallet that could do that…I am not saying they were but it is highly possible. So I challenged them about it after they gave a talk.&lt;/p&gt;
+
+&lt;p&gt;The question I asked was, would they integrate blockchain analytics with Peach? He never gave me a straight yes or no answer, instead, he went into a long speech about how in order for Bitcoin to be successful, we have to comply with regulators regarding this stuff. I was immediately suspicious because Peach is supposed to be noncustodial, why would that matter? The biggest targets for regulators are custodial services. So it was suspicious and he didn’t seem to appreciate my concerns. Or at least they seemed to value their relationship with regulators more than privacy or security.&lt;/p&gt;
+
+&lt;p&gt;That was in September 2018, then in February of this year, Shinobi pointed out a bunch of really concerning language in their terms of service and privacy policy that gave us a ton of red flags. I think their privacy policy may even have been up for a while, but unless I am using a service, or someone tips me off to a privacy policy like this, I am not usually going to read a privacy policy. Most people don’t ever read them so it went unnoticed. You can look up the details online, but it said they would be collecting a huge amount of sensitive data.&lt;/p&gt;
+
+&lt;p&gt;Then, their response was initially very dismissive, and they issued a bunch of contradictory statements about what it did and didn’t collect. They said we don’t collect this data, then the policy specifically said they did collect it, and here’s how they plan on using it. There are really only two possibilities for this, they either had the most terrible lawyer who didn’t understand the technology at all and it was their lawyers fault for being incompetent, or they were trying to hide the fact they were collecting all this data and making it as confusing as possible hoping people wouldn’t notice the discrepancies. We made it a big deal, and they ended up changing part of their policies, and kind of went quiet after that.&lt;/p&gt;
+
+&lt;p&gt;What was disappointing to me is that I didn’t see other Lightning developers participating with getting that info out. I don’t know why. It could be a PR problem for Lightning as a whole, someone could misinterpret the situation. I was doing it because I am hyper-vigilant about privacy. I just hope it was enough to warn people or to stop them from using it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: What do you think of Coinbase’s Neutrino scandal, and blockchain analysis?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: With the Neutrino acquisition what disappoints me is that Coinbase initially had three contradictory responses. The first one was issued when it was breaking and people were tweeting about it all. Then was Christine Sandler’s response to Cheddar, which sparked a whole new investigation into whether or not there had been a data leak at Coinbase from a blockchain analytics vendor or if she misinterpreted something. Finally, there was Brian Armstrong’s response on Medium. They were all enraging in different ways, and they all tried to do a PR spin on it, and tried to say it was because of regulatory requirements, completely skating over the issue.&lt;/p&gt;
+
+&lt;p&gt;It was like yes, you’re a custodial Bitcoin company facing regulatory pressures to use blockchain analytics, but it’s another thing completely to hire the blockchain analytics company founded by people facilitating egregious human rights violations all over the world. Yes, you claim you chose them for multicoin support, but you value the multicoin support over the safety of all your customers, it just doesn’t make any sense.&lt;/p&gt;
+
+&lt;p&gt;Coinbase can’t even say they didn’t know, because they did know. In terms of making the proverbial deal with the devil over blockchain analytics, they chose the absolute worst of the worst group of people to do a deal with. I am glad Brian announced that they would “transition out” the people who worked for Hacking Team, but as people have said, it’s very vague, we don’t know what that means, they could stay on as contractors. We haven’t received any clarity on if they’ve even left, or if they had access to customer info because it’s not even clear what Neutrino’s software actually does beyond blockchain analytics and clustering. Neutrino claims to do stuff with AML/KYC which means dealing with a lot more sensitive data than just blockchain data.&lt;/p&gt;
+
+&lt;p&gt;We can assume Christine Sandler’s statement was correct, and they did have a data leak with the previous vendor selling data to outside parties sparking the Neutrino acquisition. We can assume Neutrino took over those duties, so what did they have access to? Coinbase didn’t disclose this and they are being vague about hiring potentially dangerous people. I wouldn’t ever want to be a customer if this is how they handle this kind of situation. Thankfully, I have never been a Coinbase customer, and will never be a Coinbase customer because their behavior is simply unacceptable to me.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;This concludes my interview with Janine, from the Block Digest podcast. I’d like to thank her again for her patience in fielding my questions. I had to conduct the interview from an internet cafe with terrible background noise from a busy intersection. It was difficult for us to hear each other clearly, and she was able to give me excellent and thoughtful responses despite the circumstances.&lt;/p&gt;
+
+&lt;p&gt;Even though buses and motorcycles were screaming by every 30 seconds, making life difficult, I really enjoyed hearing her take on why companies in Bitcoin sometimes turn to the dark side. Hopefully you learned as much as I did. Please check out Block Digest, it really is the best Bitcoin podcast, in my opinion. They bring the best Bitcoin coverage twice a week.&lt;/p&gt;
+
+&lt;p&gt;You can &lt;a href=&quot;https://www.youtube.com/channel/UCb53lXz2IzEFT5JNHSbdvPg&quot;&gt;find the Block Digest Podcast here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can &lt;a href=&quot;https://twitter.com/BlockDigest&quot;&gt;follow Block Digest on Twitter here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can &lt;a href=&quot;https://twitter.com/J9Roem&quot;&gt;follow Janine on Twitter here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can &lt;a href=&quot;https://twitter.com/brian_trollz&quot;&gt;follow Shinobi on Twitter here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can &lt;a href=&quot;https://twitter.com/cryptorick&quot;&gt;follow Rick on Twitter here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Ricardo Martinez</name></author><summary type="html">Ricardo Martinez interviews Janine of Block Digest. They discuss a peculiar phenomenon—the tendency for people and companies made successful by Bitcoin to turn against Bitcoin—and why it happens.</summary></entry><entry><title type="html">Bisq DAO Launches with Bisq v1.0</title><link href="http://localhost:4001/blog/dao-launch-third-anniversary/" rel="alternate" type="text/html" title="Bisq DAO Launches with Bisq v1.0" /><published>2019-04-17T00:00:00+01:00</published><updated>2019-04-17T00:00:00+01:00</updated><id>http://localhost:4001/blog/dao-launch-third-anniversary</id><content type="html" xml:base="http://localhost:4001/blog/dao-launch-third-anniversary/">&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Steve contributes documentation, copywriting, speaking, media correspondence, and more to the Bisq network. Follow him &lt;a href=&quot;https://jain.io&quot;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you’d like to contribute a post, please reach out on &lt;a href=&quot;https://bisq.network/slack-invite&quot;&gt;Slack&lt;/a&gt; or &lt;a href=&quot;https://bisq.community/t/call-for-blog-writers/7040&quot;&gt;on our forum&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;On Monday, Bisq hit the most significant landmark in its 5-year history: it launched v1.0 of its software.&lt;/p&gt;
+
+&lt;p&gt;Version 1 is always a big milestone for any software project, but in Bisq’s case it was extra-special: it included the mainnet launch of the Bisq DAO, which fundamentally changes the governance of the Bisq network itself.&lt;/p&gt;
+
+&lt;p&gt;Bisq stakeholders (traders and contributors) are now in charge. The Bisq founder role &lt;a href=&quot;https://github.com/bisq-network/roles/issues/1#issuecomment-478204839&quot;&gt;has been dissolved&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Bisq DAO has been in the works since Bisq was first conceived back in 2014, but it’s been iterated conceptually and technically many times since then to ensure it can achieve truly decentralized management and funding of the Bisq network.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/bisq_network/status/1103293547711746050&quot;&gt;The constraints&lt;/a&gt; were not trivial: there could be no centrally-owned wallets, no legal entities, no investors, etc.&lt;/p&gt;
+
+&lt;p&gt;Governance is always a tough thing to tackle, especially for a non-protocol project where people are needed to consistently deliver development, support, and other services, but the Bisq DAO seems to offer a promising solution. It offers a system of incentives that pushes all stakeholders to make the project sustainable simply by acting in their own best interest. The resulting dynamic challenges many social, economic, and organizational dynamics in significant ways, which we’ve started to cover in &lt;a href=&quot;https://bisq.network/blog/dao-benefits-funding/&quot;&gt;this series&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Early indications are encouraging: 129 trades used BSQ to pay trading fees in the first 24 hours it was live.&lt;/p&gt;
+
+&lt;p&gt;Let’s see how activity changes over time. Onward to the first voting cycle!&lt;/p&gt;
+
+&lt;p&gt;Monday’s launch event was livestreamed. The event opened with the publishing of the genesis BSQ transaction, there was an overview of Bisq’s history, and v1.0 was launched live on-camera toward the end.&lt;/p&gt;
+
+&lt;p&gt;Many people from Bisq’s past and present joined the call live on Zoom and on the YouTube livestream. It was a lively event—feel free to check it out:&lt;/p&gt;
+
+&lt;div class=&quot;responsive-youtube-container&quot;&gt;
+    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/yCmpAqOCUSA?start=540&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;That was Monday.&lt;/p&gt;
+
+&lt;p&gt;On Friday, Bisq celebrates 3 years in production. Volume trends indicate bitcoin-fiat volume in core markets is stronger than ever, and Monero volumes have hit records recently too.&lt;/p&gt;
+
+&lt;p&gt;So it’s been a heck of a week.&lt;/p&gt;
+
+&lt;p&gt;But while there’s lots to celebrate from the past, we also realize this is also a celebration of a &lt;em&gt;beginning&lt;/em&gt; for the future. There’s lots to do, and success is never guaranteed.&lt;/p&gt;
+
+&lt;p&gt;We thank everyone for their support over the past several years, and look forward to an even brighter future.&lt;/p&gt;</content><author><name>Steve Jain</name></author><summary type="html">After years in the making, the Bisq DAO has launched on mainnet with the v1.0 release of the Bisq software, just days before Bisq celebrates 3 years in production.</summary></entry><entry><title type="html">Why I Am a Bisq Contributor: Aruna Surya</title><link href="http://localhost:4001/blog/why-aruna-surya/" rel="alternate" type="text/html" title="Why I Am a Bisq Contributor: Aruna Surya" /><published>2019-04-08T00:00:00+01:00</published><updated>2019-04-08T00:00:00+01:00</updated><id>http://localhost:4001/blog/why-aruna-surya</id><content type="html" xml:base="http://localhost:4001/blog/why-aruna-surya/">&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Aruna is a Bisq contributor with a non-technical background. You can learn more about her creative work at Bisq &lt;a href=&quot;https://github.com/arunasurya/academy.bisq.network/blob/master/Bisq.md&quot;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you’d like to contribute a post, please reach out on &lt;a href=&quot;https://bisq.network/slack-invite&quot;&gt;Slack&lt;/a&gt; or &lt;a href=&quot;https://bisq.community/t/call-for-blog-writers/7040&quot;&gt;on our forum&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Bisq is the most unusual place I have ever worked at.&lt;/p&gt;
+
+&lt;p&gt;There are no bosses, teams or employees. Anyone can start contributing without needing to prove their credentials. Instead of being given high-stake roles right away, one starts with small contributions, and gets more responsibility and trust after having shown skill and competence. All Bisq code is open-source, and communication (such as the &lt;a href=&quot;https://www.youtube.com/watch?v=GyZUFD9xC8c&amp;amp;list=PLFH5SztL5cYOvXlXaN91TJ1sltxnBjF5N&quot;&gt;weekly growth calls&lt;/a&gt;) is as open as possible. A lot of coordination among contributors happens on &lt;a href=&quot;https://github.com/bisq-network/&quot;&gt;GitHub&lt;/a&gt;, while announcements, user enquiries and daily communication occur on the &lt;a href=&quot;https://bisq.community/&quot;&gt;Bisq forum&lt;/a&gt; and outside platforms such as Slack and Twitter. There is no central location. In fact, there is no company, just a group of people who contribute to Bisq. Contributors get paid in BSQ, which is &lt;a href=&quot;https://docs.bisq.network/user-dao-intro.html#bsq-token&quot;&gt;colored bitcoin&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I am probably one of the least tech-savvy people you would find among Bisq contributors. I am not a developer. In fact, I have enormous anxiety (mixed with awe) around programming, and I attribute these strong feelings to missing a critical period for learning how to program. Thus, I feel somewhat alienated from this ever improving and dominating part of technology.&lt;/p&gt;
+
+&lt;p&gt;Neither am I very interested in cryptocurrency. I know a little about Bitcoin but I am not a trader. Frankly, all the noise around cryptocurrency give me a headache. I am only curious about Bitcoin for now. It is a big enough challenge for me to try to understand it.&lt;/p&gt;
+
+&lt;p&gt;I am, however, attracted to certain Bisq features such as focus on privacy of its users and security of their funds as well as its resilience due to its decentralized nature. I like the fact that the Bisq network is peer-to-peer, is run over Tor and does not request any registration from users, but I don’t understand the technology well enough to fully appreciate it.&lt;/p&gt;
+
+&lt;p&gt;So, what exactly prompted me to become a contributor?&lt;/p&gt;
+
+&lt;p&gt;It was Manfred, his vision and his sincere desire to help people that attracted me to Bisq. Since I was transitioning between “careers”, I decided to give it a try, and viewed it as an exciting challenge. I thought it would also be nice to earn some BSQ. One cannot live on ideas alone. I enjoyed my conversations with Manfred about his vision, and my gut feeling, combined with the recommendations from people whose judgment I trust, prompted me to contribute to Bisq.&lt;/p&gt;
+
+&lt;p&gt;I started contributing in September 2018, and my first step was to learn more about Bitcoin and the Bisq DAO. I read Satoshi Nakamoto’s paper, Wikipedia articles on Bitcoin and public key cryptography, and meticulously written documentation by Chris Beams. I tried the Bisq software, did a successful face-to-face trade, translated on Transifex and promoted Bisq at the Scaling Bitcoin event in Japan. Other than that, I was not very active because I was mostly working alone, except for occasional interactions online with Manfred. Luckily, Steve Jain became more involved in communication efforts, and we started collaborating closely on several projects. In December, Manfred and I created a series of &lt;a href=&quot;https://www.youtube.com/watch?v=mOSYPrgLKWw&amp;amp;list=PLFH5SztL5cYOLdYJj3nQ6-DekbjMTVhCS&quot;&gt;YouTube videos on the Bisq DAO Basics&lt;/a&gt;  for people who are new to Bitcoin and Bisq, and this year I got involved in the blog initiative and helping with work on Transifex.&lt;/p&gt;
+
+&lt;p&gt;Since Bisq is not a typical workplace, I have a lot of freedom and autonomy in setting up my work schedule, workload and approach to projects. I am free to decide how much to ask for compensation, based on my own assessment of the quality of my work and its value for Bisq. Now, what do we mean by “value” in this case? This is a very complex topic and needs to be addressed in a separate post but I would like to say a few words about it. We should ask ourselves why Bisq is needed in the first place. Bisq is here to help people buy and sell cryptocurrency without compromising their privacy and security of their funds. Bisq needs to be continuously updated, improved and maintained to do that.&lt;/p&gt;
+
+&lt;p&gt;Contributors who build and maintain Bisq perform a very essential function, and are thus rewarded proportionately, based on market rates, their expertise and the work performed. Then there are many other vital functions such as running seed and price nodes, documentation, communication, design and community management. Others, such as translation and education are very important as well but may also depend on the demand and revenue from users. Since contributors are paid in BSQ, and a certain amount of new BSQ is created every month through compensation requests, it is in the interest of all contributors and stakeholders (BSQ holders) to not cause BSQ inflation. However, contributors will be more motivated if they are satisfied with their compensation. So, there is a continuous interplay between how much to request in compensation and how much will be approved by other contributors via voting. A compensation request needs to contain detailed information about the work performed for other contributors to validate it.&lt;/p&gt;
+
+&lt;p&gt;Apart from autonomy, what I like most about working at Bisq is the interaction with the amazing contributors from all over the world. I have had great conversations with writers, developers and translators who were generous with their time and provided valuable advice. I now know that the strength of Bisq is in its contributors. They are here because they believe that Bisq is important, and their values are aligned.&lt;/p&gt;
+
+&lt;p&gt;Being a Bisq contributor made me think more carefully about privacy and IT security, and be more open to new ways of collaboration. Although I still find transparency in communication quite challenging, I can see the value in it. I have done a wide range of tasks such as writing, editing, reporting bugs and coordinating projects, and now I have a much clearer idea of how I can contribute best. Working remotely without any organizational hierarchy is definitely a challenge, and some miscommunication is bound to happen. However, I am amazed by how quickly the contributors react and mobilize their forces to fix problems, so I am very optimistic about this new approach to working together.&lt;/p&gt;</content><author><name>Aruna Surya</name></author><summary type="html">Aruna Surya discusses her experience with being a Bisq contributor—why she started contributing, why she continues contributing, and how there's still a lot to like for a non-technical person with diverging interests.</summary></entry><entry><title type="html">Privacy Best Practices &amp;amp; Bisq: An Interview with Max Hillebrand</title><link href="http://localhost:4001/blog/max-hillebrand-interview-privacy/" rel="alternate" type="text/html" title="Privacy Best Practices &amp; Bisq: An Interview with Max Hillebrand" /><published>2019-03-29T00:00:00+00:00</published><updated>2019-03-29T00:00:00+00:00</updated><id>http://localhost:4001/blog/max-hillebrand-interview-privacy</id><content type="html" xml:base="http://localhost:4001/blog/max-hillebrand-interview-privacy/">&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Ricardo writes for &lt;a href=&quot;https://coincache.net&quot;&gt;Coincache.net&lt;/a&gt; and is a Bitcoin maximalist, who lives with his wife and son in Colombia.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you’d like to contribute a post, please reach out on &lt;a href=&quot;https://bisq.network/slack-invite&quot;&gt;Slack&lt;/a&gt; or &lt;a href=&quot;https://bisq.community/t/call-for-blog-writers/7040&quot;&gt;on our forum&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I have been really excited about the &lt;a href=&quot;https://bisq.network/dao/&quot;&gt;Bisq DAO&lt;/a&gt; since first hearing about it a few months back. Recently, I decided to check up on it and was surprised by the amount of progress that’s been made. I reached out to Bisq founder Manfred Karrer in order to arrange an interview with someone on the Bisq team about the project for my blog. He was kind enough to put me in touch with someone.&lt;/p&gt;
+
+&lt;p&gt;The next day I was on Reddit’s /r/bitcoin, and saw a post by pure coincidence, that the &lt;a href=&quot;https://bisq.community/t/call-for-blog-writers/7040&quot;&gt;Bisq team was issuing a call to writers&lt;/a&gt; to pen an article for the Bisq blog. I felt this was a sign from above, so I joined the &lt;a href=&quot;https://bisq.network/slack-invite&quot;&gt;Bisq Slack&lt;/a&gt; and asked how I could help. They suggested I do an interview with someone about Bitcoin privacy. I thought the idea was excellent. Amazing, I wanted to write about Bisq, and now I am writing for Bisq!&lt;/p&gt;
+
+&lt;p&gt;I reached out to Max Hillebrand of &lt;a href=&quot;https://www.youtube.com/user/WorldCryptoNetwork/&quot;&gt;World Crypto Network&lt;/a&gt;, who responded amazingly fast. He agreed to do the interview and was even willing to do it the next day. He even suggested we do it as a &lt;a href=&quot;https://www.youtube.com/watch?v=4m-Wh0wSY5M&quot;&gt;live stream&lt;/a&gt; on World Crypto Network, which was amazing since I watch it all the time, and his show in particular. It all happened so fast it made my head spin. Max was an excellent host as you’ll see below. He gave expert answers, and I learned quite a bit from the interview about Bitcoin privacy and Bisq itself.&lt;/p&gt;
+
+&lt;p&gt;Without further ado, I present my Interview with Max Hillebrand, host of Open Source Everything, on the World Crypto Network.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-interview&quot;&gt;The Interview&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: Hello Max, thanks for having me on your show. I know you usually do the interviews but today I wanted to interview you. I wanted to talk to you about Bitcoin privacy and Bisq, and how Bisq could help people concerned about Bitcoin privacy?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: This is a really great topic because the exchange layer is really the main bottleneck for privacy because you’re always inherently touching the fiat system. The fiat system is built to spy on you, it’s very tough to use such a broken system in a way which protects your privacy. There are ways you can do it, however, and I’d say Bisq is one of the most cypherpunk ways you can use to stack satoshis.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: Ok, before we go any further, I have to ask, how did you first hear about Bitcoin? (Sorry, I ask everyone that!)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: Good question, I first heard about it a few times in 2012-2013, but it never really caught my interest which is strange because now I really love it. Then in 2016, I watched my first Andreas Antonopoulos video, and it was so damn good, I kind of fell down the rabbit hole. I’ve been gaining more knowledge and trying to understand it and really fell in love with how beautiful this software is.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: Ok, thanks. My next question is, In your opinion, does Bitcoin protect user privacy?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: It’s not really that clear yet, I would say. Bitcoin isn’t anonymous, it’s pseudonymous. It’s not really tied to your real world identity, but you build up an identity with a reputation, the coin does, or at least the &lt;a href=&quot;https://bitcoin.org/en/glossary/unspent-transaction-output&quot;&gt;UTXO&lt;/a&gt; does. There is always the potential of a privacy breaking link with this cluster of UTXOs being associated with your real world identity. Bitcoin can be pretty damned private if used correctly following best practices. If not used correctly, there are many pitfalls you can fall into that deanonymize you. But yes, there are ways to use it where nobody can spy on you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: Can you tell me what the overall importance of privacy in finance is, and in Bitcoin specifically?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: Privacy is inherently important. It is a natural right. It can be very tyrannical, in the sense that we do not have any privacy if the tyrannical ruler has access to every single private conversation or all the economic transactions, it reveals a lot about the individual that can be used for coercion.&lt;/p&gt;
+
+&lt;p&gt;For example, we see the current form of surveillance very much tied into the taxation system, so when coupled with the fact that a fiat bank account is not censorship-resistant at all, they can just take the money right out of the bank account, with no defensive mechanism in place for the individual. With state-level surveillance, the power differential is so gigantic, that it can be terribly misused and abused.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: What would you say to someone who thinks privacy isn’t important because they have nothing to hide?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: I would ask them to tell me how much money they made last week, and what did they spend it on? What exactly did you buy? Please, I really want to know. Do you see? These questions are really uncomfortable. Why do we close the door when using the bathroom? It’s not because we have something to hide, it’s because we have nothing to share.&lt;/p&gt;
+
+&lt;p&gt;There are many parts of everyday life that are very private, for instance, a conversation with your wife, child or business partner. There are many things you don’t want to tell everyone or share with the world.&lt;/p&gt;
+
+&lt;p&gt;That’s perfectly fine, there is nothing wrong with that. It’s not that we have things to hide, it’s that some things are just none of your business. If we can also transact without giving personal information, then why provide the information? It just adds risk, and exposure to the potential for abuse.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: Has becoming aware of Bitcoin made you more privacy-conscious?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: Absolutely yes, in many ways. Bitcoin in general, pushes you to be more self-sovereign and self-sufficient. For example, I now use my own GPG key which I generated myself, I have full control over my encryption keys. I use them for a variety of purposes including encrypting my communication. Only those I want to talk to receive my messages.&lt;/p&gt;
+
+&lt;p&gt;This aspect of controlling your own keys, not only on the Bitcoin level of not giving up custody of your coins but in this information age, where we have these encryption tools, we can use this in a very privacy-preserving way.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin kicked me down this rabbit hole very much so because Bitcoin is built with these same tools. It couldn’t work without private key/public key cryptography or networks like Tor for private communication and encryption in general. We have all these tools at our disposal, why not use them?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: Have you changed your online habits and habits in real-life now that you’ve become more privacy-conscious?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A:  I’ve deleted my Facebook account and many other accounts which are simply security holes. I actually did a show where I taught my viewers how to set up a Yubikey and a password manager. I have different, long and unique, entropy-heavy passwords, for every single account. I use two-factor authentication wherever I can. I am using all libre open source software, except for Google Chrome. I very much treasure libre open source software, not just because it’s more secure but also because of the philosophy behind it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: Ok, great. Now, this might be a lot to digest for people who are new to privacy, so what would you recommend to a newcomer who’s interested in learning about Bitcoin privacy?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: There is so much to learn, I’d say a good place to start is to really understand what UTXOs are, Unspent Transaction Outputs. This basically represents the tip of the chain of digital signatures, which actually represent the unspent coins. This is the actual currency particle or cluster that we have in Bitcoin. A UTXO is born in the block reward of a newly mined block.&lt;/p&gt;
+
+&lt;p&gt;This newly minted UTXO can be spent by approving control of the UTXO by providing a valid answer to the script that locks it up. This can have different scripts like a private key, multi-sig, or timelock transaction.&lt;/p&gt;
+
+&lt;p&gt;The way Bitcoin transactions actually work is a great place to start. Nopara73 has written a great article about coin control. Only when you understand how bitcoin is actually spent, can you understand how to be private about it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: Can you tell me what a threat model is?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: A threat model is basically a criterion for determining which kind of threats exist for an existing piece of hardware or software. So in Bitcoin, we would assess what kinds of threats could stop it from fulfilling its mission. I would say the mission of Bitcoin is to provide a stable sound monetary system, that has an intrinsic currency which cannot be confiscated or which is optimized to protect property rights.&lt;/p&gt;
+
+&lt;p&gt;So, if this is the mission, anything that could potentially stop this mission should be considered in the threat model. In Bitcoin’s threat model there is the assumption that 51% of the miners are honest, but if that’s not the case, the chain with the longest validated proof of work would no longer be reliable and it’d be a failure.&lt;/p&gt;
+
+&lt;p&gt;This is just one example of the kind of threat that would be included in a Bitcoin threat model, but you can apply the same principles to privacy. One example is network analysis, how can an attacker use your communication to deanonymize you? Like if you happen to use a clearnet IP address to query a private Bitcoin address on a public block explorer like Blockchain.info. This would provide valuable information for people wanting to spy on you.&lt;/p&gt;
+
+&lt;p&gt;The best thing you can do is run your own full node because it’s privacy-preserving. You don’t have to ask anyone else if you’ve received bitcoin. You verify it yourself, on your own hardware, without outside network communication. This greatly reduces your threat model.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: In your opinion, how important is fungibility for privacy in Bitcoin?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: On several different layers it is. First of all, without privacy you can’t have private property rights. For example, it starts with your private keys, you keep them private. Fungibility is a monetary phenomenon that ensures privacy. If we have coins that are considered “tainted” in Bitcoin, a mechanism for the market to say this Bitcoin is no longer as valuable, it’s not the same, then Bitcoin’s broken.&lt;/p&gt;
+
+&lt;p&gt;This is where fungibility kicks in. Every coin needs to be exchangeable with equal value as any other coin. Gold for instance, if you have a gold coin, as long as it’s gold, it can be traded the same as any other piece of gold of equal value. We need this to be true for every Satoshi on a network level, that there is no code that differentiates these UTXOs or this bitcoin from any other.&lt;/p&gt;
+
+&lt;p&gt;For example if you go to a custodial exchange like Coinbase (which you should never use) or, more realistically, Kraken which is probably a little more reputable, but let’s say they tell you we do not want to accept any business with these UTXOs, because they employ blockchain analysis and have a blacklist for whatever reason. Then the fungibility is broken. Every UTXO needs to be as valuable as any other, like gold.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: How do you predict the Lightning Network will impact user privacy?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: There is great potential but it’s hard to say how it will play out. The devil’s in the detail. I’d say, on a wider conceptual level, absolutely better. The problem with Bitcoin privacy is that every node can verify every single transaction. Since everyone knows everything, it’s inherently bad for privacy, or very difficult to attain privacy. The Lightning Network flips this dynamic on its head.&lt;/p&gt;
+
+&lt;p&gt;You only share the opening transaction on-chain. The subsequent commitment channels update the state of this multisig script. These transactions are not propagated to the entire network, they are only visible to you and the peer you have opened the channel with.&lt;/p&gt;
+
+&lt;p&gt;Since Lightning Network is a network of payment channels, there is privacy when you route payments across this network. It uses a routing protocol called Sphinx, which is very similar to the Tor network’s onion encryption protocol. Every hop in a Lightning payment only knows the peer that passed the payment to it, and the peer they pass it to. They do not know who initiated the payment or who received the payment.&lt;/p&gt;
+
+&lt;p&gt;On a conceptual basis, the Lightning Network is already much more private than Bitcoin on-chain transactions.owever, there is still a huge amount of work to be done to reach its full potential in terms of privacy.&lt;/p&gt;
+
+&lt;p&gt;Although Lightning has the potential to be private, if we use bad implementations that do not follow best practices, or just carelessly give away our private information, then these privacy benefits suffer tremendously.&lt;/p&gt;
+
+&lt;p&gt;This is why libre open source software is so important. Bisq for example, is very transparent, you can see the code and who’s done what in the Github, and what they have done before. Same with Wasabi wallet.&lt;/p&gt;
+
+&lt;p&gt;So when a Lightning wallet company has a chain analysis subsidiary, you can be sure they are talking. It’s probably not the best choice to give entities like this your personal information.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: I’m glad you mentioned Bisq because my next question is about Bisq. Have you used it to buy and sell Bitcoin?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: Yes, Bisq is one of my favorite exchanges if not my favorite exchange period because it is cypherpunk as fuck, as they say.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: Awesome. Can you tell people how Bisq’s privacy differs from the privacy of a traditional exchange?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: Ok, with traditional exchanges, we can assume they are a centralized and custodial exchange. This is the edge between Bitcoin and fiat. We can’t use Bitcoin to its full potential, because we are held down by the weakest link in the chain (pun intended), which is of course, the fiat shitcoin.&lt;/p&gt;
+
+&lt;p&gt;We really need to be careful with whom we interact. It’s much easier and more convenient when it’s centralized and custodial, but this means giving up the private keys to your coins and losing control there. Then they do it with the fiat too, only making the exchange when they have both, ensuring that it can’t be double spent. It’s a classical middleman.&lt;/p&gt;
+
+&lt;p&gt;Trusted third parties are security holes. That was the problem Bitcoin was designed to solve and it does a damned good job of it, being a decentralized, trustless currency.  This is not the case on a traditional exchange. Bisq tries to solve this.&lt;/p&gt;
+
+&lt;p&gt;Bisq is very similar to Bitcoin itself, in the sense that it does not require a trusted third party. You don’t give up your private keys or your fiat. Bisq is very much designed to trade bitcoin preserving as much privacy as possible.&lt;/p&gt;
+
+&lt;p&gt;So, the way this works is that you’re the server. You host everything, and all the communication is done over Tor, and it’s end-to-end encrypted. Your private keys stay on your hardware, and nobody else can have access to your bitcoin, or your communications. This is already very private, but then you also connect directly to the server of your trading partner, there is no middleman server routing your communications. You communicate only with and directly with your trading partner over Tor.&lt;/p&gt;
+
+&lt;p&gt;The exchange is made leveraging the power of Bitcoin using a 2-of-3 multisig. This means the buyer and seller each have provided a private key, and so has an arbitrator provided by the Bisq DAO. This arbitrator will settle any disputes before releasing the coins to the correct recipient. Very rarely are these measures needed, since the fact they exist serves as a deterrent to scammers. I’ve never had a problem with anyone that I have traded with.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: What are your thoughts as a Bitcoin maximalist, on the Bisq DAO and specifically the BSQ token?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: That’s always a great point of contention because we’ve seen that tokens can be used very badly. It’s a very new technology and we don’t know how to best apply it yet. 99.9% of all tokens in existence are shit and they are completely worthless in my opinion, and I’d never exchange them or hold them. I do believe that the concept of tokenization, is one that is very compelling if it’s applied correctly, and I’d argue that Bisq as a decentralized autonomous organization has a very interesting use case.&lt;/p&gt;
+
+&lt;p&gt;As decentralized as the protocol is, the process of building and maintaining the protocol is not, especially the distribution of fees. For example with Wasabi wallet, they are a company, it’s a completely centralized backend, they collect the fees and pay the developers.&lt;/p&gt;
+
+&lt;p&gt;With Bisq this isn’t possible. You are the exchange, so how do we collect the fees to compensate the contributors to the project? This DAO approach is a really good approach. It maybe can be done better, but so far, I think it’s well thought-out and that the incentives align. The basic use is to distribute value from those that use the platform to those that build it.&lt;/p&gt;
+
+&lt;p&gt;I mean building in a very general sense, software engineers, market makers, those doing documentation, educating about the platform, doing videos, etc. They can all be compensated in BSQ. BSQ can then be sold to the traders who use the platform, who then, in turn, use the BSQ token to pay trading fees with which they receive a 90% discount for using BSQ.&lt;/p&gt;
+
+&lt;p&gt;The nuances are quite complex and I probably can’t cover it all here. It’s something worth looking into because the token improves the platform and solves a critical pain point of centralization in an otherwise perfectly decentralized exchange.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: Do you use Bisq paired with your own node or just the default way that comes installed with the software?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: Unfortunately the Bisq implementation is by default an SPV wallet (Simple Payment Verification) which means it doesn’t fully verify. It uses bloom filters (BIP 34) to verify the blocks.  You can, however, connect Bisq to use with your own Bitcoin full node which I am doing. This means that I am pulling all the blocks from my own locally verified node. I don’t communicate with anyone so nobody knows which addresses I am interested in. I am using Bisq with my Nodl (a Bitcoin full node which can be purchased from Nodl.it). My nodl has a full node, my Lightning node and BTCPay server running from there. I also use it with Bisq and Wasabi to pull the blocks from my own node for those apps. It’s always best to run your own full node and to do it over Tor if you can because it protects your IP address as well. You must control your own private keys as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: In your opinion, will the Bisq DAO pose the same kind of risks to users as the now-defunct Ethereum DAO which was famously hacked?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: I am not 100% sure about the technical aspects of the Bisq DAO. BSQ is a colored coin on Bitcoin. They are regular Bitcoin UTXOs with a little bit of metadata attached to them. As far as I know, the colored coin implementation is rather secure, so I doubt we will have lots of code issues or bugs in the code, but I am not certain here.&lt;/p&gt;
+
+&lt;p&gt;The Ethereum DAO was completely different, with a use case as an investment vehicle, which is a lot more complex. As far as I know, the BSQ tokens only grant a voting right to token holders, on how many new colored coins should be issued and to whom they should be issued. The more you hold, the more powerful your vote will be. So it’s very different. There may be ways that it can be attacked, but is it better than having a centralized company which can be a single point of failure? The question is really one of trade-offs. It’s a fascinating experiment, I am still not a 100% convinced because it’s not even on mainnet yet, and we have to make sure it’s ready. Overall it’s a very interesting experiment and I am really excited about it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Q: Is there anything else about Bisq, the Bisq DAO, and Bitcoin privacy that we haven’t covered?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A: Stay tuned, I would say. We have a lot of exciting things coming. For example, Pay to Endpoint transactions, Schnorr signatures which are a way to aggregate signatures and for hiding scripts, like Taproot or Graftroot which rely on Schnorr signatures. Now we can include complex scripts which can be included in this aggregated public key which is indistinguishable from an ordinary public key. Blockchain analysis won’t know if it’s a normal public key, a multisig key, or a script like Taproot, so this provides a lot of privacy in terms of spending your Bitcoin UTXOs. With Schnorr we might also be able to do things like Lightning Network Channel factories very easily with key aggregation.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Well, there you have it. An excellent rundown of best practices in Bitcoin for preserving user privacy and how to use the Bisq Exchange. I want to give an extra special thanks to both the Bisq contributors, and Max Hillebrand of the World Crypto Network, for helping me make this information available to you.&lt;/p&gt;
+
+&lt;p&gt;If you’d like to help out and contribute to the Bisq open-source project,you can start &lt;a href=&quot;https://docs.bisq.network/contributor-checklist.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can see Max’s shows—&lt;a href=&quot;https://www.youtube.com/playlist?list=PLPj3KCksGbSZtGhC7nIr_Mf1oCeP8U1tV&quot;&gt;Bitcoin to the Max&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=41y_eGsdy2U&amp;amp;list=PLPj3KCksGbSb1h33FZbsrtr1feIIwTBHt&quot;&gt;Open Source Everything&lt;/a&gt;, and &lt;a href=&quot;https://www.youtube.com/watch?v=NAXwLHgYHjo&amp;amp;list=PLPj3KCksGbSY9pV6EI5zkHcut5UTCs1cp&quot;&gt;Bitcoin Optech Newsletter&lt;/a&gt;—on the &lt;a href=&quot;https://www.youtube.com/user/WorldCryptoNetwork/&quot;&gt;World Crypto Network&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Finally, you can check out my blog for more Bitcoin content like this, &lt;a href=&quot;https://www.coincache.net&quot;&gt;right here&lt;/a&gt;. I hope this article was useful for you.&lt;/p&gt;</content><author><name>Ricardo Martinez</name></author><summary type="html">Ricardo Martinez interviews Max Hillebrand of the World Crypto Network. They discuss privacy in general, privacy with respect to bitcoin, privacy with respect to Bisq, and more.</summary></entry><entry><title type="html">How to Set Up a Bitcoin Regtest Environment</title><link href="http://localhost:4001/blog/how-to-set-up-bitcoin-regtest/" rel="alternate" type="text/html" title="How to Set Up a Bitcoin Regtest Environment" /><published>2019-03-22T00:00:00+00:00</published><updated>2019-03-22T00:00:00+00:00</updated><id>http://localhost:4001/blog/how-to-set-up-bitcoin-regtest</id><content type="html" xml:base="http://localhost:4001/blog/how-to-set-up-bitcoin-regtest/">&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Tomáš is a Bisq contributor, crypto enthusiast, libertarian, and voluntarist.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you’d like to contribute a post, please reach out on &lt;a href=&quot;https://bisq.network/slack-invite&quot;&gt;Slack&lt;/a&gt; or &lt;a href=&quot;https://bisq.community/t/call-for-blog-writers/7040&quot;&gt;on our forum&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This blog post series will try to be practical using the “learning by doing” rule. Since Bisq uses Bitcoin as its blockchain of choice for the trade protocol and for the DAO itself, it is important that we understand the basics of Bitcoin first.&lt;/p&gt;
+
+&lt;p&gt;First, we will setup a regression test Bitcoin chain as a playground where we can observe how things work and how to interact with the blockchain. As this chain has no value and we can generate new blocks whenever we want, it is ideal for learning without actually risking losing real money. Later, I will show what a coinbase transaction looks like and what it is good for. At the end, we will create our very own transaction using the command line tool bitcoin-tx which is shipped with Bitcoin Core. Bitcoin Core is the reference implementation of the Bitcoin protocol. The graphical version is called bitcoin-qt and it ships with a command line tool that can create transactions called bitcoin-tx.&lt;/p&gt;
+
+&lt;p&gt;Prerequisite: bitcoin-qt (v0.17.1 or later)&lt;/p&gt;
+
+&lt;p&gt;Let’s dive in, shall we?&lt;/p&gt;
+
+&lt;h2 id=&quot;mainnet-testnet-regtestwhats-in-a-name&quot;&gt;Mainnet, testnet, regtest—what’s in a name?&lt;/h2&gt;
+
+&lt;p&gt;Bitcoin and most other cryptocurrencies have 3 modes of operation.&lt;/p&gt;
+
+&lt;p&gt;Mainnet is the network which is used as the official version, and it has value. All real transactions happen on this network, people get paid or pay using mainnet.&lt;/p&gt;
+
+&lt;p&gt;Testnet, a network which has almost the same rules (some opcodes are forbidden on mainnet, while this restriction is lifted on testnet) as mainnet. It has peer discovery, that is it can find peers on the testnet network, similar to mainnet, and a peer-to-peer (p2p) network is running it.&lt;/p&gt;
+
+&lt;p&gt;Regtest is a private blockchain which has the same rules and address format as testnet, but there is no global p2p network to connect to.&lt;/p&gt;
+
+&lt;p&gt;As mainnet coins have value and testnet/regtest coins do not, they are distinguished by different prefixes. Mainnet addresses start with “1”, “3” or “bc1”, testnet/regtest addresses start with “m”, “n”, “2” or “tb1”. Remember, testnet/regtest addresses have no value, so it is important to learn the difference! Wallets can detect the difference, but there were occasions when people were fooled to accept testnet coins for money!&lt;/p&gt;
+
+&lt;p&gt;We will use regtest since we can easily create our own blockchain, and blocks can be mined without mining hardware with a handy command, which I will discuss later.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin-qt, the graphical Bitcoin Core client, distinguishes between different networks visually as well, to help you identify in which mode it is running. When you first install bitcoin-qt, it will run on mainnet which uses the familiar orange Bitcoin symbol. Testnet uses green, and regtest uses blue.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../images/blog/bitcoin-qt-colors.png&quot; alt=&quot;Fig. 1. Bitcoin-qt when running mainnet, testnet and regtest.&quot; /&gt;
+&lt;span class=&quot;caption&quot;&gt;Fig. 1. Bitcoin-qt when running mainnet, testnet and regtest.&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ok-but-how-do-i-switch-to-regtest&quot;&gt;Ok, but how do I switch to regtest?&lt;/h2&gt;
+
+&lt;p&gt;No worries, it is pretty easy to switch to regtest. You just need to edit Bitcoin’s configuration file. Luckily, it is easily accessible from the GUI options.&lt;/p&gt;
+
+&lt;p&gt;Start bitcoin-qt. When you start it for the first time, it will look like the image in Figure 2. Click on Settings -&amp;gt; Options -&amp;gt; Open Configuration File.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../images/blog/bitcoin-qt-settings.png&quot; alt=&quot;Fig. 2. Accessing bitcoin-qt settings.&quot; /&gt;
+&lt;span class=&quot;caption&quot;&gt;Fig. 2. Accessing bitcoin-qt settings.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../images/blog/bitcoin-qt-config.png&quot; alt=&quot;Fig. 3. Opening configuration file.&quot; /&gt;
+&lt;span class=&quot;caption&quot;&gt;Fig. 3. Opening configuration file.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Add the following line to the configuration file, and then save:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;regtest=1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Close bitcoin-qt and reopen it. Your loading screen should look like the one in Figure 3.&lt;/p&gt;
+
+&lt;p&gt;Congrats, you are now prepared to look into Bitcoin internals!&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-familiar-with-the-console&quot;&gt;Getting familiar with the console&lt;/h2&gt;
+
+&lt;p&gt;Bitcoin-qt makes it really easy to interact with the Bitcoin daemon. The console is easily accessible in the GUI. You can find it under Help -&amp;gt; Debug window -&amp;gt; Console.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../images/blog/bitcoin-qt-infopage.png&quot; alt=&quot;Fig. 4. Information page in debug window.&quot; /&gt;
+&lt;span class=&quot;caption&quot;&gt;Fig. 4. Information page in debug window.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see, a new window will appear with various information about bitcoin-qt and the network mode it is running in. Note the network name is regtest. Make sure yours is as well.&lt;/p&gt;
+
+&lt;p&gt;Let’s click on the console tab as seen in Figure 5.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../images/blog/bitcoin-qt-infopage-debug.png&quot; alt=&quot;Fig. 5. Information page in debug window.&quot; /&gt;
+&lt;span class=&quot;caption&quot;&gt;Fig. 5. Information page in debug window.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;There are several commands that can be used to interact with the Bitcoin daemon. To see them, type &lt;code class=&quot;highlighter-rouge&quot;&gt;help&lt;/code&gt; in the bottom of the window and press Enter. You can scroll up to view the full list of commands. If you want help on a particular command, type in &lt;code class=&quot;highlighter-rouge&quot;&gt;help &amp;lt;command name&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../images/blog/bitcoin-qt-help.png&quot; alt=&quot;Fig. 6. partial output of the `help` command&quot; /&gt;
+&lt;span class=&quot;caption&quot;&gt;Fig. 6. Partial output of the &lt;code class=&quot;highlighter-rouge&quot;&gt;help&lt;/code&gt; command.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;If you look closely, the third command is called &lt;code class=&quot;highlighter-rouge&quot;&gt;getblockchaininfo&lt;/code&gt;. How about finding out what it does? The command &lt;code class=&quot;highlighter-rouge&quot;&gt;help&lt;/code&gt; is our friend here :)&lt;/p&gt;
+
+&lt;p&gt;Type in &lt;code class=&quot;highlighter-rouge&quot;&gt;help getblockchaininfo&lt;/code&gt;. As the help system states, this command will give us information about the blockchain.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../images/blog/bitcoin-qt-getblockchaininfo.png&quot; alt=&quot;Fig. 7. getblockchaininfo help&quot; /&gt;
+&lt;span class=&quot;caption&quot;&gt;Fig. 7. getblockchaininfo help.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Enter the &lt;code class=&quot;highlighter-rouge&quot;&gt;blockchaininfo&lt;/code&gt; command into the console (RPC) window and examine the output. The output is in a strange (at least to non-programmers) format called JSON (JavaScript Object Notation). It is a format that can be easily understood by computers and, with a small effort, by humans as well. The &lt;code class=&quot;highlighter-rouge&quot;&gt;help getblockchaininfo&lt;/code&gt; command describes what each key means.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../images/blog/bitcoin-qt-getblockchaininfo-json.png&quot; alt=&quot;Fig. 8. JSON output of `getblockchaininfo`&quot; /&gt;
+&lt;span class=&quot;caption&quot;&gt;Fig. 8. JSON output of &lt;code class=&quot;highlighter-rouge&quot;&gt;getblockchaininfo&lt;/code&gt;.&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;generating-our-own-blocks&quot;&gt;Generating our own blocks&lt;/h2&gt;
+
+&lt;p&gt;Regtest is now set up, but there are no blocks yet (see the blocks key in the &lt;code class=&quot;highlighter-rouge&quot;&gt;getblockchaininfo&lt;/code&gt; response). What kind of blockchain has no blocks?&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Generate&lt;/code&gt; command to the rescue!&lt;/p&gt;
+
+&lt;p&gt;As mentioned at the beginning, a regtest environment allows us to create as many blocks as we want without using any mining ASICs or dedicated hardware. This makes it easy to test different scenarios that can take place during Bitcoin’s operation, with the added luxury of being able to create blocks whenever we want to save time.&lt;/p&gt;
+
+&lt;p&gt;Let’s generate some blocks so we have test BTC to play with later. We have to consider the mining rule, that one can spend a block reward only if it has 100 blocks mined before it. That means that we have to generate 101 blocks to make 50 regtest BTC spendable. Open the console and type in:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;generate 101
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../images/blog/bitcoin-qt-generate.png&quot; alt=&quot;Fig. 9. `generate` command output&quot; /&gt;
+&lt;span class=&quot;caption&quot;&gt;Fig. 9. &lt;code class=&quot;highlighter-rouge&quot;&gt;generate&lt;/code&gt; command output.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;You will see a lot of popup windows saying “incoming transaction”. Just wait a few seconds until they disappear. The weird numbers and letters are the hashes of the blocks that were generated.&lt;/p&gt;
+
+&lt;p&gt;Take note of the numbers below the “Balances” label in Figure 11. We have 50 rBTC available now—remember we generated 101 blocks—so block 1 is mature and the reward can be spent.&lt;/p&gt;
+
+&lt;p&gt;Interested in how to spend the reward, what a coinbase transaction is, and how a Bitcoin transaction works?&lt;/p&gt;
+
+&lt;p&gt;Join me next time, where we will continue working with the blockchain we just created.&lt;/p&gt;</content><author><name>Tomáš Kanócz</name></author><summary type="html">In this post, Tomáš shows you how to set up your very own Bitcoin regtest environment with bitcoin-qt and make your own blocks!</summary></entry><entry><title type="html">Benefits of the Bisq DAO, Part I: Funding FLOSS &amp;amp; Avoiding Surveillance Capitalism</title><link href="http://localhost:4001/blog/dao-benefits-funding/" rel="alternate" type="text/html" title="Benefits of the Bisq DAO, Part I: Funding FLOSS &amp; Avoiding Surveillance Capitalism" /><published>2019-03-13T00:00:00+00:00</published><updated>2019-03-13T00:00:00+00:00</updated><id>http://localhost:4001/blog/dao-benefits-funding</id><content type="html" xml:base="http://localhost:4001/blog/dao-benefits-funding/">&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;This is an essay which contains some subjective statements. Steve contributes documentation, copywriting, speaking, media correspondence, and more to the Bisq network. Follow him &lt;a href=&quot;https://jain.io&quot;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you’d like to contribute a post, please reach out on &lt;a href=&quot;https://bisq.network/slack-invite&quot;&gt;Slack&lt;/a&gt; or &lt;a href=&quot;https://bisq.community/t/call-for-blog-writers/7040&quot;&gt;on our forum&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;At the &lt;a href=&quot;https://mitbitcoinexpo.org/&quot;&gt;MIT Bitcoin Expo&lt;/a&gt; this past weekend, funding open-source software development was a topic of high interest. Arjun Balaji’s whole talk was focused on the topic, and a number of people approached me after my panel discussion wondering how the Bisq DAO worked to fund the project without any kind of external fundraising.&lt;/p&gt;
+
+&lt;p&gt;The Bisq network’s approaches to the challenges of funding open-source software and governing a revenue-earning operation are novel, and I had a great time discussing them with people at the event.&lt;/p&gt;
+
+&lt;p&gt;In this post, we’ll cover the practical &lt;em&gt;results&lt;/em&gt; of these approaches from a financial perspective: how an integrated revenue model—coupled with decentralized governance—results in an open-source software project that can grow and prosper on its own, while actually being &lt;em&gt;incentivized&lt;/em&gt; to protect its users’ privacy.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Since we’ll be discussing the benefits of the Bisq DAO, this post assumes you already know a little bit about it. You can learn the basics with &lt;a href=&quot;https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e&quot;&gt;this video series&lt;/a&gt; or &lt;a href=&quot;https://docs.bisq.network/user-dao-intro.html&quot;&gt;this doc&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;0-a-note-on-daos&quot;&gt;0. A Note on DAOs&lt;/h2&gt;
+
+&lt;p&gt;You may have come across the term ‘DAO’ before. As covered &lt;a href=&quot;https://docs.bisq.network/user-dao-intro.html#what-is-a-dao&quot;&gt;here&lt;/a&gt;, a decentralized autonomous organization (DAO) can be considered a generic term for a governance model sanctioned by software instead of by a state.&lt;/p&gt;
+
+&lt;p&gt;A DAO can be made for any purpose, just like a company can be: DASH uses a DAO to manage its cryptocurrency, while Moloch uses a DAO to allocate capital to projects in the Ethereum space.&lt;/p&gt;
+
+&lt;p&gt;Bisq, on the other hand, will soon use a DAO to manage the funding and governance of its bitcoin exchange software: a business-like service with day-to-day operations, revenue, strategy, etc.&lt;/p&gt;
+
+&lt;p&gt;Bisq’s DAO is designed to conquer a different challenge with a different set of complexities from the other examples above.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-funding-the-project&quot;&gt;1. Funding the Project&lt;/h2&gt;
+
+&lt;p&gt;Bisq is open-source software, but that misses some important nuances. It’s also free/libre software that provides users the same 4 freedoms Richard Stallman outlines as fundamental to free software:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;freedom to run the software as you wish, for any purpose&lt;/li&gt;
+  &lt;li&gt;freedom to study how the program works, and change how it works&lt;/li&gt;
+  &lt;li&gt;freedom to redistribute copies (e.g. to help your neighbor)&lt;/li&gt;
+  &lt;li&gt;freedom to distribute copies of your modified version to others&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The only restriction is a practical one: if you do choose to distribute your own copy of the software, you must use a different name and logo so that users don’t confuse your version for an official release by the Bisq project.&lt;sup&gt;1&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Great for users, right? But how can such software make any money?&lt;/p&gt;
+
+&lt;p&gt;In his writings, Stallman points out that the ‘free’ in ‘free software’ refers to freedom, not price, so free software vendors can price their software as they please.&lt;/p&gt;
+
+&lt;h4 id=&quot;typical-approaches-to-funding-external&quot;&gt;Typical Approaches to Funding: External&lt;/h4&gt;
+
+&lt;p&gt;Practically, however, charging for free software (and really, any software) is difficult. In the past, when software was distributed on floppy disks and CDs, one could charge for the convenience of obtaining the software on physical media.&lt;/p&gt;
+
+&lt;p&gt;But nowadays, the internet makes copying and distributing software trivial and almost free. In addition, software is expected to be maintained in perpetuity, so one-time payments aren’t enough.&lt;/p&gt;
+
+&lt;p&gt;As a result, many software projects rely on donations to fund development: donations of time from developers who maintain software as a labor of love, and donations of money from users who are particularly fond of the software.  &lt;a href=&quot;https://en.wikipedia.org/wiki/Business_models_for_open-source_software&quot;&gt;Other models exist&lt;/a&gt; to fund software development such as sponsorships, selling professional services, selling the software as a service, etc.&lt;/p&gt;
+
+&lt;p&gt;These can all be fine means of sustaining software projects, and some projects have used them quite successfully.&lt;/p&gt;
+
+&lt;p&gt;But most of these conventional models for monetizing software have one thing in common: they’re all external to the software itself. On one hand, there’s the code, and on the other hand, there’s some kind of a scheme to make improving the code worthwhile.&lt;/p&gt;
+
+&lt;h4 id=&quot;bisqs-approach-to-funding-integrated&quot;&gt;Bisq’s Approach to Funding: Integrated&lt;/h4&gt;
+
+&lt;p&gt;Bisq takes a different approach: it looks inward. It charges a small fee for using the software, right from within the software itself. Specifically, Bisq users pay trading fees: the Bisq software enables a peer-to-peer marketplace, and users pay a small fee every time they make or take offers in the marketplace.&lt;/p&gt;
+
+&lt;p&gt;These fees bring in the funds to sustain the various functions of the Bisq project: development, design, documentation, etc.&lt;/p&gt;
+
+&lt;p&gt;Of course, there are 3 critical advantages Bisq has here that many software projects don’t have:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;users perceive paying trading fees as a natural occurrence when using a digital marketplace&lt;/li&gt;
+  &lt;li&gt;the means to make payments are neatly weaved in to the natural experience of using the software&lt;/li&gt;
+  &lt;li&gt;fees are charged in bitcoin, so no external payment services need to be trusted for processing, and users can remain anonymous&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The third advantage is one that anyone can replicate—just start accepting bitcoin—but the first two are a bit trickier.&lt;/p&gt;
+
+&lt;h4 id=&quot;applying-an-integrated-approach-to-other-projects&quot;&gt;Applying an Integrated Approach to Other Projects&lt;/h4&gt;
+
+&lt;p&gt;The first item in that list is perhaps the biggest obstacle for other software projects, as it’s a product of social conditioning: people just don’t ever expect to pay for software. Opportunities to charge users fees in the natural flow of an application are exceedingly rare.&lt;/p&gt;
+
+&lt;p&gt;In my opinion, this is partly because developers have been too generous over the years. Consumers don’t think twice about paying for food in a restaurant or buying goods in a store. Yet they’ll balk at paying a one-time 1 USD fee for an app that we expect to work perfectly for the rest of time.&lt;/p&gt;
+
+&lt;p&gt;Over time, many developers have just resorted to giving their software away for free for the attention, resume boost, and other ancillary benefits. The situation is even worse in the open-source world, such that many people now act as if “open-source” means “it magically appeared out of nowhere” and are often disgusted with requests to support software they appreciate. Ask me how I know.&lt;/p&gt;
+
+&lt;p&gt;Hence the prevalence of external funding models.&lt;/p&gt;
+
+&lt;p&gt;Hopefully Bitcoin and emerging technologies like Lightning can help reverse this dynamic and reduce the friction of integrating revenue models directly into software. Specific ideas and approaches to achieve this are beyond the scope of this article, but I really hope developers take the liberty to experiment. Bitcoin is sound money, sure, but it’s also natively digital money that might be able to help us monetize good, well-intentioned software more gracefully.&lt;/p&gt;
+
+&lt;p&gt;Bisq proves it’s possible.&lt;/p&gt;
+
+&lt;p&gt;If you can conquer the sociological and psychological challenges to integrating a revenue model into your software, the result can be elegant and empowering: no need to worry about consulting clients, appeasing sponsors, or anything else—just focus on the software!&lt;/p&gt;
+
+&lt;h2 id=&quot;2-ensuring-user-privacy&quot;&gt;2. Ensuring User Privacy&lt;/h2&gt;
+
+&lt;p&gt;Furthermore, and perhaps even more profound is that an integrated revenue model can power a totally new business dynamic—one that protects user privacy by design.&lt;/p&gt;
+
+&lt;p&gt;Whereas most other ventures are incentivized to exploit user privacy, Bisq is actually incentivized to protect user privacy.&lt;/p&gt;
+
+&lt;p&gt;Let’s see how this works.&lt;/p&gt;
+
+&lt;h4 id=&quot;background-data-gathering&quot;&gt;Background: Data-Gathering&lt;/h4&gt;
+
+&lt;p&gt;Most digital services are operated by for-profit companies. You’ve probably heard of some of the more notable ones like Facebook, Twitter, and Google.&lt;/p&gt;
+
+&lt;p&gt;Lately, awareness of these companies’ pathetic privacy practices has gone mainstream. People are realizing that these big technology companies are unscrupulous mercenaries, and that their most personal data is actually stored to sell (not for their convenience, or whatever pretty marketing-speak they give you).&lt;/p&gt;
+
+&lt;p&gt;But how did we get here? Why is it that we’re dealing with these egregious privacy violations now?&lt;/p&gt;
+
+&lt;p&gt;In the not-so-distant past, our most sensitive personal data could only be accessed by select institutions: those in government, healthcare, finance, etc. While these sectors surely sold customer data for profit, such activity was relatively minimal. Regulation probably had something to do with it, but the technology to collect and store data was relatively primitive and expensive.&lt;/p&gt;
+
+&lt;p&gt;There was a practical limit on the extent of data that could be collected, stored, and leveraged in the first place.&lt;/p&gt;
+
+&lt;p&gt;In the past few years, however, that’s all changed. Almost every service you interact with can (and probably does) collect vast amounts of data on you with minimal cost, whether through mobile apps, website analytics, or through other (often more nefarious) means.&lt;/p&gt;
+
+&lt;p&gt;For these modern digital services, collecting data is just a part of smart business. Businesses gain deep insights to help them optimize their services, strike partnerships, and develop new products. Rational profit-maximizing business owners have no reason &lt;em&gt;not&lt;/em&gt; to collect as much data as they can.&lt;/p&gt;
+
+&lt;h4 id=&quot;result-privacy-predicament&quot;&gt;Result: Privacy Predicament&lt;/h4&gt;
+
+&lt;p&gt;Gathering data may be a perfectly fine business practice with a perfectly good business case, but the result is rather odd: &lt;strong&gt;accumulated data becomes a hugely valuable asset&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;It’s a rather peculiar dynamic: a company can gradually accumulate a productive asset &lt;em&gt;merely&lt;/em&gt; through the normal course of its business operations.&lt;/p&gt;
+
+&lt;p&gt;That would be like me earning a bonus at my job purely because I ate, slept, and breathed on a regular basis…&lt;/p&gt;
+
+&lt;p&gt;So, what should a company do with all this data? Should they just disregard it in the name of moral superiority? Act as if it doesn’t exist? Miss Wall Street’s profit expectations? Ha! Fat chance.&lt;/p&gt;
+
+&lt;p&gt;This is where the issues start.&lt;/p&gt;
+
+&lt;p&gt;While companies are not required by law to maximize profit, in practice, the incentives for company executives to do so are overwhelming. Investors need returns, executives want big paydays, media vies for attention, and everyone is hungry for power and status—and the result is whatever can be monetized will be monetized, and so, data collected is data sold.&lt;/p&gt;
+
+&lt;h4 id=&quot;a-better-way-beyond-the-corporation&quot;&gt;A Better Way: Beyond the Corporation&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;But that’s capitalism&lt;/em&gt;, you retort. Companies exist to offer services and earn money, and they’ve always been exploitive, but the market will eventually react and handle them. It’s not a great economic system, but it’s the least worst alternative.&lt;/p&gt;
+
+&lt;p&gt;Sure, but what if we could align incentives better to discourage such activity in the first place?&lt;/p&gt;
+
+&lt;p&gt;The issue, I contend, is not the pursuit of profits. Profits are powerful indicators of progress and essential to enabling innovation for further progress. The issue is with how profits are incentivized.&lt;/p&gt;
+
+&lt;p&gt;With a company, you see, all resources (and returns on those resources) are centralized in one place. The more resources a company gathers for itself, the more capable it becomes to generate profits: more people, more capital, more sales, more partnerships, more brand prestige, and more data all lead to more profits.&lt;/p&gt;
+
+&lt;p&gt;This is why every company has entire functions dedicated to maximize the accumulation of these resources—more of all these things generates more profits for the mothership.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;But what if there were no mothership? What if a profit-generating operation had no central entity to accumulate assets and collect profits?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Is there a way to maintain the benefits of having a company (i.e., low costs to coordinate professional cooperation&lt;sup&gt;2&lt;/sup&gt;), and maintain the profit motive, but do away with the centralization of profits? Perhaps create some hybrid of an operation that coordinates the efforts of a group of people, but decentralizes the operation’s assets and revenue collection?&lt;/p&gt;
+
+&lt;p&gt;The Bisq DAO offers a mechanism for achieving this, and the result is a huge win for user privacy.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-bisq-dao-a-capitalistic-model-that-encourages-privacy-protection&quot;&gt;The Bisq DAO: A Capitalistic Model that Encourages Privacy Protection&lt;/h4&gt;
+
+&lt;p&gt;As we’ve mentioned elsewhere, Bisq is not a company or legal entity of any kind. It’s a network composed of:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;users running the Bisq software and interacting over its peer-to-peer network&lt;/li&gt;
+  &lt;li&gt;contributors who build and maintain the Bisq software&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This means its financial structure is very different from that of a company. Companies have common pools of assets, liabilities, and equity—assets are leveraged to produce profits, profits boost equity, and higher equity value is what makes investors (and executives) happy. Generally, more assets means more firepower to produce more profits, so maximizing assets (like data!) is a core objective.&lt;/p&gt;
+
+&lt;p&gt;But Bisq doesn’t have a balance sheet, since it’s not an entity, so it doesn’t have assets.&lt;/p&gt;
+
+&lt;p&gt;And because it’s free/libre software, no one owns its intellectual property, and it can get away with not having any common assets beyond accounts for GitHub, Twitter, and various servers which are owned by its network of contributors to fulfill their assigned functions.&lt;/p&gt;
+
+&lt;p&gt;The result: there is no shared pool of resources for the project to accumulate and exploit.&lt;/p&gt;
+
+&lt;p&gt;So whereas accumulated assets (i.e., data) are the primary enablers of revenue for businesses like Facebook, accumulated assets don’t even exist for Bisq. Instead, the labor of Bisq’s contributors is the primary enabler of its revenue: contributors maintain the software, traders pay fees to use the software, those fees are distributed to contributors for their work, and contributors are incentivized to make the software better to increase fee revenue.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The incentive structure is based solely on producing and consuming software&lt;/strong&gt;. Having a big honeypot of data makes no sense.&lt;/p&gt;
+
+&lt;p&gt;Indeed, it’s actually counter-productive. Even if a contributor on the network did start to collect data through their own means for the whole network to leverage, such an activity would add a point of reliance to the system and degrade its resilience. This directly clashes with the &lt;a href=&quot;https://docs.bisq.network/intro.html#why-bisq-exists&quot;&gt;core principles of the project&lt;/a&gt;, and the community would probably reject integrating such activities into the system.&lt;sup&gt;3&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;In this way, Bisq discourages data gathering by design. Through the Bisq DAO, people maintain continuous relationships to coordinate their work with low cost, and the profit motive is high. But with no mothership, profits go directly to the people who earned them, so there is no pressure to accumulate a common base of assets.&lt;/p&gt;
+
+&lt;p&gt;Of course, open-source software is a crucial part of this dynamic: as a user, you can verify you’re not sending any data by inspecting the code yourself. But it’s nice to know that the collection of data doesn’t fit the incentive structure of the system.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-conclusion&quot;&gt;3. Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Bisq is built to operate its software while protecting its users’ privacy. It’s done this by integrating a viable means of earning revenue right into its software, and its decentralized governance structure ensures there can be no way to accumulate common assets (i.e., user data) to exploit later.&lt;/p&gt;
+
+&lt;p&gt;As long as companies operating digital services are traditionally capitalistic (i.e., with a common balance sheet, incentivized to maximize returns for investors and executives), they will continue to exploit user data for profit.&lt;/p&gt;
+
+&lt;p&gt;Profit-seeking on its own is not bad, but incentives that encourage immoral profit-seeking are bad.&lt;/p&gt;
+
+&lt;p&gt;The Bisq DAO endeavors to maintain the positive elements of a company to efficiently coordinate productivity while discarding the negative elements that encourage privacy problems.&lt;/p&gt;
+
+&lt;p&gt;In the next part in this series, we will discuss how the Bisq DAO’s incentive structure discourages exploitation of its workers and users—another common tendency of traditional companies.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;sup&gt;1&lt;/sup&gt; Specifically, Bisq software is licensed under the GNU Affero General Public License v3.0.
+&lt;br /&gt;&lt;br /&gt;
+&lt;sup&gt;2&lt;/sup&gt; The company is a hugely beneficial entity. As Ronald Coase articulated in his article &lt;em&gt;The Nature of the Firm&lt;/em&gt; in 1937, companies dramatically lower transaction and coordination costs in the pursuit of business. The advent of the modern limited-liability joint-stock company has been a drastically under-appreciated enabler of modern progress.
+&lt;br /&gt;&lt;br /&gt;
+&lt;sup&gt;3&lt;/sup&gt; Furthermore, it’s worth noting that &lt;a href=&quot;https://github.com/bisq-network/bisq&quot;&gt;the software&lt;/a&gt; makes it technically impossible to collect very much data in the first place.&lt;/p&gt;</content><author><name>Steve Jain</name></author><summary type="html">The Bisq DAO enables value transfer and decision-making for the Bisq network. But it has several additional benefits too, which we'll focus on in this series.In this post, Part I of this series, we'll discuss how Bisq's revenue model offers a new approach to funding open-source software development that, by design, avoids incentives to exploit user privacy altogether.</summary></entry><entry><title type="html">How to Earn BSQ by Contributing to Bisq</title><link href="http://localhost:4001/blog/how-to-earn-bsq/" rel="alternate" type="text/html" title="How to Earn BSQ by Contributing to Bisq" /><published>2019-03-06T00:00:00+00:00</published><updated>2019-03-06T00:00:00+00:00</updated><id>http://localhost:4001/blog/how-to-earn-bsq</id><content type="html" xml:base="http://localhost:4001/blog/how-to-earn-bsq/">&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;This post is by John Forsyth. John is a non-technical enthusiast for cryptocurrencies and decentralized autonomous organizations. &lt;a href=&quot;https://www.instagram.com/daokid1/&quot;&gt;Follow him here&lt;/a&gt; for more content about DAOs and cryptocurrencies.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you’d like to contribute a post, please reach out on &lt;a href=&quot;https://bisq.network/slack-invite&quot;&gt;Slack&lt;/a&gt; or &lt;a href=&quot;https://bisq.community/t/call-for-blog-writers/7040&quot;&gt;on our forum&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;If you haven’t heard about Bisq, it is one of the few truly decentralized, non-custodial exchanges in the crypto space.&lt;/p&gt;
+
+&lt;p&gt;Since its launch in 2016, Bisq has done more than 22,000 trades in volume and has many trading pairs including altcoins and fiat currencies.&lt;/p&gt;
+
+&lt;p&gt;There is no central figurehead, and Bisq is taking measures to reward and incentivize its growth and development by making use of the Decentralized Autonomous Organization (DAO). Read about Bisq DAO &lt;a href=&quot;https://docs.bisq.network/user-dao-intro.html#what-is-a-dao&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is where BSQ comes in.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-bsq&quot;&gt;What is BSQ?&lt;/h2&gt;
+
+&lt;p&gt;BSQ is the coin used for compensating contributors in the Bisq DAO. It is actually real bitcoin with a few extra parameters that make it a “colored coin”. This “coloring” allows the Bisq application to recognize these bitcoins as BSQ.&lt;/p&gt;
+
+&lt;p&gt;As of this moment, the only way to acquire BSQ is by being a contributor. Upon DAO launch, people can purchase BSQ from contributors and become BSQ holders.&lt;/p&gt;
+
+&lt;p&gt;What is BSQ used for?&lt;/p&gt;
+
+&lt;p&gt;It can be used for several things like voting and asset listing, but it’s ultimately meant to be the incentive mechanism for growing Bisq in a decentralized manner while compensating anyone who wants to contribute to Bisq.&lt;/p&gt;
+
+&lt;p&gt;Take note that the Bisq DAO is a meritocracy which means that anyone who works to develop and grow Bisq is eligible for compensation.&lt;/p&gt;
+
+&lt;p&gt;Compensation is done by submitting a compensation request, and BSQ holders decide which compensation requests are approved or disapproved.&lt;/p&gt;
+
+&lt;p&gt;For instance, I am writing this blog for the launch of Bisq’s new blog initiative, and I plan on submitting a compensation request at the end of the month to hopefully earn my first BSQ.&lt;/p&gt;
+
+&lt;p&gt;Pretty cool huh?&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-a-compensation-request&quot;&gt;What is a Compensation Request?&lt;/h2&gt;
+
+&lt;p&gt;I’m glad you asked. We all want to earn crypto, don’t we (especially bitcoin :))?&lt;/p&gt;
+
+&lt;p&gt;A compensation request is how you earn BSQ. You simply submit a request for compensation to the network after you’ve performed a valuable service for Bisq.&lt;/p&gt;
+
+&lt;p&gt;This is not a faucet.&lt;/p&gt;
+
+&lt;p&gt;Faucets distribute small amounts of crypto to new users based off of donations from other people.&lt;/p&gt;
+
+&lt;p&gt;A compensation request is what you will use to ask the network of stakeholders for payment once you’ve performed any sort of meritocratic service for Bisq.&lt;/p&gt;
+
+&lt;p&gt;Here’s a sample of what your compensation request may look like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../images/github-compensation-request-example.png&quot; alt=&quot;Compensation Request&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This compensation request is from Aruna Surya. Aruna launched the blog initiative for Bisq and has contributed to the editing of blog posts as well as the organization of the blogging process.&lt;/p&gt;
+
+&lt;p&gt;Refer to the actual compensation request &lt;a href=&quot;https://github.com/bisq-network/compensation/issues/233&quot;&gt;here on GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As you can tell, it lists everything that is required for the voters to take your request into consideration.&lt;/p&gt;
+
+&lt;p&gt;As you can probably guess, you must bring something of value to Bisq BEFORE you submit a compensation request.&lt;/p&gt;
+
+&lt;h2 id=&quot;different-ways-to-earn-bsq&quot;&gt;Different Ways to Earn BSQ&lt;/h2&gt;
+
+&lt;p&gt;So, what is it that you think you can offer Bisq to earn BSQ?&lt;/p&gt;
+
+&lt;p&gt;Think about what any other organization needs to survive and thrive. In the case of Bisq, it may be programming in Java, writing, creating videos/animations, etc.&lt;/p&gt;
+
+&lt;p&gt;So consider what your skills are and what you could potentially offer to Bisq.&lt;/p&gt;
+
+&lt;p&gt;How can you help grow it?&lt;/p&gt;
+
+&lt;p&gt;Perhaps you could bring new users to the platform by hosting a weekly meetup group where you can teach others about Bisq.&lt;/p&gt;
+
+&lt;p&gt;Maybe you can publish videos of yourself making your first Bisq transactions in order to show others how easy it is to use.&lt;/p&gt;
+
+&lt;p&gt;Do you speak a language other than English? Translate the Bisq documentation in your native language and request compensation! Translation is a HUGE need in the cryptocurrency space because it is global in nature.&lt;/p&gt;
+
+&lt;p&gt;There are a multitude of different ways you could earn BSQ, so get creative!&lt;/p&gt;
+
+&lt;p&gt;If you’re not sure whether the Bisq community would approve your idea of contribution, there’s nothing stopping you from reaching out to the community and simply asking what they think.&lt;/p&gt;
+
+&lt;p&gt;Join the community and ask questions. Find out what’s needed and where you could offer your skills.&lt;/p&gt;
+
+&lt;h2 id=&quot;earning-bsq-by-taking-on-roles&quot;&gt;Earning BSQ by Taking on Roles&lt;/h2&gt;
+
+&lt;p&gt;There are in fact other ways to earn BSQ besides offering your own creative expertise.&lt;/p&gt;
+
+&lt;p&gt;Just like most other cryptocurrency projects, there needs to be a fair amount of nodes running as well as people maintaining the github repositories.&lt;/p&gt;
+
+&lt;p&gt;Some of these duties are described in the “Roles” section of the &lt;a href=&quot;https://docs.bisq.network/roles.html&quot;&gt;Bisq documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;These roles are all subject to change in the future and once the Bisq DAO is implemented, anyone can propose new roles and have the stakeholders vote on it.&lt;/p&gt;
+
+&lt;p&gt;Specific roles vary based on the specific requirements of the responsibility at hand, but most responsibilities are organized into the following types of roles:&lt;/p&gt;
+
+&lt;ul class=&quot;blog-content-list&quot;&gt;
+    &lt;li&gt;
+        &lt;p&gt;&lt;b&gt;Maintainer&lt;/b&gt;&lt;/p&gt;
+        &lt;p&gt;According to the Bisq documentation, &quot;a maintainer is a contributor responsible for enforcing process in a given Github repository.&quot;&lt;/p&gt;
+        &lt;p&gt;Some of the duties of a maintainer include:&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Merging and/or closing pull requests after sufficient review.&lt;/li&gt;
+            &lt;li&gt;Tagging releases.&lt;/li&gt;
+            &lt;li&gt;Assigning priorities to incoming issues and keeping them organized.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;This role is largely about maintaining the GitHub in an organized and timely manner.&lt;/p&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+        &lt;p&gt;&lt;b&gt;Operator&lt;/b&gt;&lt;/p&gt;
+        &lt;p&gt;&quot;An operator is a contributor responsible for keeping a given resource (like a pricenode) running and functioning normally.&quot;&lt;/p&gt;
+        &lt;p&gt;Some of the duties of an operator include:&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Keeping the given resource online, up to date and functioning normally.&lt;/li&gt;
+            &lt;li&gt;Maintaining backups as appropriate.&lt;/li&gt;
+            &lt;li&gt;Reporting on any incidents.&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;p&gt;This role is largely about maintaining the GitHub in an organized and timely manner.&lt;/p&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+        &lt;p&gt;&lt;b&gt;Administrator&lt;/b&gt;&lt;/p&gt;
+        &lt;p&gt;&quot;An administrator is a contributor responsible for managing a given resource (like the Slack channel).&quot;&lt;/p&gt;
+        &lt;p&gt;Some of the duties of an administrator include:&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Responding to change requests.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+        &lt;p&gt;&lt;b&gt;Moderator&lt;/b&gt;&lt;/p&gt;
+        &lt;p&gt;&quot;The moderator is a contributor responsible for enforcing process and standards in a given communications channel.&quot;&lt;/p&gt;
+        &lt;p&gt;Responsibilities include:&lt;/p&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Ensuring discussions are on topic and civil, keeping the trolls at bay.&lt;/li&gt;
+            &lt;li&gt;Posting important announcements in a timely fashion.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;p&gt;As mentioned earlier, these are the current roles for now but we are likely to see more roles  added as Bisq grows, the DAO is launched, and the proposals start rolling in.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;I get so excited when I think about Bisq’s way of governance! You don’t need permission to contribute and you can earn based off of the merit of your work.&lt;/p&gt;
+
+&lt;p&gt;Personally, I would love to see this mode of working become more widespread as we venture further into the 21st century and continue moving away from permission-based systems to permissionless models.&lt;/p&gt;
+
+&lt;p&gt;Everybody has something different to offer, so it’s just a matter of focusing on your own expertise.&lt;/p&gt;
+
+&lt;p&gt;So what are you waiting for?&lt;/p&gt;
+
+&lt;p&gt;Get to work and start earning!&lt;/p&gt;</content><author><name>John Forsyth</name></author><summary type="html">Bisq is an open-source software project, but it has a built-in revenue model to compensate its contributors—and anyone is welcome to contribute!</summary></entry><entry><title type="html">An Overview of the Bisq Network</title><link href="http://localhost:4001/blog/an-overview-of-the-bisq-network/" rel="alternate" type="text/html" title="An Overview of the Bisq Network" /><published>2019-02-25T00:00:00+00:00</published><updated>2019-02-25T00:00:00+00:00</updated><id>http://localhost:4001/blog/an-overview-of-the-bisq-network</id><content type="html" xml:base="http://localhost:4001/blog/an-overview-of-the-bisq-network/">&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Aruna is a Bisq contributor with a non-technical background who is currently leading the Blog and Translation efforts.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you’d like to contribute a post, please reach out on &lt;a href=&quot;https://bisq.network/slack-invite&quot;&gt;Slack&lt;/a&gt; or &lt;a href=&quot;https://bisq.community/t/call-for-blog-writers/7040&quot;&gt;on our forum&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you are into cryptocurrencies, you may be interested in Bisq, a decentralized exchange that enables you to trade bitcoin for fiat currencies and other cryptocurrencies.
+Unlike centralized exchanges, you preserve your privacy when trading on Bisq since there is no need for registration or approval from any central authorities. In this post, I will give you an overview of the Bisq software and the Bisq network.&lt;/p&gt;
+
+&lt;h2 id=&quot;bisq-software&quot;&gt;Bisq Software&lt;/h2&gt;
+&lt;p&gt;Bisq is decentralized which means that there is no central component that, if removed, would cause Bisq to fail. For instance, the exchange data such as offers to buy or sell BTC is not stored on any central server. You do not need to go to a central website to trade. Instead, you download and install &lt;a href=&quot;https://bisq.network/downloads/&quot;&gt;the Bisq application&lt;/a&gt; on your computer. The Bisq app is free/open-source software (FOSS) which is maintained and improved by a network of contributors. By running the software, your computer becomes part of the Bisq network.&lt;/p&gt;
+
+&lt;p&gt;There are many different payment methods that you can use on Bisq. For instance, if you are using MoneyGram to receive USD in exchange for BTC, you need to add information about your MoneyGram account so that your trading partner can send you USD. Bisq does not automatically send the USD from your trading partner to you, it just gives them the information they need to send USD to your MoneyGram account. Since your data is stored locally on your computer, the rest of the network doesn’t know the details about your MoneyGram account.&lt;/p&gt;
+
+&lt;p&gt;The app contains an internal BTC wallet. Upon starting the app, you are encouraged to write down your seed phrase and backup your wallet data. You are responsible for your own funds since the rest of the Bisq network has no access to them. Anyone can make an offer to buy or sell BTC, and you are free to take that offer or not. When you take someone’s offer, under the hood your Bisq software communicates with that of your trading partner. Both of you need to make a security deposit as insurance against potential fraud by either of you. That deposit is locked in 2-of-3 multisig which includes you, your trading partner and an anonymous Bisq arbitrator, and can only be unlocked if two out of three people agree. In the event of a dispute, an arbitrator investigates the trade and determines the right course of action.&lt;/p&gt;
+
+&lt;p&gt;Bisq has been generating revenue and operating without any major issues since its launch in April 2016. It has processed about 22,000+ trades.&lt;/p&gt;
+
+&lt;h2 id=&quot;bisq-network&quot;&gt;Bisq Network&lt;/h2&gt;
+&lt;p&gt;The Bisq network consists of nodes running the Bisq software, and is a second layer running on top of the Bitcoin network. Just like the Bitcoin network, it is a peer-to-peer (P2P) network that does not have a central server and is instead made up of individual peers. Bitcoin transactions on Bisq are validated by a handful of Bitcoin full nodes run by trusted contributors, but you are free to connect your own full node to Bisq as well. Upon starting, the Bisq app connects to these nodes. If there is a local Bitcoin full node, the software automatically detects it and connects to it instead.&lt;/p&gt;
+
+&lt;p&gt;In addition to Bisq nodes, the network includes several other nodes, each with a specific function. Every time the Bisq app gets started, it gets connected to seed nodes. Seed nodes run the Bisq software, and they introduce users to other Bisq nodes. Price nodes fetch data on cryptocurrency prices and serve it to Bisq nodes. Currently, the price nodes fetch the BTC price in fiat from bitcoinaverage.com, and altcoin data from poloniex.com and coinmarketcap.com.&lt;/p&gt;
+
+&lt;h2 id=&quot;further-reading&quot;&gt;Further Reading&lt;/h2&gt;
+&lt;p&gt;You can learn more about Bisq &lt;a href=&quot;https://docs.bisq.network/intro.html&quot;&gt;here&lt;/a&gt; and how to install the Bisq software &lt;a href=&quot;https://docs.bisq.network/getting-started.html&quot;&gt;here&lt;/a&gt;.
+For more technical details of the Bisq P2P network, please visit &lt;a href=&quot;https://bisq.network/blog/new-p2p-network/&quot;&gt;this blog post by Manfred Karrer&lt;/a&gt;.&lt;/p&gt;</content><author><name>Aruna Surya</name></author><summary type="html">If you are into cryptocurrencies, you may be interested in Bisq, a decentralized exchange that enables you to trade bitcoin for fiat currencies and other cryptocurrencies. Unlike centralized exchanges, you preserve your privacy when trading on Bisq since there is no need for registration or approval from any central authorities. In this post, I will give you an overview of the Bisq software and the Bisq network.</summary></entry><entry><title type="html">Bisq DAO for Bitcoin Maximalists</title><link href="http://localhost:4001/blog/bisq-dao-for-bitcoin-maximalists/" rel="alternate" type="text/html" title="Bisq DAO for Bitcoin Maximalists" /><published>2019-02-18T00:00:00+00:00</published><updated>2019-02-18T00:00:00+00:00</updated><id>http://localhost:4001/blog/bisq-dao-for-bitcoin-maximalists</id><content type="html" xml:base="http://localhost:4001/blog/bisq-dao-for-bitcoin-maximalists/">&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Steve contributes writing in the form of documentation, copywriting, media correspondence, and more to the Bisq network. Follow him &lt;a href=&quot;https://jain.io&quot;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you’d like to contribute a post, please reach out on &lt;a href=&quot;https://bisq.network/slack-invite&quot;&gt;Slack&lt;/a&gt; or &lt;a href=&quot;https://bisq.community/t/call-for-blog-writers/7040&quot;&gt;on our forum&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Let’s cut to the chase: the Bisq DAO is built on the Bitcoin network, and the BSQ token is just colored bitcoin.&lt;/p&gt;
+
+&lt;p&gt;Bisq needs a DAO to decentralize its own governance, so that it can become as resistant to censorship as possible.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, note that Bisq has already been in operation for almost 3 years, and it makes real revenue right now. &lt;strong&gt;This is not a capital raise.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;not-a-company&quot;&gt;Not a company&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Bisq is not a company or legal entity of any kind&lt;/strong&gt;, so new tools are needed to handle governance functions (decision-making and revenue collection) that an entity would otherwise handle.&lt;/p&gt;
+
+&lt;p&gt;You may counter that Bisq is working just fine right now without a DAO. And you’d be right, kinda.&lt;/p&gt;
+
+&lt;p&gt;Observe:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../images/dao-before-after.png&quot; alt=&quot;DAO Before/After&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The network functions just fine for traders in both cases: it’s distributed with no single points of failure.&lt;/p&gt;
+
+&lt;p&gt;But take another look at the left panel. See how all trading fees go to one place? And how decision-making is largely concentrated in that one place too? That’s not fine. Governance is so centralized right now that Bisq might as well just become a company.&lt;/p&gt;
+
+&lt;p&gt;But the ambition is greater:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Is it possible to operate the project with no central decision-makers?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Is it possible to collect and distribute revenue without any central financial accounts?&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Bisq DAO and BSQ token are answers to these questions. They’ve been devised over the past ~5 years, tested over the past several months, and will soon be deployed on Bitcoin mainnet.&lt;/p&gt;
+
+&lt;h2 id=&quot;common-misconceptions&quot;&gt;Common Misconceptions&lt;/h2&gt;
+
+&lt;p&gt;We’ve explained how the Bisq DAO works elsewhere (&lt;a href=&quot;https://docs.bisq.network/user-dao-intro.html&quot;&gt;here’s a write-up&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e&quot;&gt;here’s a short video-series&lt;/a&gt;), so we won’t cover those details here.&lt;/p&gt;
+
+&lt;p&gt;Instead, we’ll cover common questions and misconceptions:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Is Bisq launching a token because it needs money?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;No. The BSQ token does not raise capital. Its purpose is to route trading fees from traders to contributors without any financial accounts.&lt;/p&gt;
+
+&lt;p&gt;Bisq has bootstrapped itself to facilitate 22,000+ total trades in the ~3 years since April 2016. It makes real revenue right now.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;All tokens are useless. So why create one?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Many tokens seem to lack utility since they’re issued by legal entities like companies and foundations. Often, these entities could accomplish their goals without tokens.&lt;/p&gt;
+
+&lt;p&gt;However, when there is no entity, as in Bisq’s case, things change. New tools are needed to collect revenue and make policy. Where can revenue be collected if there is no central wallet? Who determines policy if there is no leadership team?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Explain to this to me, simply. Please.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s a concrete example of how this mechanism allows traders to pay contributors without any central wallets. We use round numbers for simplicity.&lt;/p&gt;
+
+&lt;p&gt;Developer does $1000 of work on Bisq software. He requests $1000 of BSQ, and includes 1000 satoshis with his request. DAO stakeholders vote to approve his request, coloring his 1000 satoshis into BSQ worth $1000. Traders buy this BSQ with $1000 of BTC, and then use the BSQ to pay trading fees.&lt;/p&gt;
+
+&lt;p&gt;BSQ is just a placeholder for a BTC payment until the other party is known. The DAO is just a mechanism for collective decision-making in the absence of a CEO.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Isn’t that just creating money out of thin air? That’s sketchy.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;BSQ token issuance mirrors the act of human labor: the very act of human labor is creating something out of nothing. Take a developer, for instance. When they implement a feature, they’ll add code where there wasn’t any before. If they do it right, the code they added will result in new functionality. Voilà! They’ve just created something out of nothing.&lt;/p&gt;
+
+&lt;p&gt;The BSQ token is a tool to capture this newly-created value in an exchangeable medium. Bitcoin miners create money out of thin air too, right? This is no different, just with human labor and subjective validation instead of machine labor and automated validation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why can’t you just do this with plain bitcoin?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Because the sender of bitcoin is not known when compensation is earned.&lt;/p&gt;
+
+&lt;p&gt;Consider trading fees. You need a sender and a recipient to do a Bitcoin transaction, right? But there’s a gap between the time a contributor does work and the time a trader places a trade, and nowhere to hold the value to be transferred in the interim. BSQ is a tool to hold the value of a contributor’s labor until a trader shows up to pay for it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Practically, what changes for me as a user?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Not much. You can choose to continue paying trading fees with BTC, or you can choose to pay trading fees with BSQ. If you choose BSQ, you’ll just have to buy BSQ first.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why would I go to the trouble of buying BSQ?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;BSQ trading fees will be dramatically cheaper than plain BTC trading fees, at first. Also, the BTC you pay to buy BSQ actually goes to Bisq contributors and helps sustain the project.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Will I be required to use BSQ to trade on Bisq?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;No, you can choose to continue paying trading fees with plain bitcoin instead of BSQ—just note that you’ll pay more than you would pay by using BSQ, and that your fees won’t help to sustain the project since they won’t be routed to Bisq contributors.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;But…Bisq works just fine without a token right now. Why do a token?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Because Bisq is adapting its governance model. It’s going from a centralized control structure (funding and policy determined by founders) to a decentralized control structure (funding and policy determined collectively by users and contributors).&lt;/p&gt;
+
+&lt;p&gt;With the old model, all fees went to arbitrators. The new model enables fees to be distributed meritocratically to all contributors, and a token is needed to make it work.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why is Bisq adapting its governance model?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Because decentralized software is not good enough. What’s the point, if the team in charge of the software is still a single point of failure?&lt;/p&gt;
+
+&lt;p&gt;This is why we call it the Bisq Network and not the Bisq Project. This has been the plan from the beginning.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What is the issuance schedule for BSQ tokens?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;New BSQ is issued every time a contributor’s request is approved through DAO voting. BSQ issuance is not a one-time event. Issuance is not a capital raise like an ICO—it happens continually as contributors do work.&lt;/p&gt;
+
+&lt;p&gt;BSQ is also burned out of existance continually as traders use it to pay trading fees.&lt;/p&gt;
+
+&lt;p&gt;This issuance and burning creates a scarcity dynamic for the BSQ token.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Many tokens sound good in theory. How do you know yours will work in practice?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Good question. Theory cannot be tested until it’s put into practice. However, quite a few aspects of the token and DAO have already been put into practice. People have been paying real bitcoin to use Bisq for almost 3 years now, so the token must have value at launch.&lt;/p&gt;
+
+&lt;p&gt;As for the DAO, Bisq contributors have approximated DAO functions with ‘low-tech’ tools like GitHub and Google Sheets for several months. The DAO merely formalizes these processes.&lt;/p&gt;
+
+&lt;h2 id=&quot;learn-more&quot;&gt;Learn More&lt;/h2&gt;
+
+&lt;p&gt;And here’s the first of a series of short videos we made on the Bisq DAO:&lt;/p&gt;
+
+&lt;div class=&quot;responsive-youtube-container&quot;&gt;
+    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/videoseries?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;It’s fair to question whether Bisq needs to avoid organizing itself under a legal entity, but if you can accept that doing so could have benefits, then a DAO and token are the only reasonable ways to make it work.&lt;/p&gt;</content><author><name>Steve Jain</name></author><summary type="html">Let's cut to the chase: the Bisq DAO is built on the Bitcoin network, and the BSQ token is just colored bitcoin.</summary></entry></feed>
