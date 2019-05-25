@@ -732,9 +732,7 @@
 
     <body class="home page-template-default page page-id-6 custom-background">
 
-<!--Select includes/main_nav according to page lang-->
-        
-        
+<!--Select includes/main_nav according to page lang or absence of lang-->
           
              <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top pl-md-5 pr-md-5 pl-sm-3 pr-0">
 
@@ -746,15 +744,18 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
 <!-- Language selector -->
-      <span>
-        <!--
-        -->
 
-        
-        
-            <a href="/roadmap/" class="en">en</a>
-        
-      </span>
+      <div class="dropdown">
+        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          en
+        </button>
+        <div class="dropdown-menu w-auto" aria-labelledby="dropdownMenuButton" style="min-width: 0;">
+          
+          
+          <a class="dropdown-item" href="/roadmap/">en</a>
+          
+        </div>
+      </div>
 
 
       <ul class="navbar-nav ml-auto">
@@ -932,7 +933,6 @@
 </nav>
 
           
-        
 
 
             

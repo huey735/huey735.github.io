@@ -8,7 +8,7 @@
                 <div class="row-block pl-0 pt-4 pt-md-5 pr-0 pr-lg-5">
 
                     <p class="lead col-md-8 col-sm-12 pl-0 pb-5">
-                      Bisq is an open-source, peer-to-peer application that allows you to buy and sell cryptocurrencies in exchange for national currencies. No registration required.
+                      Bisq é uma aplicação open-source, peer-to-peer que permite comprar e vender criptomoedas com moedas nacionais. Sem necessidade de registro.
                     </p>
 
                     <div class="d-flex flex-column flex-md-row lead mb-1">
@@ -21,7 +21,7 @@
                                   <div class="float-left">
                                       <img src="{{ site.url }}/images/icon-windows-g.svg" class="os-icon os-icon-g">
                                       <img src="{{ site.url }}/images/icon-windows-w.svg" class="os-icon os-icon-w">
-                                      Download for Windows
+                                      Download para Windows
                                   </div>
                                   <div class="float-right">
                                       <a class="dl-win64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">.exe</a>
@@ -32,7 +32,7 @@
                                   <div class="float-left">
                                       <img src="{{ site.url }}/images/icon-apple-g.svg" class="os-icon os-icon-g">
                                       <img src="{{ site.url }}/images/icon-apple-w.svg" class="os-icon os-icon-w">
-                                      Download for Mac
+                                      Download para Mac
                                   </div>
                                   <div class="float-right">
                                       <a class="dl-mac" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">.dmg</a>
@@ -43,7 +43,7 @@
                                   <div class="float-left">
                                       <img src="{{ site.url }}/images/icon-ubuntu-g.svg" class="os-icon os-icon-g">
                                       <img src="{{ site.url }}/images/icon-ubuntu-w.svg" class="os-icon os-icon-w">
-                                      Download for Debian/Ubuntu
+                                      Download para Debian/Ubuntu
                                   </div>
                                   <div class="float-right">
                                       <a class="dl-deb64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb">.deb</a>
@@ -54,7 +54,7 @@
                                   <div class="float-left">
                                       <img src="{{ site.url }}/images/icon-linux-g.svg" class="os-icon os-icon-g">
                                       <img src="{{ site.url }}/images/icon-linux-w.svg" class="os-icon os-icon-w">
-                                      Download for Red Hat/Fedora
+                                      Download para Red Hat/Fedora
                                   </div>
                                   <div class="float-right">
                                       <a class="dl-rpm64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.rpm">.rpm</a>
@@ -68,7 +68,7 @@
                                       Downloads
                                   </div>
                                   <div class="float-right">
-                                      <a href="{{ site.url }}/downloads">Get Bisq</a>
+                                      <a href="{{ site.url }}/{{ page.lang }}/downloads_{{ page.lang }}/">Baixar Bisq</a>
                                   </div>
                               </div>
                           </button>
@@ -94,19 +94,19 @@
                       <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank" rel="noopener" class="downloads-android hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn" onclick="ga('send', 'event', 'Jumbotron actions', 'download', 'android-notifications');">
                           <img src="{{ site.url }}/images/icon-android-g.svg" class="os-icon os-icon-g">
                           <img src="{{ site.url }}/images/icon-android-w.svg" class="os-icon os-icon-w">
-                          Get Android Notifications App
+                          Baixar App de Notificação para Android
                       </a>
 
 
                       <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank" rel="noopener" class="downloads-ios hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn" onclick="ga('send', 'event', 'Jumbotron actions', 'download', 'ios-notifications');">
                           <img src="{{ site.url }}/images/icon-apple-g.svg" class="os-icon os-icon-g">
                           <img src="{{ site.url }}/images/icon-apple-w.svg" class="os-icon os-icon-w">
-                          Get iOS Notifications App
+                          Baixar App de Notificação para iOS
                       </a>
 
 
                       <a href="https://docs.bisq.network/getting-started.html" target="_blank" rel="noopener" class="btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn">
-                          Get Started »
+                          Começar »
                       </a>
 
                       {% comment %}
@@ -114,7 +114,7 @@
                       <a id="play-video" href="" class="btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn ">
                                 <img src="{{ site.url }}/images/icon-play-g.svg" class="os-icon os-icon-g">
                                 <img src="{{ site.url }}/images/icon-play-w.svg" class="os-icon os-icon-w">
-                                Play Video
+                                Reproduzir video
                       </a>
 
                       <div id="video-overlay" style="display:none">
@@ -129,11 +129,11 @@
 
 
                     <p class="text-muted mb-0 mt-1 small" style="opacity: 0.5">
-                      v{{ site.client_version }} — <span class="id-win64 hidden">You appear to be running Windows.</span>
-                                                   <span class="id-mac hidden">You appear to be using a Mac.</span>
-                                                   <span class="id-deb64 hidden">You appear to be using Debian/Ubuntu.</span>
-                                                   <span class="id-rpm64 hidden">You appear to be using Red Hat/Fedora.</span>
-                                                   <span class="id-all hidden">Current Version</span> <!-- fallback text if no desktop os recognized -->
+                      v{{ site.client_version }} — <span class="id-win64 hidden">Você parece estar a utilizar Windows.</span>
+                                                   <span class="id-mac hidden">Você parece estar a utilizar Mac.</span>
+                                                   <span class="id-deb64 hidden">Você parece estar a utilizar Debian/Ubuntu.</span>
+                                                   <span class="id-rpm64 hidden">Você parece estar a utilizar Red Hat/Fedora.</span>
+                                                   <span class="id-all hidden">Versão atual</span> <!-- fallback text if no desktop os recognized -->
                     </p>
 
 
@@ -160,49 +160,49 @@
 
     <div class="row-block row">
 
-      <h2>Features</h2>
+      <h2>Características</h2>
       <div class="row align-items-center text-md-center text-left">
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-no-reg.svg" />
-          <h4>No Identity Verification</h4>
-          <p class="grey px-md-5">Instantly Accessible. No need for registration or approval from a central authority.</p>
+          <h4>Nenhuma verificação de identidade</h4>
+          <p class="grey px-md-5">Instantaneamente acessível. Não há necessidade de registro ou aprovação de uma autoridade central.</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto pr-md-3" src="{{ site.url }}/images/pic-decentralized.svg" />
-          <h4>Decentralized</h4>
-          <p class="grey px-md-5">Trading takes place on a global P2P network of users running Bisq on their own machines.</p>
+          <h4>Descentralizado</h4>
+          <p class="grey px-md-5">A negociação ocorre numa rede P2P global de usuários que executam o Bisq nas suas próprias máquinas.</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto pl-md-4" src="{{ site.url }}/images/pic-padlock.svg" />
-          <h4>Safe</h4>
-          <p class="grey px-md-5">Bisq never holds your funds. Security deposits and multisig trade wallets encourage safe, successful trades.</p>
+          <h4>Seguro</h4>
+          <p class="grey px-md-5">Bisq nunca possui os seus fundos. Os depósitos de segurança e carteiras de negócio multi-assinaturas promovem negociações seguras e bem-sucedidas.</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-private.svg" />
-          <h4>Private</h4>
-          <p class="grey px-md-5">No one except trading partners exchange personally identifying data. All personal data is stored locally.</p>
+          <h4>Privado</h4>
+          <p class="grey px-md-5">Ninguém, exceto parceiros de negociação trocam dados de identificação pessoal. Todos os dados pessoais são armazenados localmente.</p>
         </div>
         {% comment %}
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-p2p.svg" />
-          <h4>Secure and Always On</h4>
-          <p class="grey px-md-5">End-to-end encrypted communication routed over Tor and no down time.</p>
+          <h4>Seguro e sempre Online</h4>
+          <p class="grey px-md-5">Comunicação encriptada de ponta a ponta roteada por Tor e sem tempo de inatividade.</p>
         </div>
         {% endcomment %}
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-open.svg" />
-          <h4>Open</h4>
-          <p class="grey px-md-5">Code is <a href="https://github.com/bisq-network/bisq" target="_blank" rel="noopener">open source</a>, and project strategy is discussed openly on <a href="https://bisq.network/slack-invite" target="_blank" rel="noopener">Slack</a> and <a href="https://github.com/bisq-network/bisq" target="_blank" rel="noopener">GitHub</a>.</p>
+          <h4>Aberto</h4>
+          <p class="grey px-md-5">O código é <a href="https://github.com/bisq-network/bisq" target="_blank" rel="noopener">open source</a>, e a stratégia do projeto é discutida em aberto no <a href="https://bisq.network/slack-invite" target="_blank" rel="noopener">Slack</a>e <a href="https://github.com/bisq-network/bisq" target="_blank" rel="noopener">GitHub</a>.</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-easy.svg" />
-          <h4>Easy to Use</h4>
-          <p class="grey px-md-5">We've made all this sophistication simple—<a href='https://docs.bisq.network/getting-started' target='_blank' rel="noopener">make your first trade</a> in under 10 minutes!</p>
+          <h4>Fácil de usar</h4>
+          <p class="grey px-md-5">Simplificamos toda essa sofisticação -<a href='https://docs.bisq.network/getting-started' target='_blank' rel="noopener">faça a sua primeira troca</a> em menos de 10 minutos!</p>
         </div>
         <div id="dao-callout" class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/dao_homepage.svg" />
-          <h4>The Bisq DAO</h4>
-          <p>Decentralized governance for a decentralized exchange. <a href="{{ site.url }}/dao">Learn more here</a>.</p>
+          <h4>A OAD do Bisq</h4>
+          <p>Governação descentralizada para uma exchange descentralizada. <a href="{{ site.url }}/dao">Aprender mais aqui</a>.</p>
         </div>
       </div>
 
@@ -225,19 +225,19 @@
 
 <div class="row-block justify-content-between container">
 
-  <h2>How to Get Started</h2>
+  <h2>Como Começar</h2>
 
   <div class="row align-items-start">
     <div class="col-12 col-md-4">
 
       <div class="grey">
-        With Bisq, you can start trading in less than 10 minutes:
+        Com o Bisq, pode começar a negociar em menos de 10 minutos:
       </div>
       <ol>
-        <li class="mt-4 mb-4 pb-4 border-bottom step step-text-1" data-image="step-image-1"><a href="{{ site.url }}/downloads/">Download the app</a>, or build it from source.</li>
-        <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">Add your national or crypto currency accounts.</li>
-        <li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">Create new offer or take an existing one.</li>
-        <li class="mt-0 step step-text-4" data-image="step-image-4">Follow the user interface to finalize the trade.</li>
+        <li class="mt-4 mb-4 pb-4 border-bottom step step-text-1" data-image="step-image-1"><a href="{{ site.url }}/downloads/">Baixar a app</a>, ou contruí-la a partir da fonte.</li>
+        <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">Adicionar a sua conta de moeda nacional ou criptomoedas.</li>
+        <li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">Criar uma nova oferta ou aceitar uma existente.</li>
+        <li class="mt-0 step step-text-4" data-image="step-image-4">Siga a interface do usuário para finalizar a negociação.</li>
       </ol>
     </div>
     <div class="col-12 col-md-7 offset-0 offset-md-1">
@@ -254,21 +254,21 @@
 
 <div class="grey-back" style="margin-bottom:0">
   <div class="row-block container">
-    <h2 id="join-the-community">Join the Community</h2>
+    <h2 id="join-the-community">Junte-se à Comunidade</h2>
 
     <div class="row">
 
       <div class="col-12 col-md-6 grey bigger">
-        <p>Bisq is always looking for highly-skilled developers, designers and security experts to join our <a href="{{ site.url }}/community/">community</a>. If you’re interested in helping make Bisq better, there are many ways to <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribute</a>.
-          We’d love to <a href="{{ site.url }}/community/">hear from you</a>!</p>
-        <p>Our <a href="{{ site.url }}/roadmap/">roadmap</a> provides an overview of high-level features and milestones on the way to Bisq v1.0.</p>
+        <p>A Bisq está sempre procurando desenvolvedores altamente qualificados, designers e especialistas em segurança para se juntarem à nossa <a href="{{ site.url }}/community/">comunidade</a>. Se está interssado em ajudar a melhorar o Bisq, há muitas maneiras de <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribuir</a>.
+          Adoraríamos <a href="{{ site.url }}/community/">ouvir da sua parte</a>!</p>
+        <p>O nosso <a href="{{ site.url }}/roadmap/">roadmap</a> fornece uma visão geral de recursos de alto nível e marcos no caminho para o Bisq v1.0.</p>
       </div>
 
       <div class="col-12 col-md-6">
         <ul class="community-links grey community-home pl-0 pl-md-4 pt-4 pl-md-0 pt-md-0">
-          <li><img src="{{ site.url }}/images/community/github.svg" alt="github"> <a href="https://github.com/bisq-network">@bisq-network on GitHub</a></li>
-          <li><img src="{{ site.url }}/images/community/twitter.svg" alt="twitter"> <a href="https://twitter.com/bisq_network">@bisq_network on Twitter</a></li>
-          <li><img src="{{ site.url }}/images/community/youtube.svg" alt="youtube"> <a href="https://www.youtube.com/c/bisq-network">Bisq YouTube channel</a></li>
+          <li><img src="{{ site.url }}/images/community/github.svg" alt="github"> <a href="https://github.com/bisq-network">@bisq-network no GitHub</a></li>
+          <li><img src="{{ site.url }}/images/community/twitter.svg" alt="twitter"> <a href="https://twitter.com/bisq_network">@bisq_network no Twitter</a></li>
+          <li><img src="{{ site.url }}/images/community/youtube.svg" alt="youtube"> <a href="https://www.youtube.com/c/bisq-network">Canal Youtube do Bisq</a></li>
           <li><img src="{{ site.url }}/images/community/slack.svg" alt="slack"> <a href="https://bisq.network/slack-invite">Bisq Slack workspace</a></li>
           <li><img src="{{ site.url }}/images/community/forum.svg" alt="forum"> <a href="https://bisq.community">Bisq Forum</a></li>
           <li><img src="{{ site.url }}/images/community/mailinglist.svg" alt="mailinglist"> <a href="https://lists.bisq.network/listinfo/bisq-contrib">Bisq Contributor mailing list</a></li>

@@ -10,10 +10,10 @@ links:
     url: /pt/stats_pt
 
   - title: FAQ
-    url: /faq/
+    url: /pt/faq_pt/
 
   - title: Mercados
-    url: /markets/
+    url: /pt/markets_pt/
 
 mobile_links:
 
@@ -21,7 +21,7 @@ mobile_links:
     url: /comunidade/
 
   - title: Blog
-    url: /pt/blog_pt/
+    url: /blog/
 
   - title: Documentação
     url: https://docs.bisq.network/

@@ -1,8 +1,8 @@
   - title: "A OAD do Bisq"
     intro: "
-            Decentralizing revenue distribution and decision-making to make Bisq self-sustaining and censorship-resistant.
-            <span class=\"footnote\">DAO stands for Decentralized Autonomous Organisation</span>
-            <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">See more &darr;</a>
+            Descentralizando a distribuição da receita e a tomada de decisões para tornar o Bisq auto-sustentável e resistente à censura.
+            <span class=\"footnote\">OAD significa Organização Autónoma Descentralizada</span>
+            <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">Ver mais &darr;</a>
           "
     img: ../images/DAO/dao_intro.svg
     class: -main
@@ -14,13 +14,13 @@
 
 
 
-  - title: Why?
+  - title: Porquê?
     intro: "
-            <p>Bisq trading is currently decentralized, but its revenue distribution and decision-making are not.</p>
-            <p>It is critical that Bisq be resistant to censorship, and the trade protocol and P2P network achieve this—for traders.</p>
-            <p>What about Bisq's developers? Project decision-making and revenue distribution are still centralized, and this creates vulnerabilities.</p>
+            <p>A negociação no Bisq é verdadeiramente descentralizada, mas a sua distribuição de receita e tomada de decisões não são.</p>
+            <p>É fundamental que o Bisq seja resistente à censura, e o protocolo comercial e a rede P2P alcançam isso para os comerciantes.</p>
+            <p>E os desenvolvedores do Bisq? A tomada de decisão do projeto e a distribuição de receita ainda são centralizadas, e isso cria vulnerabilidades.</p>
             "
-    href_text: Learn more about the DAO ›
+    href_text: Aprender mais sobre a OAD ›
     href: "https://docs.bisq.network/dao.html"
     target: "_blank"
     rel: "noopener"
@@ -32,12 +32,12 @@
 
 
 
-  - title: What Is The Bisq DAO?
+  - title: O que é A OAD do Bisq?
     intro: "
-            <p>The Bisq DAO enables value transfer from traders to contributors. The BSQ token makes this possible in a decentralized way.</p>
-            <p>Trading fees are distributed to contributors without the confines of a corporation or other legal entity, keeping Bisq stateless & sovereign.</p>
+            <p>A OAD do Bisq permite a transferência de valor dos traders para os contribuintes. O token BSQ torna isso possível de maneira descentralizada.</p>
+            <p>As taxas de negociação são distribuídas aos contribuintes sem os limites de uma corporação ou outra entidade legal, mantendo Bisq sem Estado e soberano.</p>
             "
-    href_text: Learn more about the DAO ›
+    href_text: Aprender mais sobre a OAD ›
     href: "https://docs.bisq.network/dao.html"
     target: "_blank"
     rel: "noopener"
@@ -49,40 +49,40 @@
 
 
 
-  - title: How Does It Work?
+  - title: Como funciona?
     intro: "
             <div class=\"subtitle pt-4\">
-              Revenue distribution
+              Distribuição da receita
             </div>
 
             <div class=\"small\">
               <p>
-                To distribute revenue from trading fees to contributors, Bisq uses BSQ - a Bitcoin-based colored coin. Contributors are issued new BSQ when stakeholders approve their compensation requests through voting, and BSQ gets “uncolored” when traders use it to pay trading fees.
+                Para distribuir a receita das taxas de negociação para os contribuintes, o Bisq usa o BSQ - uma moeda colorida baseada em Bitcoin. Os colaboradores recebem um novo BSQ quando as partes interessadas aprovam seus pedidos de compensação por meio de votação, e o BSQ é “descolorido” quando os comerciantes o usam para pagar as taxas de negociação.
               </p>
               <p>
-                There is no central entity collecting or creating BSQ—Bisq stakeholders are collectively in charge of the issuance process.
+                Não existe uma entidade central que recolhe ou crie BSQ - os acionistas do Bisq são coletivamente responsáveis pelo processo de emissão.
               </p>
               <p class=\"disclaimer\">
-                This is not an ICO. No BSQ is sold to raise capital.
+                Isto não é um ICO. Nenhum BSQ é vendido para levantar capital.
               </p>
             </div>
 
 
             <div class=\"subtitle pt-3\">
-              Decision-making
+              Tomada de decisão
             </div>
 
             <div class=\"small\">
               <p>
-                With no CEO or central leadership team, Bisq stakeholders—traders and contributors—are the owners of Bisq.
+                Sem nenhum CEO ou equipa de liderança central, os acionistas do Bisq - traders e colaboradores - são os donos do Bisq.
               </p>
               <p>
-                Through social consensus (via voting) they determine Bisq's project strategy.
+                Através do consenso social (via votação) eles determinam a estratégia do projeto do Bisq.
               </p>
 
             </div>
             "
-    href_text: Learn more about the DAO ›
+    href_text: Aprender mais sobre a OAD ›
     href: "https://docs.bisq.network/dao.html"
     target: "_blank"
     rel: "noopener"
@@ -91,23 +91,23 @@
 
 
 
-  - title: "Benefits"
+  - title: "Benefícios"
     intro: "
-      <div class=\"subtitle\">Traders: Make Bisq sustainable</div>
+      <div class=\"subtitle\">Traders: Tornar o Bisq sustentável</div>
       <ul class=\"small pb-5\">
-        <li>Help Bisq deliver consistent professional development and support by buying BSQ from contributors</li>
-        <li>Help make Bisq the go-to censorship-resistant bitcoin-to-fiat and bitcoin-to-crypto marketplace</li>
-        <li>Enjoy a discount if you use BSQ to pay trading fees</li>
-        <li>You can still pay trading fees with plain BTC if you like</li>
+        <li>Ajudar o Bisq a fornecer desenvolvimento e suporte profissional consistentes, comprando o BSQ dos contribuidores</li>
+        <li>Ajudar a fazer do Bisq o mercado de escolha bitcoin-para-moeda-nacional e bitcoin-para-criptomoedas resistente à censura</li>
+        <li>Desfrutar de um desconto se utilizar o BSQ para pagar as taxas de negociação</li>
+        <li>Ainda pode pagar taxas de negociação com o BTC simples se quiser</li>
       </ul>
-      <div class=\"subtitle\">Contributors: Earn BSQ</div>
+      <div class=\"subtitle\">Contribuintes: Ganhar BSQ</div>
       <ul class=\"small pb-5\">
-        <li>Do valuable work, request compensation, earn BSQ</li>
-        <li>Sell BSQ on Bisq for BTC</li>
-        <li>Vote on compensation requests of other contributors</li>
-        <li>Work on cutting-edge technology with a cutting-edge culture—Bisq collaboration is permissionless, non-hierarchical, and fluid</li>
+        <li>Fazer um trabalho valioso, pedir compensação, ganhar BSQ</li>
+        <li>Vender BSQ no Bisq para BTC</li>
+        <li>Votar em pedidos de compensação de outros contribuintes</li>
+        <li>Trabalhar com tecnologia de ponta com uma cultura de ponta - a colaboração Bisq é sem permissão, não hierárquica e fluida</li>
       </ul>"
-    href_text: Learn more about the DAO ›
+    href_text: Aprender mais sobre a OAD ›
     href: "https://docs.bisq.network/dao.html"
     target: "_blank"
     rel: "noopener"

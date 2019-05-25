@@ -732,13 +732,11 @@
 
     <body class="home page-template-default page page-id-6 custom-background">
 
-<!--Select includes/main_nav according to page lang-->
-        
-        
+<!--Select includes/main_nav according to page lang or absence of lang-->
           
              <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top pl-md-5 pr-md-5 pl-sm-3 pr-0">
 
-    <a class="navbar-brand" href="http://localhost:4001"><img src="http://localhost:4001/images/bisq-logo.svg" height="30"/></a>
+    <a class="navbar-brand" href="http://localhost:4001/pt/index_pt"><img src="http://localhost:4001/images/bisq-logo.svg" height="30"/></a>
     <button class="navbar-toggler pr-3 pr-md-0 collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -746,17 +744,23 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
 <!-- Language selector -->
-      <span>
-        <!--
-        -->
 
-        
-        
-            <a href="/stats/" class="en">en</a>
-        
-            <a href="/pt/stats_pt/" class="pt">pt</a>
-        
-      </span>
+      <div class="dropdown">
+        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          pt
+        </button>
+        <div class="dropdown-menu w-auto" aria-labelledby="dropdownMenuButton" style="min-width: 0;">
+          
+          
+          <a class="dropdown-item" href="/stats/">en</a>
+          
+          <a class="dropdown-item" href="/pt/stats_pt/">pt</a>
+          
+        </div>
+      </div>
+
+
+
 
 
       <ul class="navbar-nav ml-auto">
@@ -782,13 +786,13 @@
         
           <li class="nav-item ">
             
-              <a class="nav-link" href="http://localhost:4001/faq/">FAQ</a>
+              <a class="nav-link" href="http://localhost:4001/pt/faq_pt/">FAQ</a>
             
           </li>
         
           <li class="nav-item ">
             
-              <a class="nav-link" href="http://localhost:4001/markets/">Mercados</a>
+              <a class="nav-link" href="http://localhost:4001/pt/markets_pt/">Mercados</a>
             
           </li>
         
@@ -802,7 +806,7 @@
         
           <li class="downloads-mobile nav-item ">
             
-              <a class="nav-link" href="http://localhost:4001/pt/blog_pt/">Blog</a>
+              <a class="nav-link" href="http://localhost:4001/blog/">Blog</a>
             
           </li>
         
@@ -855,13 +859,13 @@
   <img src="http://localhost:4001/images/icon-download-g.svg" class="os-icon os-icon-g" />
   <img src="http://localhost:4001/images/icon-download-w.svg" class="os-icon os-icon-w" />Todos os Downloads
   <div class="float-right">
-    <a href="http://localhost:4001/downloads/">Go to Downloads Page</a>
+    <a href="http://localhost:4001/pt/downloads_pt/">Página de Downloads</a>
   </div>
 </div>
 
 <div class="dropdown-item btn-icon">
   <img src="http://localhost:4001/images/icon-windows-g.svg" class="os-icon os-icon-g" />
-  <img src="http://localhost:4001/images/icon-windows-w.svg" class="os-icon os-icon-w" /> Download for Windows
+  <img src="http://localhost:4001/images/icon-windows-w.svg" class="os-icon os-icon-w" /> Download para Windows
   <div class="float-right">
     <a class="dl-win64" href="https://bisq.network/downloads/v1.1.1/Bisq-64bit-1.1.1.exe">.exe</a>
   </div>
@@ -870,7 +874,7 @@
 
 <div class="dropdown-item btn-icon">
   <img src="http://localhost:4001/images/icon-apple-g.svg" class="os-icon os-icon-g" />
-  <img src="http://localhost:4001/images/icon-apple-w.svg" class="os-icon os-icon-w" /> Download for Mac
+  <img src="http://localhost:4001/images/icon-apple-w.svg" class="os-icon os-icon-w" /> Download para Mac
   <div class="float-right">
     <a class="dl-mac" href="https://bisq.network/downloads/v1.1.1/Bisq-1.1.1.dmg">.dmg</a>
   </div>
@@ -879,7 +883,7 @@
 
 <div class="dropdown-item btn-icon">
   <img src="http://localhost:4001/images/icon-ubuntu-g.svg" class="os-icon os-icon-g" />
-  <img src="http://localhost:4001/images/icon-ubuntu-w.svg" class="os-icon os-icon-w" /> Download for Debian/Ubuntu
+  <img src="http://localhost:4001/images/icon-ubuntu-w.svg" class="os-icon os-icon-w" /> Download para Debian/Ubuntu
   <div class="float-right">
     <a class="dl-deb64" href="https://bisq.network/downloads/v1.1.1/Bisq-64bit-1.1.1.deb">.deb</a>
   </div>
@@ -888,7 +892,7 @@
 
 <div class="dropdown-item btn-icon">
   <img src="http://localhost:4001/images/icon-linux-g.svg" class="os-icon os-icon-g" />
-  <img src="http://localhost:4001/images/icon-linux-w.svg" class="os-icon os-icon-w" /> Download for Red Hat/Fedora
+  <img src="http://localhost:4001/images/icon-linux-w.svg" class="os-icon os-icon-w" /> Download para Red Hat/Fedora
   <div class="float-right">
     <a class="dl-rpm64" href="https://github.com/bisq-network/bisq/releases/download/v1.1.1/Bisq-64bit-1.1.1.rpm">.rpm</a>
   </div>
@@ -897,7 +901,7 @@
 
 <div class="dropdown-item btn-icon">
   <img src="http://localhost:4001/images/icon-linux-g.svg" class="os-icon os-icon-g" />
-  <img src="http://localhost:4001/images/icon-linux-w.svg" class="os-icon os-icon-w" /> Download for Arch Linux
+  <img src="http://localhost:4001/images/icon-linux-w.svg" class="os-icon os-icon-w" /> Download para Arch Linux
   <div class="float-right">
     <a href="https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=bisq-git">Arch User Repo</a></div>
 </div>
@@ -920,7 +924,7 @@
 
 <div class="dropdown-item btn-icon">
   <img src="http://localhost:4001/images/icon-verification-g.svg" class="os-icon os-icon-g" />
-  <img src="http://localhost:4001/images/icon-verification-w.svg" class="os-icon os-icon-w" /> Verification
+  <img src="http://localhost:4001/images/icon-verification-w.svg" class="os-icon os-icon-w" /> Verificação
   <div class="float-right">
     <a href="https://bisq.network/downloads/v1.1.1">PGP signatures</a> |
     <a href="https://bisq.network/downloads/v1.1.1/29CDFD3B.asc">PGP Public Key</a></div>
@@ -934,7 +938,6 @@
 </nav>
 
           
-        
 
 
             
