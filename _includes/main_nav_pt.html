@@ -22,9 +22,6 @@
       </div>
 {% endif %}
 
-
-
-
       <ul class="navbar-nav ml-auto">
 
         {% for item in site.data.main_nav_pt.links %}
@@ -85,7 +82,7 @@
               Downloads
             </a>
             <div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="navbarDropdown">
-              {% include os_selector_options_pt.html %}
+              {% include os_selector_options_{{ page.lang }}.html %}
             </div>
           </li>
 
