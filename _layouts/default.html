@@ -735,7 +735,7 @@
 <!--Select includes/main_nav according to page lang or absence of lang-->
           {% if page.lang == "en" %}
             {% include main_nav.html %}
-          {% elsif page.lang == "pt" or page.lang == "es" %}
+          {% elsif page.lang == "pt" %}
             {% include main_nav_{{ page.lang }}.html %}
           {% else %}
             {% include main_nav.html %}
@@ -762,15 +762,13 @@
             {% endif %}
 
 <!-- Select includes/footer according to page lang -->
-            {% for page in site.pages limit:1 %}
               {% if page.lang == "en" %}
                 {% include footer.html %}
-              {% elsif page.lang == "pt" or page.lang == "es" %}
+              {% elsif page.lang == "pt" %}
                 {% include footer_{{ page.lang }}.html %}
               {% else %}
                 {% include footer.html %}
               {% endif %}
-            {% endfor %}
 
 
 
