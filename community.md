@@ -2,7 +2,6 @@
 layout: page
 title: Community &lsaquo; Bisq - The decentralized Bitcoin exchange
 ref: community
-lang: en
 ---
 # Community
 {: .mb-5}

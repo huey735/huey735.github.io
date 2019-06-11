@@ -52,11 +52,11 @@ homepage_content:
   liGetStarted3: >
     <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">Añada sus cuentas de moneda nacional o cripto</li> <li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">Cree nuevas ofertas o tome una existente.</li> <li class="mt-0 step step-text-4" data-image="step-image-4">Siga la interfaz de usuario hasta finalizar el intercambio.</li>
   hJoin: Unirse a la comunidad
-  pJoin0: 'Bisq siempre está buscando desarrolladores altamente cualificados, diseñadores y expertos en seguridad a unirse a nuestra <a href="localhost:4001/community/">comunidad</a>.'
+  pJoin0: 'Bisq siempre está buscando desarrolladores altamente cualificados, diseñadores y expertos en seguridad a unirse a nuestra <a href="huey735.github.io/community/">comunidad</a>.'
   pJoin: >
-    <p>Bisq siempre está buscando desarrolladores altamente cualificados, diseñadores y expertos en seguridad para unirse a nuestra <a href="localhost:4001/community/">comunidad</a>. Si está interesado en ayudar a mejorar Bisq, hay muchas maneras de<a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribuir</a>.
-     Nos encantaría<a href="localhost:4001/community/">saber de ti</a>!</p>
-    <p>Nuestra <a href="localhost:4001/roadmap/">hoja de ruta</a> proporciona una vista general de las características y hitos hasta llegar a la v.1.0. de Bisq</p>
+    <p>Bisq siempre está buscando desarrolladores altamente cualificados, diseñadores y expertos en seguridad para unirse a nuestra <a href="huey735.github.io/community/">comunidad</a>. Si está interesado en ayudar a mejorar Bisq, hay muchas maneras de<a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribuir</a>.
+     Nos encantaría<a href="huey735.github.io/community/">saber de ti</a>!</p>
+    <p>Nuestra <a href="huey735.github.io/roadmap/">hoja de ruta</a> proporciona una vista general de las características y hitos hasta llegar a la v.1.0. de Bisq</p>
   liGithub: "@bisq-network en GitHub"
   liTwitter: "@bisq-network en Twitter"
   liYoutube: Canal de YouTube Bisq
@@ -129,7 +129,7 @@ faq:
   hCoreFunctions: Funciones principales
   hSafeOpenSource: "Bisq es seguro y de código abierto?"
   pSafeOpenSource: >
-    <p>Sí, el software de Bisq es de código abierto y con licencia bajo la Versión 3 de la GNU Affero General Public License. Aquí está el 
+    <p>Sí, el software de Bisq es de código abierto y con licencia bajo la Versión 3 de la GNU Affero General Public License. Aquí está el
       <a href="https://github.com/bisq-network/bisq/" target="_blank">código fuente</a> y
       <a href="https://github.com/bisq-network/bisq/blob/master/LICENSE" target="_blank">la licencia</a>.</p>
     <p>Bisq emplea tres mecanismos primarios para conseguir la seguridad:</p> <ol>
@@ -249,7 +249,7 @@ faq:
   pArbitrationProcess: >
     <p>En Bisq, los árbitros determinan soluciones a las disputas en los intercambios. Los árbitros tienen que pagar una muy alta <a href="https://docs.bisq.network/dao/phase-zero.html" target="_blank" rel="noopener"> garantía BSQ</a>, que asegure evaluaciones justas y prevengan de la colusión con los comerciantes.</p> <p>Los árbitros se eligen aleatoriamente para cada intercambio.</p> <p>Si el comerciante A no confirma el recibo de una transferencia con moneda nacional en el <a href='#trade-periods'>tiempo establecido</a>, un botón para contactar al árbitro aparecerá para ambos comerciantes. El comerciante B podrá
       enviar evidencia al árbitro de que realmente envió la moneda nacional. Alternativamente, si el comerciante B nunca envió la moneda nacional, el comerciante A puede enviar evidencia a el árbitro de que los fondos nunca se recibieron.</p>
-      <p>La evidencia emitida deberá ser criptográficamente segura con el uso de 
+      <p>La evidencia emitida deberá ser criptográficamente segura con el uso de
       <a href="https://tlsnotary.org/" target="_blank">PageSigner</a> o declaraciones bancarias firmadas digitalmente. Si estos métodos fallan, se podrán emplear rutas de detección más tradicionales.</p>
       <p>En nuestra experiencia la gran mayoría de disputas no son causadas con
       intenciones malignas, sino por problemas menores como incidencias de red, errores de software, incidencias bancarias, usabilidad, etc.
@@ -324,10 +324,10 @@ markets:
   buy: Comprar ofertas BTC
   sell: Vender ofertas BTC
   tradeHistory: Historial de intercambios <span class="grey">(Últimos 100 intercambios)</span>
- 
+
 stats:
   hNetworkStats: Estadísticas de red
-  pSeeMarkets: "<p>Ver la <a href='localhost:4001/markets'>página de Mercados</a> para el volumen por moneda.</p>"
+  pSeeMarkets: "<p>Ver la <a href='huey735.github.io/markets'>página de Mercados</a> para el volumen por moneda.</p>"
   pBSQDistribution: La distribución de BSQ en la red principal fue el 15 de Abril de 2019.
   pTotalTrades: >
     <p class='stat-label'>Intercambios totales</p> <p class='stat-figure'>25,585</p> <p class='stat-note'>en Marzo de 2019</p>
