@@ -1,0 +1,59 @@
+es:
+  links:
+
+    - title: Visión
+      url: /es/visión/
+
+    - title: DAO Bisq
+      url: /es/dao/
+
+    - title: Estatísticas
+      url: /es/estatísticas/
+
+    - title: FAQ
+      url: /es/faq/
+
+    - title: Mercados
+      url: /es/mercados/
+
+  mobile_links:
+
+    - title: Comunidad
+      url: /community/
+
+    - title: Blog
+      url: /blog/
+
+    - title: Documentación
+      url: https://docs.bisq.network/
+      target: _blank
+
+pt_PT:
+  links:
+
+    - title: Visão
+      url: /pt_PT/visão/
+
+    - title: OAD do Bisq
+      url: /pt_PT/oad/
+
+    - title: Estatísticas
+      url: /pt_PT/estatísticas/
+
+    - title: FAQ
+      url: /pt_PT/faq/
+
+    - title: Mercados
+      url: /pt_PT/mercados/
+
+  mobile_links:
+
+    - title: Comunidade
+      url: /community/
+
+    - title: Blog
+      url: /blog/
+
+    - title: Documentação
+      url: https://docs.bisq.network/
+      target: _blank

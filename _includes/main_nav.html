@@ -11,12 +11,12 @@
 {% if page.lang %}
       <div class="dropdown">
         <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          {{ page.lang }}
+          {{ page.language }}
         </button>
         <div class="dropdown-menu w-auto" aria-labelledby="dropdownMenuButton" style="min-width: 0;">
           {% assign pages = site.pages | where:"ref", page.ref | sort: 'lang' %}
           {% for page in pages %}
-          <a class="dropdown-item" href="{{ page.url }}">{{ page.lang }}</a>
+          <a class="dropdown-item" href="{{ page.url }}">{{ page.language }}</a>
           {% endfor %}
         </div>
       </div>

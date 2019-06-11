@@ -733,10 +733,8 @@
     <body class="home page-template-default page page-id-6 custom-background">
 
 <!--Select includes/main_nav according to page lang or absence of lang-->
-          {% if page.lang == "en" %}
-            {% include main_nav.html %}
-          {% elsif page.lang == "pt" %}
-            {% include main_nav_{{ page.lang }}.html %}
+          {% if page.lang == "es" or page.lang == "pt_PT"  %}
+            {% include main_nav_tr.html %}
           {% else %}
             {% include main_nav.html %}
           {% endif %}
@@ -752,8 +750,8 @@
 
                 <div class="outter">
 <!-- Select includes/homepage_content according to page lang -->
-                  {% if page.indexContent %}
-                    {% include {{ page.indexContent }} %}
+                  {% if page.ref == "index" %}
+                    {% include homepage_content_tr.html %}
                   {% else %}
                     {{ content }}
                   {% endif %}
@@ -762,10 +760,8 @@
             {% endif %}
 
 <!-- Select includes/footer according to page lang -->
-              {% if page.lang == "en" %}
-                {% include footer.html %}
-              {% elsif page.lang == "pt" %}
-                {% include footer_{{ page.lang }}.html %}
+              {% if page.lang == "es" or page.lang == "pt_PT" %}
+                {% include footer_tr.html %}
               {% else %}
                 {% include footer.html %}
               {% endif %}

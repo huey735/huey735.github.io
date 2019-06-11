@@ -1,0 +1,1498 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+        <meta name="author" content="Bisq">
+
+        <meta name="description" content="Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative crypto currencies.">
+        <meta name="image" content="http://localhost:4001/images/bisq-og.jpg">
+        <meta itemprop="name" content="Bisq">
+        <meta itemprop="description" content="Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative crypto currencies.">
+        <meta itemprop="image" content="http://localhost:4001/images/bisq-og.jpg">
+        <meta name="og:title" content="Bisq Markets &lsaquo; Bisq - The decentralized Bitcoin exchange">
+        <meta name="og:description" content="Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative crypto currencies.">
+        <meta name="og:image" content="http://localhost:4001/images/bisq-og.jpg">
+        <meta name="og:site_name" content="Bisq - The decentralized Bitcoin exchange">
+        <meta name="og:type" content="website">
+        <meta property="twitter:title" content="Bisq Markets &lsaquo; Bisq - The decentralized Bitcoin exchange">
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:site" content="Bisq - The decentralized Bitcoin exchange">
+        <meta name="twitter:creator" content="@bisq_network">
+        <link rel="canonical" href="http://localhost:4001/es/mercados/">
+
+        <style>
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Mono ExtraLight'), local('IBMPlexMono-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexmono/v4/-F6qfjptAgt5VM-kVkqdyU8n3uALwl1FgsAXHNlYzg.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Mono ExtraLight'), local('IBMPlexMono-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexmono/v4/-F6qfjptAgt5VM-kVkqdyU8n3uALwlRFgsAXHNlYzg.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Mono ExtraLight'), local('IBMPlexMono-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexmono/v4/-F6qfjptAgt5VM-kVkqdyU8n3uALwl9FgsAXHNlYzg.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Mono ExtraLight'), local('IBMPlexMono-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexmono/v4/-F6qfjptAgt5VM-kVkqdyU8n3uALwl5FgsAXHNlYzg.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Mono ExtraLight'), local('IBMPlexMono-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexmono/v4/-F6qfjptAgt5VM-kVkqdyU8n3uALwlBFgsAXHNk.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin Italic'), local('IBMPlexSans-ThinItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX8KVElMYYaJe8bpLHnCwDKhdTmdJZGUdLBDGN9yT0.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin Italic'), local('IBMPlexSans-ThinItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX8KVElMYYaJe8bpLHnCwDKhdTmdJZPUdLBDGN9yT0.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin Italic'), local('IBMPlexSans-ThinItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX8KVElMYYaJe8bpLHnCwDKhdTmdJZEUdLBDGN9yT0.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin Italic'), local('IBMPlexSans-ThinItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX8KVElMYYaJe8bpLHnCwDKhdTmdJZFUdLBDGN9yT0.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin Italic'), local('IBMPlexSans-ThinItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX8KVElMYYaJe8bpLHnCwDKhdTmdJZLUdLBDGN9.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight Italic'), local('IBMPlexSans-ExtraLightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm2Idce_fuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight Italic'), local('IBMPlexSans-ExtraLightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm2IdccvfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight Italic'), local('IBMPlexSans-ExtraLightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm2IdceffuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight Italic'), local('IBMPlexSans-ExtraLightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm2IdcePfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight Italic'), local('IBMPlexSans-ExtraLightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm2IdcdvfuJGl18Q.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* sampled usage */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/stats/IBM+Plex+Sans/italic/200);
+            unicode-range: U+20;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light Italic'), local('IBMPlexSans-LightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRce_fuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light Italic'), local('IBMPlexSans-LightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRccvfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light Italic'), local('IBMPlexSans-LightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRceffuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light Italic'), local('IBMPlexSans-LightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRcePfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light Italic'), local('IBMPlexSans-LightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRcdvfuJGl18Q.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans Italic'), local('IBMPlexSans-Italic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKhdTuGqZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans Italic'), local('IBMPlexSans-Italic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKhdTuE6ZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans Italic'), local('IBMPlexSans-Italic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKhdTuGKZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans Italic'), local('IBMPlexSans-Italic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKhdTuGaZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans Italic'), local('IBMPlexSans-Italic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKhdTuF6ZJW9XjDg.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium Italic'), local('IBMPlexSans-MediumItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVce_fuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium Italic'), local('IBMPlexSans-MediumItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVccvfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium Italic'), local('IBMPlexSans-MediumItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVceffuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium Italic'), local('IBMPlexSans-MediumItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVcePfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium Italic'), local('IBMPlexSans-MediumItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVcdvfuJGl18Q.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold Italic'), local('IBMPlexSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJce_fuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold Italic'), local('IBMPlexSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJccvfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold Italic'), local('IBMPlexSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJceffuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold Italic'), local('IBMPlexSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJcePfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold Italic'), local('IBMPlexSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJcdvfuJGl18Q.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold Italic'), local('IBMPlexSans-BoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmrINce_fuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold Italic'), local('IBMPlexSans-BoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmrINccvfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold Italic'), local('IBMPlexSans-BoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmrINceffuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold Italic'), local('IBMPlexSans-BoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmrINcePfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold Italic'), local('IBMPlexSans-BoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmrINcdvfuJGl18Q.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin'), local('IBMPlexSans-Thin'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKjbLuGqZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin'), local('IBMPlexSans-Thin'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKjbLuE6ZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin'), local('IBMPlexSans-Thin'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKjbLuGKZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin'), local('IBMPlexSans-Thin'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKjbLuGaZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin'), local('IBMPlexSans-Thin'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKjbLuF6ZJW9XjDg.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight'), local('IBMPlexSans-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjR7_AIxsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight'), local('IBMPlexSans-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjR7_AIVsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight'), local('IBMPlexSans-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjR7_AI5sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight'), local('IBMPlexSans-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjR7_AI9sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight'), local('IBMPlexSans-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjR7_AIFsdP3pBms.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIxsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIVsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjXr8AI5sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjXr8AI9sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIFsdP3pBms.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans'), local('IBMPlexSans'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYXgKVElMYYaJe8bpLHnCwDKhdzeFaxOedfTDw.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans'), local('IBMPlexSans'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYXgKVElMYYaJe8bpLHnCwDKhdXeFaxOedfTDw.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans'), local('IBMPlexSans'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYXgKVElMYYaJe8bpLHnCwDKhd7eFaxOedfTDw.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans'), local('IBMPlexSans'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYXgKVElMYYaJe8bpLHnCwDKhd_eFaxOedfTDw.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans'), local('IBMPlexSans'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYXgKVElMYYaJe8bpLHnCwDKhdHeFaxOedc.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium'), local('IBMPlexSans-Medium'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjSL9AIxsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium'), local('IBMPlexSans-Medium'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjSL9AIVsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium'), local('IBMPlexSans-Medium'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjSL9AI5sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium'), local('IBMPlexSans-Medium'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjSL9AI9sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium'), local('IBMPlexSans-Medium'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjSL9AIFsdP3pBms.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold'), local('IBMPlexSans-SemiBold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjQ76AIxsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold'), local('IBMPlexSans-SemiBold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjQ76AIVsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold'), local('IBMPlexSans-SemiBold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjQ76AI5sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold'), local('IBMPlexSans-SemiBold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjQ76AI9sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold'), local('IBMPlexSans-SemiBold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjQ76AIFsdP3pBms.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold'), local('IBMPlexSans-Bold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjWr7AIxsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold'), local('IBMPlexSans-Bold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjWr7AIVsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold'), local('IBMPlexSans-Bold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjWr7AI5sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold'), local('IBMPlexSans-Bold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjWr7AI9sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold'), local('IBMPlexSans-Bold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjWr7AIFsdP3pBms.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+
+        </style>
+        <link href="/css/styles.css" rel="stylesheet">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4001/images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:4001/images/bisq-fav.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:4001/images/bisq-fav.png">
+        <link rel="icon" type="image/x-icon" href="http://localhost:4001/favicon.ico" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#404040">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="theme-color" content="#ffffff">
+
+        <title>Bisq Markets &lsaquo; Bisq - The decentralized Bitcoin exchange</title>
+
+        <script defer src="http://localhost:4001/js/jquery-3.3.1.min.js"></script>
+        <script defer src="http://localhost:4001/js/popper.min.js"></script>
+        <script defer src="http://localhost:4001/js/bootstrap.min.js"></script>
+        <script defer src="http://localhost:4001/js/scripts.js"></script>
+
+    </head>
+
+    <body class="home page-template-default page page-id-6 custom-background">
+
+<!--Select includes/main_nav according to page lang or absence of lang-->
+          
+             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top pl-md-5 pr-md-5 pl-sm-3 pr-0">
+
+    <a class="navbar-brand" href="http://localhost:4001/es/index_es"><img src="http://localhost:4001/images/bisq-logo.svg" height="30"/></a>
+    <button class="navbar-toggler pr-3 pr-md-0 collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+<!-- Language selector -->
+
+      <div class="dropdown">
+        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Español
+        </button>
+        <div class="dropdown-menu w-auto" aria-labelledby="dropdownMenuButton" style="min-width: 0;">
+          
+          
+          <a class="dropdown-item" href="/markets/">English</a>
+          
+          <a class="dropdown-item" href="/es/mercados/">Español</a>
+          
+          <a class="dropdown-item" href="/pt_PT/mercados/">Português (PT)</a>
+          
+        </div>
+      </div>
+
+
+      <ul class="navbar-nav ml-auto">
+        
+          <li class="nav-item ">
+            
+              <a class="nav-link" href="http://localhost:4001/es/visión/">Visión</a>
+            
+          </li>
+        
+          <li class="nav-item ">
+            
+              <a class="nav-link" href="http://localhost:4001/es/dao/">DAO Bisq</a>
+            
+          </li>
+        
+          <li class="nav-item ">
+            
+              <a class="nav-link" href="http://localhost:4001/es/estatísticas/">Estatísticas</a>
+            
+          </li>
+        
+          <li class="nav-item ">
+            
+              <a class="nav-link" href="http://localhost:4001/es/faq/">FAQ</a>
+            
+          </li>
+        
+          <li class="nav-item current">
+            
+              <a class="nav-link" href="http://localhost:4001/es/mercados/">Mercados</a>
+            
+          </li>
+        
+
+        
+          <li class="downloads-mobile nav-item ">
+            
+              <a class="nav-link" href="http://localhost:4001/community/">Comunidad</a>
+            
+          </li>
+        
+          <li class="downloads-mobile nav-item ">
+            
+              <a class="nav-link" href="http://localhost:4001/blog/">Blog</a>
+            
+          </li>
+        
+          <li class="downloads-mobile nav-item ">
+            
+              <a class="nav-link" rel="noopener" target="_blank" href="https://docs.bisq.network/">Documentación</a>
+            
+          </li>
+        
+
+
+
+
+          <li class="downloads-mobile nav-item ">
+              <a class="nav-link" href="http://localhost:4001/es/downloads_es">Descargas</a>
+          </li>
+
+          <li class="downloads-desktop more-info-desktop nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Aprender más
+            </a>
+            <div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="navbarDropdown">
+              <div class="dropdown-item btn-icon">
+                <div class="float-right">
+                  <a href="https://docs.bisq.network/" target='_blank'>Documentación</a>
+                </div>
+              </div>
+
+              <div class="dropdown-item btn-icon">
+                <div class="float-right">
+                  <a href="http://localhost:4001/blog/">Blog</a>
+                </div>
+              </div>
+
+              <div class="dropdown-item btn-icon">
+                <div class="float-right">
+                  <a href="http://localhost:4001/community/">Comunidad</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+
+          <li class="downloads-desktop nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Descargas
+            </a>
+            <div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="navbarDropdown">
+              
+<div class="dropdown-item btn-icon">
+  <img src="http://localhost:4001/images/icon-download-g.svg" class="os-icon os-icon-g" />
+  <img src="http://localhost:4001/images/icon-download-w.svg" class="os-icon os-icon-w" />Todas las descargas
+  <div class="float-right">
+    <a href="http://localhost:4001/es/downloads_es/">Ir a la página de descargas</a>
+  </div>
+</div>
+
+<div class="dropdown-item btn-icon">
+  <img src="http://localhost:4001/images/icon-windows-g.svg" class="os-icon os-icon-g" />
+  <img src="http://localhost:4001/images/icon-windows-w.svg" class="os-icon os-icon-w" /> Descargar para Windows
+  <div class="float-right">
+    <a class="dl-win64" href="https://bisq.network/downloads/v1.1.1/Bisq-64bit-1.1.1.exe">.exe</a>
+  </div>
+</div>
+
+
+<div class="dropdown-item btn-icon">
+  <img src="http://localhost:4001/images/icon-apple-g.svg" class="os-icon os-icon-g" />
+  <img src="http://localhost:4001/images/icon-apple-w.svg" class="os-icon os-icon-w" /> Descargar para Mac
+  <div class="float-right">
+    <a class="dl-mac" href="https://bisq.network/downloads/v1.1.1/Bisq-1.1.1.dmg">.dmg</a>
+  </div>
+</div>
+
+
+<div class="dropdown-item btn-icon">
+  <img src="http://localhost:4001/images/icon-ubuntu-g.svg" class="os-icon os-icon-g" />
+  <img src="http://localhost:4001/images/icon-ubuntu-w.svg" class="os-icon os-icon-w" /> Descargar para Debian/ubuntu
+  <div class="float-right">
+    <a class="dl-deb64" href="https://bisq.network/downloads/v1.1.1/Bisq-64bit-1.1.1.deb">.deb</a>
+  </div>
+</div>
+
+
+<div class="dropdown-item btn-icon">
+  <img src="http://localhost:4001/images/icon-linux-g.svg" class="os-icon os-icon-g" />
+  <img src="http://localhost:4001/images/icon-linux-w.svg" class="os-icon os-icon-w" /> Descargar para Red Hat/Fedora
+  <div class="float-right">
+    <a class="dl-rpm64" href="https://github.com/bisq-network/bisq/releases/download/v1.1.1/Bisq-64bit-1.1.1.rpm">.rpm</a>
+  </div>
+</div>
+
+
+<div class="dropdown-item btn-icon">
+  <img src="http://localhost:4001/images/icon-linux-g.svg" class="os-icon os-icon-g" />
+  <img src="http://localhost:4001/images/icon-linux-w.svg" class="os-icon os-icon-w" /> Descargar para Arch Linux
+  <div class="float-right">
+    <a href="https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=bisq-git">Repositorio Arch User</a></div>
+</div>
+
+<div class="dropdown-item btn-icon">
+  <img src="http://localhost:4001/images/icon-opensource-g.svg" class="os-icon os-icon-g" />
+  <img src="http://localhost:4001/images/icon-opensource-w.svg" class="os-icon os-icon-w" /> Código fuente
+  <div class="float-right">
+    <a href="https://bisq.network/downloads/archive/v1.1.1.zip">zip</a> |
+    <a href="https://bisq.network/downloads/archive/v1.1.1.tar.gz">tar.gz</a></div>
+</div>
+
+<div class="dropdown-item btn-icon">
+  <img src="http://localhost:4001/images/icon-notes-g.svg" class="os-icon os-icon-g" />
+  <img src="http://localhost:4001/images/icon-notes-w.svg" class="os-icon os-icon-w" /> Notas de lanzamiento
+  <div class="float-right">
+    <a href="https://bisq.network/downloads/v1.1.1">v1.1.1</a>
+  </div>
+</div>
+
+<div class="dropdown-item btn-icon">
+  <img src="http://localhost:4001/images/icon-verification-g.svg" class="os-icon os-icon-g" />
+  <img src="http://localhost:4001/images/icon-verification-w.svg" class="os-icon os-icon-w" /> Verificación
+  <div class="float-right">
+    <a href="https://bisq.network/downloads/v1.1.1">Firmas PGP</a> |
+    <a href="https://bisq.network/downloads/v1.1.1/29CDFD3B.asc">Clave pública PGP</a></div>
+</div>
+
+            </div>
+          </li>
+
+      </ul>
+    </div>
+</nav>
+
+          
+
+
+            
+
+                <div class="outter">
+<!-- Select includes/homepage_content according to page lang -->
+                  
+                    <div class="container pb-5 mb-5">
+    <div class="row align-items-center">
+      <!-- <div class="col-md-8 order-md-1 text-md-left pr-md-5"> -->
+      <div class="col-md-12 order-md-1 text-md-left">
+         <!-- <h1>Bisq Markets</h1> -->
+
+<link href="/css/chosen.css" rel="stylesheet">
+
+<script defer src="http://localhost:4001/js/highstock.js"></script>
+<script defer src="http://localhost:4001/js/drag-panes.js"></script>
+<script defer src="http://localhost:4001/js/exporting.js"></script>
+
+<script defer src="http://localhost:4001/js/chosen.jquery.min.js"></script>
+<script defer src="http://localhost:4001/js/date.format.js"></script>
+
+<script>
+var baseUrl="http://localhost:4001";
+</script>
+<script defer src="http://localhost:4001/js/markets.js"></script>
+
+
+
+<div class="mt-0 mb-2">
+
+  <div class="mb-5 px-0 col-12 col-md-6">
+    <select id="currency" data-placeholder="Select BTC Pair" class="chosen-select" tabindex="10">
+      <option value="acm_btc">Actinium (ACM)</option>
+<option value="ade_btc">Adeptio (ADE)</option>
+<option value="aeon_btc">Aeon (AEON)</option>
+<option value="btc_afn">Afghan Afghani (AFN)</option>
+<option value="btc_all">Albanian Lek (ALL)</option>
+<option value="btc_dzd">Algerian Dinar (DZD)</option>
+<option value="amit_btc">Amitycoin (AMIT)</option>
+<option value="btc_aoa">Angolan Kwanza (AOA)</option>
+<option value="btc_ars">Argentine Peso (ARS)</option>
+<option value="btc_amd">Armenian Dram (AMD)</option>
+<option value="arq_btc">Arqma (ARQ)</option>
+<option value="btc_awg">Aruban Florin (AWG)</option>
+<option value="ask_btc">Askcoin (ASK)</option>
+<option value="aeur_btc">Augmint Euro (AEUR)</option>
+<option value="aus_btc">Australiacash (AUS)</option>
+<option value="btc_aud">Australian Dollar (AUD)</option>
+<option value="btc_azn">Azerbaijani Manat (AZN)</option>
+<option value="btc_bsd">Bahamian Dollar (BSD)</option>
+<option value="btc_bhd">Bahraini Dinar (BHD)</option>
+<option value="btc_bdt">Bangladeshi Taka (BDT)</option>
+<option value="btc_bbd">Barbadian Dollar (BBD)</option>
+<option value="beam_btc">Beam (BEAM)</option>
+<option value="btc_byn">Belarusian Ruble (BYN)</option>
+<option value="btc_bzd">Belize Dollar (BZD)</option>
+<option value="btc_bmd">Bermudan Dollar (BMD)</option>
+<option value="btc_btn">Bhutanese Ngultrum (BTN)</option>
+<option value="xrc_btc">Bitcoin Rhodium (XRC)</option>
+<option value="darx_btc">BitDaric (DARX)</option>
+<option value="btm_btc">Bitmark (BTM)</option>
+<option value="bzc_btc">Bitzec (BZC)</option>
+<option value="blur_btc">Blur (BLUR)</option>
+<option value="btc_bob">Bolivian Boliviano (BOB)</option>
+<option value="btc_bam">Bosnia-Herzegovina Convertible Mark (BAM)</option>
+<option value="btc_bwp">Botswanan Pula (BWP)</option>
+<option value="btc_brl">Brazilian Real (BRL)</option>
+<option value="btc_gbp">British Pound (GBP)</option>
+<option value="btc_bnd">Brunei Dollar (BND)</option>
+<option value="bsq_btc">BSQ (BSQ)</option>
+<option value="btc_bgn">Bulgarian Lev (BGN)</option>
+<option value="btc_bif">Burundian Franc (BIF)</option>
+<option value="gbyte_btc">Byte (GBYTE)</option>
+<option value="btc_khr">Cambodian Riel (KHR)</option>
+<option value="btc_cad">Canadian Dollar (CAD)</option>
+<option value="btc_cve">Cape Verdean Escudo (CVE)</option>
+<option value="cash2_btc">Cash2 (CASH2)</option>
+<option value="btc_kyd">Cayman Islands Dollar (KYD)</option>
+<option value="btc_xaf">Central African CFA Franc (XAF)</option>
+<option value="btc_xpf">CFP Franc (XPF)</option>
+<option value="cha_btc">Chaucha (CHA)</option>
+<option value="btc_clp">Chilean Peso (CLP)</option>
+<option value="btc_cny">Chinese Yuan (CNY)</option>
+<option value="cloak_btc">CloakCoin (CLOAK)</option>
+<option value="btc_cop">Colombian Peso (COP)</option>
+<option value="btc_kmf">Comorian Franc (KMF)</option>
+<option value="btc_cdf">Congolese Franc (CDF)</option>
+<option value="btc_crc">Costa Rican Colón (CRC)</option>
+<option value="xcp_btc">Counterparty (XCP)</option>
+<option value="crds_btc">Credits (CRDS)</option>
+<option value="croat_btc">Croat (CROAT)</option>
+<option value="btc_hrk">Croatian Kuna (HRK)</option>
+<option value="crcl_btc">CRowdCLassic (CRCL)</option>
+<option value="btc_cup">Cuban Peso (CUP)</option>
+<option value="btc_czk">Czech Republic Koruna (CZK)</option>
+<option value="dai_btc">Dai Stablecoin (DAI)</option>
+<option value="btc_dkk">Danish Krone (DKK)</option>
+<option value="dash_btc">Dash (DASH)</option>
+<option value="dcr_btc">Decred (DCR)</option>
+<option value="onion_btc">DeepOnion (ONION)</option>
+<option value="dxo_btc">Dextro (DXO)</option>
+<option value="btc_djf">Djiboutian Franc (DJF)</option>
+<option value="doge_btc">Dogecoin (DOGE)</option>
+<option value="doi_btc">Doichain (DOI)</option>
+<option value="btc_dop">Dominican Peso (DOP)</option>
+<option value="drgl_btc">Dragonglass (DRGL)</option>
+<option value="dst_btc">DSTRA (DST)</option>
+<option value="btc_xcd">East Caribbean Dollar (XCD)</option>
+<option value="btc_egp">Egyptian Pound (EGP)</option>
+<option value="btc_ern">Eritrean Nakfa (ERN)</option>
+<option value="eth_btc">Ether (ETH)</option>
+<option value="etc_btc">Ether Classic (ETC)</option>
+<option value="eths_btc">EtherStone (ETHS)</option>
+<option value="btc_etb">Ethiopian Birr (ETB)</option>
+<option value="btc_eur">Euro (EUR)</option>
+<option value="btc_fkp">Falkland Islands Pound (FKP)</option>
+<option value="btc_fjd">Fijian Dollar (FJD)</option>
+<option value="frty_btc">FourtyTwo (FRTY)</option>
+<option value="fjc_btc">Fujicoin (FJC)</option>
+<option value="gali_btc">Galilel (GALI)</option>
+<option value="btc_gmd">Gambian Dalasi (GMD)</option>
+<option value="gmcn_btc">GambleCoin (GMCN)</option>
+<option value="btc_gel">Georgian Lari (GEL)</option>
+<option value="btc_ghs">Ghanaian Cedi (GHS)</option>
+<option value="btc_gip">Gibraltar Pound (GIP)</option>
+<option value="grin_btc">Grin (GRIN)</option>
+<option value="btc_gtq">Guatemalan Quetzal (GTQ)</option>
+<option value="btc_gnf">Guinean Franc (GNF)</option>
+<option value="btc_gyd">Guyanaese Dollar (GYD)</option>
+<option value="btc_htg">Haitian Gourde (HTG)</option>
+<option value="hatch_btc">Hatch (HATCH)</option>
+<option value="hlm_btc">Helium (HLM)</option>
+<option value="btc_hnl">Honduran Lempira (HNL)</option>
+<option value="btc_hkd">Hong Kong Dollar (HKD)</option>
+<option value="zen_btc">Horizen (ZEN)</option>
+<option value="btc_huf">Hungarian Forint (HUF)</option>
+<option value="btc_isk">Icelandic Króna (ISK)</option>
+<option value="ida_btc">IdaPay (IDA)</option>
+<option value="btc_inr">Indian Rupee (INR)</option>
+<option value="btc_idr">Indonesian Rupiah (IDR)</option>
+<option value="btc_irr">Iranian Rial (IRR)</option>
+<option value="btc_iqd">Iraqi Dinar (IQD)</option>
+<option value="ird_btc">Iridium (IRD)</option>
+<option value="btc_ils">Israeli New Sheqel (ILS)</option>
+<option value="btc_jmd">Jamaican Dollar (JMD)</option>
+<option value="btc_jpy">Japanese Yen (JPY)</option>
+<option value="btc_jod">Jordanian Dinar (JOD)</option>
+<option value="btc_kzt">Kazakhstani Tenge (KZT)</option>
+<option value="kek_btc">Kekcoin (KEK)</option>
+<option value="btc_kes">Kenyan Shilling (KES)</option>
+<option value="btc_kwd">Kuwaiti Dinar (KWD)</option>
+<option value="btc_kgs">Kyrgystani Som (KGS)</option>
+<option value="btc_lak">Laotian Kip (LAK)</option>
+<option value="btc_lbp">Lebanese Pound (LBP)</option>
+<option value="btc_lsl">Lesotho Loti (LSL)</option>
+<option value="btc_lrd">Liberian Dollar (LRD)</option>
+<option value="btc_lyd">Libyan Dinar (LYD)</option>
+<option value="ltc_btc">Litecoin (LTC)</option>
+<option value="lcp_btc">LitecoinPlus (LCP)</option>
+<option value="ltz_btc">LitecoinZ (LTZ)</option>
+<option value="lytx_btc">Lytix (LYTX)</option>
+<option value="btc_mop">Macanese Pataca (MOP)</option>
+<option value="btc_mkd">Macedonian Denar (MKD)</option>
+<option value="btc_mga">Malagasy Ariary (MGA)</option>
+<option value="btc_mwk">Malawian Kwacha (MWK)</option>
+<option value="btc_myr">Malaysian Ringgit (MYR)</option>
+<option value="btc_mvr">Maldivian Rufiyaa (MVR)</option>
+<option value="mask_btc">Mask (MASK)</option>
+<option value="btc_mro">Mauritanian Ouguiya (MRO)</option>
+<option value="btc_mur">Mauritian Rupee (MUR)</option>
+<option value="btc_mxn">Mexican Peso (MXN)</option>
+<option value="mile_btc">Mile (MILE)</option>
+<option value="mqx_btc">MirQuiX (MQX)</option>
+<option value="mbgl_btc">MobitGlobal (MBGL)</option>
+<option value="btc_mdl">Moldovan Leu (MDL)</option>
+<option value="xmr_btc">Monero (XMR)</option>
+<option value="mue_btc">MonetaryUnit (MUE)</option>
+<option value="btc_mnt">Mongolian Tugrik (MNT)</option>
+<option value="btc_mad">Moroccan Dirham (MAD)</option>
+<option value="mox_btc">MoX (MOX)</option>
+<option value="btc_mzn">Mozambican Metical (MZN)</option>
+<option value="btc_mmk">Myanmar Kyat (MMK)</option>
+<option value="nmc_btc">Namecoin (NMC)</option>
+<option value="btc_nad">Namibian Dollar (NAD)</option>
+<option value="nav_btc">Navcoin (NAV)</option>
+<option value="neos_btc">Neos (NEOS)</option>
+<option value="btc_npr">Nepalese Rupee (NPR)</option>
+<option value="btc_ang">Netherlands Antillean Guilder (ANG)</option>
+<option value="btc_twd">New Taiwan Dollar (TWD)</option>
+<option value="btc_nzd">New Zealand Dollar (NZD)</option>
+<option value="btc_nio">Nicaraguan Córdoba (NIO)</option>
+<option value="btc_ngn">Nigerian Naira (NGN)</option>
+<option value="nor_btc">Noir (NOR)</option>
+<option value="btc_kpw">North Korean Won (KPW)</option>
+<option value="btc_nok">Norwegian Krone (NOK)</option>
+<option value="btc_omr">Omani Rial (OMR)</option>
+<option value="btc_pkr">Pakistani Rupee (PKR)</option>
+<option value="btc_pab">Panamanian Balboa (PAB)</option>
+<option value="btc_pgk">Papua New Guinean Kina (PGK)</option>
+<option value="btc_pyg">Paraguayan Guarani (PYG)</option>
+<option value="pars_btc">ParsiCoin (PARS)</option>
+<option value="prsn_btc">Persona (PRSN)</option>
+<option value="btc_pen">Peruvian Nuevo Sol (PEN)</option>
+<option value="btc_php">Philippine Peso (PHP)</option>
+<option value="pink_btc">Pinkcoin (PINK)</option>
+<option value="pivx_btc">PIVX (PIVX)</option>
+<option value="ple_btc">Plenteum (PLE)</option>
+<option value="btc_pln">Polish Zloty (PLN)</option>
+<option value="pzdc_btc">PZDC (PZDC)</option>
+<option value="btc_qar">Qatari Rial (QAR)</option>
+<option value="qbs_btc">Qbase (QBS)</option>
+<option value="qmcoin_btc">QMCoin (QMCoin)</option>
+<option value="qwc_btc">Qwertycoin (QWC)</option>
+<option value="rads_btc">Radium (RADS)</option>
+<option value="rmx_btc">Remix (RMX)</option>
+<option value="btc_ron">Romanian Leu (RON)</option>
+<option value="btc_rub">Russian Ruble (RUB)</option>
+<option value="btc_rwf">Rwandan Franc (RWF)</option>
+<option value="ryo_btc">Ryo (RYO)</option>
+<option value="btc_svc">Salvadoran Colón (SVC)</option>
+<option value="btc_wst">Samoan Tala (WST)</option>
+<option value="btc_sar">Saudi Riyal (SAR)</option>
+<option value="btc_rsd">Serbian Dinar (RSD)</option>
+<option value="btc_scr">Seychellois Rupee (SCR)</option>
+<option value="sf_btc">Siafund (SF)</option>
+<option value="scp_btc">SiaPrimeCoin (SCP)</option>
+<option value="btc_sll">Sierra Leonean Leone (SLL)</option>
+<option value="btc_sgd">Singapore Dollar (SGD)</option>
+<option value="btc_sbd">Solomon Islands Dollar (SBD)</option>
+<option value="btc_sos">Somali Shilling (SOS)</option>
+<option value="btc_zar">South African Rand (ZAR)</option>
+<option value="btc_krw">South Korean Won (KRW)</option>
+<option value="btc_ssp">South Sudanese Pound (SSP)</option>
+<option value="space_btc">SpaceCash (SPACE)</option>
+<option value="xspec_btc">Spectrecoin (XSPEC)</option>
+<option value="btc_lkr">Sri Lankan Rupee (LKR)</option>
+<option value="btc_shp">St. Helena Pound (SHP)</option>
+<option value="mai_btc">Starwels (MAI)</option>
+<option value="sub1x_btc">SUB1X (SUB1X)</option>
+<option value="btc_sdg">Sudanese Pound (SDG)</option>
+<option value="btc_srd">Surinamese Dollar (SRD)</option>
+<option value="btc_szl">Swazi Lilangeni (SZL)</option>
+<option value="btc_sek">Swedish Krona (SEK)</option>
+<option value="btc_chf">Swiss Franc (CHF)</option>
+<option value="btc_syp">Syrian Pound (SYP)</option>
+<option value="btc_stn">São Tomé and Príncipe Dobra (STN)</option>
+<option value="btc_tjs">Tajikistani Somoni (TJS)</option>
+<option value="btc_tzs">Tanzanian Shilling (TZS)</option>
+<option value="btc_thb">Thai Baht (THB)</option>
+<option value="btc_top">Tongan Paʻanga (TOP)</option>
+<option value="btc_ttd">Trinidad & Tobago Dollar (TTD)</option>
+<option value="tusd_btc">TrueUSD (TUSD)</option>
+<option value="teo_btc">Trust Ether reOrigin (TEO)</option>
+<option value="btc_tnd">Tunisian Dinar (TND)</option>
+<option value="btc_try">Turkish Lira (TRY)</option>
+<option value="btc_tmt">Turkmenistani Manat (TMT)</option>
+<option value="trtl_btc">TurtleCoin (TRTL)</option>
+<option value="btc_ugx">Ugandan Shilling (UGX)</option>
+<option value="btc_uah">Ukrainian Hryvnia (UAH)</option>
+<option value="btc_aed">United Arab Emirates Dirham (AED)</option>
+<option value="ucc_btc">UnitedCommunityCoin (UCC)</option>
+<option value="uno_btc">Unobtanium (UNO)</option>
+<option value="btc_uyu">Uruguayan Peso (UYU)</option>
+<option value="btc_usd">US Dollar (USD)</option>
+<option value="usdc_btc">USD Coin (USDC)</option>
+<option value="btc_uzs">Uzbekistani Som (UZS)</option>
+<option value="btc_vuv">Vanuatu Vatu (VUV)</option>
+<option value="vxv_btc">VectorspaceAI (VXV)</option>
+<option value="veil_btc">Veil (VEIL)</option>
+<option value="btc_vef">Venezuelan Bolívar (VEF)</option>
+<option value="btc_vnd">Vietnamese Dong (VND)</option>
+<option value="web_btc">Webchain (WEB)</option>
+<option value="btc_xof">West African CFA Franc (XOF)</option>
+<option value="wrkz_btc">WrkzCoin (WRKZ)</option>
+<option value="xdr0_btc">XDR (XDR0)</option>
+<option value="btc_yer">Yemeni Rial (YER)</option>
+<option value="btc_zmw">Zambian Kwacha (ZMW)</option>
+<option value="zec_btc">Zcash (ZEC)</option>
+<option value="xzc_btc">Zcoin (XZC)</option>
+<option value="zel_btc">ZelCash (ZEL)</option>
+<option value="zer_btc">Zero (ZER)</option>
+<option value="btc_zwl">Zimbabwean Dollar (2009) (ZWL)</option>
+
+    </select>
+  </div>
+
+  <div id="container" style="height: 500px; min-width: 100%"></div>
+
+
+
+</div>
+
+
+<div id="tables" class="pt-5 pb-5">
+
+    <div class="row mt-5 mb-5" id="offers" style="display:none">
+      <div class="col col-12 col-md-6 pr-3 pr-md-5">
+        <h3>Comprar ofertas BTC</h3>
+        <table class="mt-3" id="buy-offers">
+          <thead id="buy-offers-header">
+          </thead>
+          <tbody id="buy-offers-body">
+          </tbody>
+        </table>
+      </div>
+
+      <div class="col col-12 col-md-6 pl-3 pl-md-5 mt-5 mt-md-0">
+        <h3>Vender ofertas BTC</h3>
+        <table class="mt-3" id="sell-offers">
+          <thead id="sell-offers-header">
+          </thead>
+          <tbody id="sell-offers-body">
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col col-12 mt-5">
+        <h3>Historial de intercambios <span class="grey">(Últimos 100 intercambios)</span></h3>
+        <table class="mt-3" id="trade-history">
+          <thead id="trade-history-header">
+          </thead>
+          <tbody id="trade-history-body">
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+</div>
+
+
+<style>
+
+td {
+    padding: 0;
+}
+
+#container {
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.14);
+  -moz-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.14);
+  box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.14);
+  /*
+  background: url(http://localhost:4001/images/green.svg);
+  background-repeat-y: no-repeat;
+  background-position: 0% 109.7%;
+  background-repeat: repeat-x;
+  */
+}
+
+rect.highcharts-plot-background {
+    fill: #fff;
+}
+
+.highcharts-title {
+  z-index: 0;
+}
+
+.highcharts-tooltip {
+  z-index: 9998!important;
+}
+
+.highcharts-tooltip div {
+  background-color: white;
+  border: 1px solid #E2E2E2;
+  opacity: 1;
+  z-index: 9999!important;
+  padding: 5px
+}
+
+.highcharts-title .price, .highcharts-title .currency-pair, .highcharts-title .btc-note{
+    fill: #25B135;
+    color: #25B135;
+    font-weight: 300;
+    font-size: 40px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    overflow-x: hidden;
+    letter-spacing: 0.03rem;
+}
+
+.highcharts-title .currency-pair {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.highcharts-title .btc-note {
+  fill: #a5a5a5;
+  color: #a5a5a5;
+  font-size: 16px;
+  display: block;
+}
+
+.highcharts-tooltip {
+    -moz-box-shadow: 20px 20px 20px #888;
+    -webkit-box-shadow: 20px 20px 20px #888;
+    box-shadow: 20px 20px 20px #888;
+    min-width: 200px;
+    z-index: 1000000;
+}
+
+.highcharts-column-series rect{
+    opacity: .5
+}
+
+.xaxis-background {
+  position: absolute; bottom: 0; width: 100%; background: red
+}
+
+#tables tbody tr {
+    border-bottom: #ececec 1px solid;
+    margin: 20px 0;
+}
+
+#tables thead {
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+#tables tr:hover {
+    background: #ecf9ed;
+}
+
+#tables thead tr:hover {
+    background: initial;
+}
+
+#tables td{
+    text-align: left;
+    padding: 10px 0;
+}
+
+#tables td:last-child, #tables th:last-child {
+  text-align:right;
+}
+
+#tables th {
+    font-weight: 400;
+    font-size: 0.8em;
+    color: #ccc;
+    text-align: left;
+}
+
+#tables table {
+    border: none;
+    box-shadow: none;
+    width:100%;
+}
+
+
+</style>
+
+      </div>
+    </div>
+</div>
+
+                  
+                </div>
+
+            
+
+<!-- Select includes/footer according to page lang -->
+              
+                <footer class="page-footer font-small blue pt-2 pt-md-5 dark-grey">
+
+
+    <div class="container-fluid text-md-left px-0">
+
+      <div class="row mx-0 pb-md-5 pb-sm-5">
+
+        <div class="col-12 col-lg-4 mt-md-0 mt-3 pl-md-5 pl-sm-3 small px-sm-4 px-4">
+          <h5 class="text-uppercase small grey">App de notificaciones de celular Bisq</h5>
+          <a target="_blank" rel="noopener" class="app-link" href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq"><img class="badge-img" alt="Get it on Google Play" src="http://localhost:4001/images/badge_google_play.svg"/></a>
+          &nbsp;
+          <a target="_blank" rel="noopener" class="app-link" href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411"><img class="badge-img" alt="Get it on the App Store" src="http://localhost:4001/images/badge_app_store.svg"/></a>
+
+
+          <div class="text-left small grey pt-4">
+            © 2019 Bisq
+          </div>
+
+
+
+
+
+
+        </div>
+
+        <hr class="clearfix w-100 d-lg-none pb-3">
+
+        <div class="col-12 col-lg-5 mb-md-0 mb-3 pr-md-5 pr-sm-2 small px-4 px-md-5">
+          <h5 class="text-uppercase small grey">Recursos</h5>
+          <ul class="list-unstyled divide-3col" style="column-gap: 3rem;">
+            <!--<li>
+              <a href="http://localhost:4001/press">Press</a>
+            </li>-->
+            <li>
+              <a href="http://localhost:4001/es/downloads_es">Descargas</a>
+            </li>
+            <li>
+              <a href="http://localhost:4001/roadmap">Hoja de ruta</a>
+            </li>
+            <li>
+              <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">Contribuir</a>
+            </li>
+            <li>
+              <a href="https://markets.bisq.network/api/" target="_blank" rel="noopener">API datos de mercado</a>
+            </li>
+            <!--
+            lets activate it once we have a dynamic content
+            <li>
+               <a href="http://localhost:4001/stats">Stats</a>
+             </li>-->
+          </ul>
+        </div>
+
+        <hr class="clearfix w-100 d-lg-none pb-3">
+
+        <div class="col-12 col-lg-3 mb-md-0 mb-3 small px-4 px-md-5 pb-1 pb-5">
+
+          <h5 class="text-uppercase small grey">Unirse a Bisq</h5>
+
+          <span id="community-footer">
+            <a target="_blank" rel="noopener" title="GitHub" href="https://github.com/bisq-network"> <img src="http://localhost:4001/images/community/github_w.svg" alt="github"> </a>
+            <a target="_blank" rel="noopener" title="Twitter" href="https://twitter.com/bisq_network"> <img src="http://localhost:4001/images/community/twitter_w.svg" alt="twitter"> </a>
+            <a target="_blank" rel="noopener" title="YouTube" href="https://www.youtube.com/c/bisq-network"><img src="http://localhost:4001/images/community/youtube_w.svg" alt="youtube"> </a>
+            <a target="_blank" rel="noopener" title="Slack" href="https://bisq.network/slack-invite"><img src="http://localhost:4001/images/community/slack_w.svg" alt="slack"> </a>
+            <a target="_blank" rel="noopener" title="Bisq Forum" href="https://bisq.community"><img src="http://localhost:4001/images/community/forum_w.svg" alt="forum"> </a>
+            <a target="_blank" rel="noopener" title="Mailing List" href="https://lists.bisq.network/listinfo/bisq-contrib"><img src="http://localhost:4001/images/community/mailinglist_w.svg" alt="mailinglist"> </a>
+            <a target="_blank" rel="noopener" title="IRC" href="https://webchat.freenode.net/?channels=bisq"><img src="http://localhost:4001/images/community/irc_w.svg" alt="irc"> </a>
+            <a target="_blank" rel="noopener" title="Reddit" href="https://www.reddit.com/r/bisq"><img src="http://localhost:4001/images/community/reddit_w.svg" alt="reddit"> </a>
+          </span>
+
+          </div>
+      </div>
+    </div>
+
+
+
+  </footer>
+
+              
+
+
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-104074395-1', 'auto');
+            
+            ga('send', 'pageview');
+            
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,1356 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+        <meta name="author" content="Bisq">
+
+        <meta name="description" content="Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative crypto currencies.">
+        <meta name="image" content="http://localhost:4001/images/bisq-og.jpg">
+        <meta itemprop="name" content="Bisq">
+        <meta itemprop="description" content="Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative crypto currencies.">
+        <meta itemprop="image" content="http://localhost:4001/images/bisq-og.jpg">
+        <meta name="og:title" content="FAQ &lsaquo; Bisq - The decentralized Bitcoin exchange">
+        <meta name="og:description" content="Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative crypto currencies.">
+        <meta name="og:image" content="http://localhost:4001/images/bisq-og.jpg">
+        <meta name="og:site_name" content="Bisq - The decentralized Bitcoin exchange">
+        <meta name="og:type" content="website">
+        <meta property="twitter:title" content="FAQ &lsaquo; Bisq - The decentralized Bitcoin exchange">
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:site" content="Bisq - The decentralized Bitcoin exchange">
+        <meta name="twitter:creator" content="@bisq_network">
+        <link rel="canonical" href="http://localhost:4001/es/faq/">
+
+        <style>
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Mono ExtraLight'), local('IBMPlexMono-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexmono/v4/-F6qfjptAgt5VM-kVkqdyU8n3uALwl1FgsAXHNlYzg.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Mono ExtraLight'), local('IBMPlexMono-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexmono/v4/-F6qfjptAgt5VM-kVkqdyU8n3uALwlRFgsAXHNlYzg.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Mono ExtraLight'), local('IBMPlexMono-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexmono/v4/-F6qfjptAgt5VM-kVkqdyU8n3uALwl9FgsAXHNlYzg.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Mono ExtraLight'), local('IBMPlexMono-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexmono/v4/-F6qfjptAgt5VM-kVkqdyU8n3uALwl5FgsAXHNlYzg.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Mono ExtraLight'), local('IBMPlexMono-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexmono/v4/-F6qfjptAgt5VM-kVkqdyU8n3uALwlBFgsAXHNk.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin Italic'), local('IBMPlexSans-ThinItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX8KVElMYYaJe8bpLHnCwDKhdTmdJZGUdLBDGN9yT0.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin Italic'), local('IBMPlexSans-ThinItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX8KVElMYYaJe8bpLHnCwDKhdTmdJZPUdLBDGN9yT0.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin Italic'), local('IBMPlexSans-ThinItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX8KVElMYYaJe8bpLHnCwDKhdTmdJZEUdLBDGN9yT0.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin Italic'), local('IBMPlexSans-ThinItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX8KVElMYYaJe8bpLHnCwDKhdTmdJZFUdLBDGN9yT0.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin Italic'), local('IBMPlexSans-ThinItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX8KVElMYYaJe8bpLHnCwDKhdTmdJZLUdLBDGN9.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight Italic'), local('IBMPlexSans-ExtraLightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm2Idce_fuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight Italic'), local('IBMPlexSans-ExtraLightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm2IdccvfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight Italic'), local('IBMPlexSans-ExtraLightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm2IdceffuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight Italic'), local('IBMPlexSans-ExtraLightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm2IdcePfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight Italic'), local('IBMPlexSans-ExtraLightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm2IdcdvfuJGl18Q.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* sampled usage */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 200;
+            font-display: swap;
+            src: url(https://fonts.gstatic.com/stats/IBM+Plex+Sans/italic/200);
+            unicode-range: U+20;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light Italic'), local('IBMPlexSans-LightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRce_fuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light Italic'), local('IBMPlexSans-LightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRccvfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light Italic'), local('IBMPlexSans-LightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRceffuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light Italic'), local('IBMPlexSans-LightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRcePfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light Italic'), local('IBMPlexSans-LightItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmvIRcdvfuJGl18Q.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans Italic'), local('IBMPlexSans-Italic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKhdTuGqZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans Italic'), local('IBMPlexSans-Italic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKhdTuE6ZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans Italic'), local('IBMPlexSans-Italic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKhdTuGKZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans Italic'), local('IBMPlexSans-Italic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKhdTuGaZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans Italic'), local('IBMPlexSans-Italic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKhdTuF6ZJW9XjDg.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium Italic'), local('IBMPlexSans-MediumItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVce_fuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium Italic'), local('IBMPlexSans-MediumItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVccvfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium Italic'), local('IBMPlexSans-MediumItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVceffuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium Italic'), local('IBMPlexSans-MediumItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVcePfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium Italic'), local('IBMPlexSans-MediumItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTm5IVcdvfuJGl18Q.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold Italic'), local('IBMPlexSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJce_fuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold Italic'), local('IBMPlexSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJccvfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold Italic'), local('IBMPlexSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJceffuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold Italic'), local('IBMPlexSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJcePfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold Italic'), local('IBMPlexSans-SemiBoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmyIJcdvfuJGl18Q.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold Italic'), local('IBMPlexSans-BoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmrINce_fuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold Italic'), local('IBMPlexSans-BoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmrINccvfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold Italic'), local('IBMPlexSans-BoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmrINceffuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold Italic'), local('IBMPlexSans-BoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmrINcePfuJGl18QRY.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: italic;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold Italic'), local('IBMPlexSans-BoldItalic'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX7KVElMYYaJe8bpLHnCwDKhdTmrINcdvfuJGl18Q.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin'), local('IBMPlexSans-Thin'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKjbLuGqZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin'), local('IBMPlexSans-Thin'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKjbLuE6ZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin'), local('IBMPlexSans-Thin'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKjbLuGKZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin'), local('IBMPlexSans-Thin'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKjbLuGaZJW9XjDlN8.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 100;
+            font-display: swap;
+            src: local('IBM Plex Sans Thin'), local('IBMPlexSans-Thin'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX-KVElMYYaJe8bpLHnCwDKjbLuF6ZJW9XjDg.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight'), local('IBMPlexSans-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjR7_AIxsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight'), local('IBMPlexSans-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjR7_AIVsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight'), local('IBMPlexSans-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjR7_AI5sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight'), local('IBMPlexSans-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjR7_AI9sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 200;
+            font-display: swap;
+            src: local('IBM Plex Sans ExtraLight'), local('IBMPlexSans-ExtraLight'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjR7_AIFsdP3pBms.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIxsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIVsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjXr8AI5sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjXr8AI9sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('IBM Plex Sans Light'), local('IBMPlexSans-Light'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjXr8AIFsdP3pBms.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans'), local('IBMPlexSans'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYXgKVElMYYaJe8bpLHnCwDKhdzeFaxOedfTDw.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans'), local('IBMPlexSans'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYXgKVElMYYaJe8bpLHnCwDKhdXeFaxOedfTDw.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans'), local('IBMPlexSans'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYXgKVElMYYaJe8bpLHnCwDKhd7eFaxOedfTDw.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans'), local('IBMPlexSans'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYXgKVElMYYaJe8bpLHnCwDKhd_eFaxOedfTDw.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('IBM Plex Sans'), local('IBMPlexSans'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYXgKVElMYYaJe8bpLHnCwDKhdHeFaxOedc.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium'), local('IBMPlexSans-Medium'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjSL9AIxsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium'), local('IBMPlexSans-Medium'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjSL9AIVsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium'), local('IBMPlexSans-Medium'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjSL9AI5sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium'), local('IBMPlexSans-Medium'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjSL9AI9sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: local('IBM Plex Sans Medium'), local('IBMPlexSans-Medium'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjSL9AIFsdP3pBms.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold'), local('IBMPlexSans-SemiBold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjQ76AIxsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold'), local('IBMPlexSans-SemiBold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjQ76AIVsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold'), local('IBMPlexSans-SemiBold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjQ76AI5sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold'), local('IBMPlexSans-SemiBold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjQ76AI9sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: local('IBM Plex Sans SemiBold'), local('IBMPlexSans-SemiBold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjQ76AIFsdP3pBms.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+          /* cyrillic-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold'), local('IBMPlexSans-Bold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjWr7AIxsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+          }
+          /* cyrillic */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold'), local('IBMPlexSans-Bold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjWr7AIVsdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+          }
+          /* vietnamese */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold'), local('IBMPlexSans-Bold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjWr7AI5sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+          }
+          /* latin-ext */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold'), local('IBMPlexSans-Bold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjWr7AI9sdP3pBmtF8A.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+          }
+          /* latin */
+          @font-face {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: local('IBM Plex Sans Bold'), local('IBMPlexSans-Bold'), url(https://fonts.gstatic.com/s/ibmplexsans/v4/zYX9KVElMYYaJe8bpLHnCwDKjWr7AIFsdP3pBms.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+          }
+
+        </style>
+        <link href="/css/styles.css" rel="stylesheet">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4001/images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:4001/images/bisq-fav.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:4001/images/bisq-fav.png">
+        <link rel="icon" type="image/x-icon" href="http://localhost:4001/favicon.ico" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#404040">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="theme-color" content="#ffffff">
+
+        <title>FAQ &lsaquo; Bisq - The decentralized Bitcoin exchange</title>
+
+        <script defer src="http://localhost:4001/js/jquery-3.3.1.min.js"></script>
+        <script defer src="http://localhost:4001/js/popper.min.js"></script>
+        <script defer src="http://localhost:4001/js/bootstrap.min.js"></script>
+        <script defer src="http://localhost:4001/js/scripts.js"></script>
+
+    </head>
+
+    <body class="home page-template-default page page-id-6 custom-background">
+
+<!--Select includes/main_nav according to page lang or absence of lang-->
+          
+             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top pl-md-5 pr-md-5 pl-sm-3 pr-0">
+
+    <a class="navbar-brand" href="http://localhost:4001/es/index_es"><img src="http://localhost:4001/images/bisq-logo.svg" height="30"/></a>
+    <button class="navbar-toggler pr-3 pr-md-0 collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+<!-- Language selector -->
+
+      <div class="dropdown">
+        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Español
+        </button>
+        <div class="dropdown-menu w-auto" aria-labelledby="dropdownMenuButton" style="min-width: 0;">
+          
+          
+          <a class="dropdown-item" href="/faq/">English</a>
+          
+          <a class="dropdown-item" href="/es/faq/">Español</a>
+          
+          <a class="dropdown-item" href="/pt_PT/faq/">Português (PT)</a>
+          
+        </div>
+      </div>
+
+
+      <ul class="navbar-nav ml-auto">
+        
+          <li class="nav-item ">
+            
+              <a class="nav-link" href="http://localhost:4001/es/visión/">Visión</a>
+            
+          </li>
+        
+          <li class="nav-item ">
+            
+              <a class="nav-link" href="http://localhost:4001/es/dao/">DAO Bisq</a>
+            
+          </li>
+        
+          <li class="nav-item ">
+            
+              <a class="nav-link" href="http://localhost:4001/es/estatísticas/">Estatísticas</a>
+            
+          </li>
+        
+          <li class="nav-item current">
+            
+              <a class="nav-link" href="http://localhost:4001/es/faq/">FAQ</a>
+            
+          </li>
+        
+          <li class="nav-item ">
+            
+              <a class="nav-link" href="http://localhost:4001/es/mercados/">Mercados</a>
+            
+          </li>
+        
+
+        
+          <li class="downloads-mobile nav-item ">
+            
+              <a class="nav-link" href="http://localhost:4001/community/">Comunidad</a>
+            
+          </li>
+        
+          <li class="downloads-mobile nav-item ">
+            
+              <a class="nav-link" href="http://localhost:4001/blog/">Blog</a>
+            
+          </li>
+        
+          <li class="downloads-mobile nav-item ">
+            
+              <a class="nav-link" rel="noopener" target="_blank" href="https://docs.bisq.network/">Documentación</a>
+            
+          </li>
+        
+
+
+
+
+          <li class="downloads-mobile nav-item ">
+              <a class="nav-link" href="http://localhost:4001/es/downloads_es">Descargas</a>
+          </li>
+
+          <li class="downloads-desktop more-info-desktop nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Aprender más
+            </a>
+            <div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="navbarDropdown">
+              <div class="dropdown-item btn-icon">
+                <div class="float-right">
+                  <a href="https://docs.bisq.network/" target='_blank'>Documentación</a>
+                </div>
+              </div>
+
+              <div class="dropdown-item btn-icon">
+                <div class="float-right">
+                  <a href="http://localhost:4001/blog/">Blog</a>
+                </div>
+              </div>
+
+              <div class="dropdown-item btn-icon">
+                <div class="float-right">
+                  <a href="http://localhost:4001/community/">Comunidad</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+
+          <li class="downloads-desktop nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Descargas
+            </a>
+            <div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="navbarDropdown">
+              
+<div class="dropdown-item btn-icon">
+  <img src="http://localhost:4001/images/icon-download-g.svg" class="os-icon os-icon-g" />
+  <img src="http://localhost:4001/images/icon-download-w.svg" class="os-icon os-icon-w" />Todas las descargas
+  <div class="float-right">
+    <a href="http://localhost:4001/es/downloads_es/">Ir a la página de descargas</a>
+  </div>
+</div>
+
+<div class="dropdown-item btn-icon">
+  <img src="http://localhost:4001/images/icon-windows-g.svg" class="os-icon os-icon-g" />
+  <img src="http://localhost:4001/images/icon-windows-w.svg" class="os-icon os-icon-w" /> Descargar para Windows
+  <div class="float-right">
+    <a class="dl-win64" href="https://bisq.network/downloads/v1.1.1/Bisq-64bit-1.1.1.exe">.exe</a>
+  </div>
+</div>
+
+
+<div class="dropdown-item btn-icon">
+  <img src="http://localhost:4001/images/icon-apple-g.svg" class="os-icon os-icon-g" />
+  <img src="http://localhost:4001/images/icon-apple-w.svg" class="os-icon os-icon-w" /> Descargar para Mac
+  <div class="float-right">
+    <a class="dl-mac" href="https://bisq.network/downloads/v1.1.1/Bisq-1.1.1.dmg">.dmg</a>
+  </div>
+</div>
+
+
+<div class="dropdown-item btn-icon">
+  <img src="http://localhost:4001/images/icon-ubuntu-g.svg" class="os-icon os-icon-g" />
+  <img src="http://localhost:4001/images/icon-ubuntu-w.svg" class="os-icon os-icon-w" /> Descargar para Debian/ubuntu
+  <div class="float-right">
+    <a class="dl-deb64" href="https://bisq.network/downloads/v1.1.1/Bisq-64bit-1.1.1.deb">.deb</a>
+  </div>
+</div>
+
+
+<div class="dropdown-item btn-icon">
+  <img src="http://localhost:4001/images/icon-linux-g.svg" class="os-icon os-icon-g" />
+  <img src="http://localhost:4001/images/icon-linux-w.svg" class="os-icon os-icon-w" /> Descargar para Red Hat/Fedora
+  <div class="float-right">
+    <a class="dl-rpm64" href="https://github.com/bisq-network/bisq/releases/download/v1.1.1/Bisq-64bit-1.1.1.rpm">.rpm</a>
+  </div>
+</div>
+
+
+<div class="dropdown-item btn-icon">
+  <img src="http://localhost:4001/images/icon-linux-g.svg" class="os-icon os-icon-g" />
+  <img src="http://localhost:4001/images/icon-linux-w.svg" class="os-icon os-icon-w" /> Descargar para Arch Linux
+  <div class="float-right">
+    <a href="https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=bisq-git">Repositorio Arch User</a></div>
+</div>
+
+<div class="dropdown-item btn-icon">
+  <img src="http://localhost:4001/images/icon-opensource-g.svg" class="os-icon os-icon-g" />
+  <img src="http://localhost:4001/images/icon-opensource-w.svg" class="os-icon os-icon-w" /> Código fuente
+  <div class="float-right">
+    <a href="https://bisq.network/downloads/archive/v1.1.1.zip">zip</a> |
+    <a href="https://bisq.network/downloads/archive/v1.1.1.tar.gz">tar.gz</a></div>
+</div>
+
+<div class="dropdown-item btn-icon">
+  <img src="http://localhost:4001/images/icon-notes-g.svg" class="os-icon os-icon-g" />
+  <img src="http://localhost:4001/images/icon-notes-w.svg" class="os-icon os-icon-w" /> Notas de lanzamiento
+  <div class="float-right">
+    <a href="https://bisq.network/downloads/v1.1.1">v1.1.1</a>
+  </div>
+</div>
+
+<div class="dropdown-item btn-icon">
+  <img src="http://localhost:4001/images/icon-verification-g.svg" class="os-icon os-icon-g" />
+  <img src="http://localhost:4001/images/icon-verification-w.svg" class="os-icon os-icon-w" /> Verificación
+  <div class="float-right">
+    <a href="https://bisq.network/downloads/v1.1.1">Firmas PGP</a> |
+    <a href="https://bisq.network/downloads/v1.1.1/29CDFD3B.asc">Clave pública PGP</a></div>
+</div>
+
+            </div>
+          </li>
+
+      </ul>
+    </div>
+</nav>
+
+          
+
+
+            
+
+                <div class="outter">
+<!-- Select includes/homepage_content according to page lang -->
+                  
+                    <div class="container pb-5 mb-5">
+    <div class="row align-items-center">
+      <!-- <div class="col-md-8 order-md-1 text-md-left pr-md-5"> -->
+      <div class="col-md-12 order-md-1 text-md-left">
+         
+<h1>FAQ</h1>
+<h4 class="mt-5 pb-3">Funciones principales</h4>
+<div class="accordion border-bottom mb-5">
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="safe-open-source">Bisq es seguro y de código abierto?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    <p>Sí, el software de Bisq es de código abierto y con licencia bajo la Versión 3 de la GNU Affero General Public License. Aquí está el 
+  <a href="https://github.com/bisq-network/bisq/" target="_blank">código fuente</a> y
+  <a href="https://github.com/bisq-network/bisq/blob/master/LICENSE" target="_blank">la licencia</a>.</p>
+<p>Bisq emplea tres mecanismos primarios para conseguir la seguridad:</p> <ol>
+  <li>todos los bitcoins intercambiados en Bisq son asegurados en una dirección
+<a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">multifirma</a> 2-de-3.</li>
+  <li>Ambas partes tienen que pagar depósitos de seguridad Estos son devueltos después de que el intercambio se complete.</li>
+  <li>Bisq usa un sistema de árbitros para encargarse de las disputas.</li>
+</ol> <p>Al intercambiar moneda fiat por bitcoin, siempre hay cierto riesgo de devolución de cargo, debido a que las transcciones fiat pueden son técnicamente reversibles. Para mitigar este riesgo, Bisq solo soporta métodos de pago en los que se conozca que hacer una reversión de pago es difícil. Por eso Bisq no soporta Paypal y
+ tarjetas de crédito, por ejemplo.</p>
+<p>Lea <a href="#chargeback-details">aquí</a> para más información acerca de riesgos de devolución de cargo</p>
+
+  </div>
+
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="how-bisq-different">Hay otros exchanges descentralizados. En qué se diferencia Bisq?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    <p>Actualmente no hay otro proyecto que encaje con nuestra definición de excange descentralizado de fiat-bitcoin. <a href="https://openbazaar.org/" target="_blank">OpenBazaar</a> es un proyecto que se acerca a reflejar los principios de Bisq, pero es un mercado de propósito general,
+no un exchange especializado en moneda.</p>
+  <p>Muchas casas de cambio que dicen ser descentralizadas no soportan el intercambio de fiat, u operan con una arquitectura cliente-servidor y no encajan con nuestra definición. Y por supuesto hay muchos proyectos de ICO con whitepapers
+ que aún no han probado poder entregar algún software que funcione.
+</p> <p>Para ser adecuadamente descentralizado, uno debe evitar puntos únicos de fallo:</p> <ul>
+    <li>Bisq no retiene bitcoins. Todos son guardados en direcciones multifirma en vez de un monedero controlado por Bisq.</li>
+    <li>Bisq no retiene moneda nacional. La moneda nacional es transferida directamente desde el comprador al vendedor</li>
+    <li>Bisq utiliza una red P2P a través de Tor. Esto significa que no hay servidores para hackear o realizar un ataque DDoS.</li>
+    <li>Bisq does not know traders. No data is stored on who trades with whom.</li>
+    <li>Bisq does not require registration. This means privacy is maintained, there are no “approval” wait times, and identity theft is impossible.</li>
+    <li>Bisq is not a company. It is an open-source project organized as a <a href="https://docs.bisq.network/user-dao-intro.html#what-is-a-dao" target="_blank" rel="noopener">Decentralized Autonomous Organization (DAO)</a>.
+    </li>
+</ul>
+
+  </div>
+
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="supported-payment-methods">¿Qué métodos de pago son soportados?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    <ul>
+  <li>Advanced Cash</li>
+  <li>AliPay</li>
+  <li>Cara a cara (en persona)</li>
+  <li>Cash Deposit</li>
+  <li>Chase QuickPay</li>
+  <li>Faster Payments</li>
+  <li>HalCash</li>
+  <li>Interac e-Transfer</li>
+  <li>MoneyBeam (N26)</li>
+  <li>MoneyGram</li>
+  <li>Perfect Money</li>
+  <li>Popmoney</li>
+  <li>PromptPay</li>
+  <li>Revolut</li>
+  <li>SEPA</li>
+  <li>SEPA Instant</li>
+  <li>Swish</li>
+  <li>Transferencia Bancaria Nacional</li>
+  <li>Transferencia con el mismo banco with same bank</li>
+  <li>Transferencia con bancos específicos</li>
+  <li>Uphold</li>
+  <li>US Postal Money Order</li>
+  <li>WeChat Pay</li>
+  <li>Western Union</li>
+  <li>Zelle (ClearXchange)</li>
+</ul>
+
+  </div>
+</div>
+
+<h4 class="pt-5 mt-5 pb-3">Detalles de los intercambios</h4>
+<div class="accordion border-bottom mb-5">
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="trade-limits">¿Cuáles son los límites de intercambio?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    <p class='font-italic'>Intercambios fiat</p> <p>Para desincentivar el fraude an las transacciones fiat, Bisq impone límites en la cantidad de los intercambios. Estos límites dependen del riesgo de devolución de cargo de cada método de pago y de la edad de cada cuenta (v.g. el tiempo desde que se introdujo la cuenta de pago en Bisq).</p> <p>No hay límites en el número de intercambios que se pueden hacer, solo en la cantidad por intercambio.</p> <p>Para la mayoría de los métodos de pago basados en bancos como SEPA o Zelle el límite de intercambio es de 0.5 BTC por intercambio. Para servicios como Swish, Perfect Money o Alipay es 1 BTC. Para métodos de pago recientemente añadidos como Revolut, Popmoney y MoneyBeam (N26) el límite de intercambio es 0.25 BTC.</p> <p>Cuando añades por primera vez una cuenta de pago fiat a Bisq, su límite de intercambio será el 25% del límite de intercambio máximo. Se incrementará cada 30 días hasta que se alcance el límite máximo. </p> <p class='font-italic'>Intercambios de Altcoins</p> <p>Los intercambios de altcoins de hasta 2 BTC se permiten desde el día uno. Las altcoins no tienen riesgo de devolución de cargo y por tanto no es necesario considerar la edad de las cuentas.</p>
+
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="why-security-deposit">¿Por qué requiere Bisq un depósito de seguridad?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    <p>Los depósitos de seguridad crean incentivos para el comprador y el vendedor para seguir el las reglas del protocolo de intercambio de Bisq. Los fondos se bloquean en escrow multifirma junto con los bitcoin a intercambiar, y se devuelven a cada participante cuando el intercambio se completa con éxito.</p> <p>Si un intercambio va a arbitraje y una de las partes se encuentra que ha violado el protocolo de intercambio de Bisq, alguna parte o todo el depósito de seguridad irá a la otra parte. Por ejemplo,  se viola el protocolo si un comprador no paga al vendedor, o un vendedor no reconoce haber recibido el pago por parte del comprador.</p> <p>La mayoría de intercambios en Bisq se completan sin ningún problema gracias en parte a los incentivos creados por este depósito de seguridad.</p>
+
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="how-privacy-protected">¿Cómo protege Bisq mi privacidad?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+      <p>Bisq es software autónomo y de código abierto que puede inspeccionar antes de ejecutarlo en su máquina, y por tanto, no tiene que confiar que algún servidor esté registrando sus detalles personales (como pasaría en una página web). </p> <p>Para el proceso de intercambio, su información de pago se guarda localmente en su ordenador, y solo su par de intercambio (y su árbitro, en caso de disputa) podrá verla. Todos los datos intercambiados entre los usuarios está encriptada y firmada.</p> <p>Para transmitir datos de un usuario a otro, Bisq usa una red P2P construida sobre Tor, que provee un alto grado de anonimato. El usuario no necesita hacer trabajo adicional para que esto funcione, ya que está integrado en la aplicación.</p>
+
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="trade-periods">¿Cuánto dura un intercambio?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    <p>La duración de intercambio dependerá de los tiempos de intercambio de las monedas que esté usando. Las monedas nacionales pueden ser instantáneas (Faster Payment) o tardar días (SEPA).</p> <p>Las transacciones de Bitcoin pueden llevar unos 10 minutos para
+confirmarse, y al menos una confirmación se requiere antes de que l comprador deba enviar el fiat o la altcoin.</p>
+<p>Aquí están los periodos máximos de intercambio antes de que un intercambio vaya automáticamente a arbitraje.</p> <strong>EURO</strong> <ul>
+  <li>SEPA: 6 días</li>
+  <li>SEPA Instant: 1 día</li>
+</ul> <strong>UK</strong> <ul>
+  <li>Faster Payments: 1 día</li>
+</ul> <strong>Sweden</strong> <ul>
+  <li>Swish: 1 día</li>
+</ul> <strong>US</strong> <ul>
+  <li>Zelle (antes conocido como clearXchange): 4 días</li>
+  <li>Chase QuickPay: 1 día</li>
+  <li>US Postal Money Order: 8 días</li>
+</ul> <strong>Canada</strong> <ul>
+  <li>Interac e-Transfer: 1 día</li>
+</ul> <strong>Global</strong> <ul>
+  <li>Depósito en efectivo: 4 days</li>
+  <li>Western Union: 4 días</li>
+  <li>Transferencia bancaria nacional: 4 days</li>
+  <li>Transferencia con el mismo banco: 2 días</li>
+  <li>Transferencia con bancos específicos: 4 días</li>
+</ul> <strong>Transnacional</strong> <ul>
+  <li>Perfect Money: 1 día</li>
+</ul> <strong>China</strong> <ul>
+  <li>Alipay: 1 día</li>
+</ul> <strong>Altcoins</strong> <ul>
+  <li>Blockchains: 1 día</li>
+</ul>
+
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="cost-to-trade">¿Cuánto cuesta intercambiar en Bisq?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    <p>Para comerciar en Bisq, los usuarios pagan (1) tasas de intercambio a Bisq y (2) tasas de minado a los mineros.</p>
+<strong>Tasas de intercambio</strong> <p>Los creadores de ofertas pagan 0.1% de la cantidad a intercambiar, y los tomadores pagan 0.3% de la cantidad a intercambiar. El mínimo en ambos casos es 0.00005 BTC para evitar límites de dust.</p>
+<strong>Tasas de minado</strong> <p>Un tomador de oferta solo paga las tasas de minado para la transacción de tasa de intercambio. Un tomador de oferta paga tasas de minado para la transacción de tasa de intercambio, transacción de depósito y transacción de pago. Esto es debido a que las tasas de minado fluctúan y es imposible para el tomador
+  de la oferta saber qué tasas de minado habrá en el momento en que la oferta se tome.</p>
+<p>Bisq usa <a href="https://bitcoinfees.earn.com/api/v1/fees/list" target="_blank">este servicio</a> para estimar tasas. Los usuarios pueden ver las tasas de minado del momento de crear o tomar una oferta.</p>
+
+
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="why-keep-bisq-online">¿Por qué necesito mantener mi aplicación en línea cuando tengo una oferta abierta?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    <p>Si ha publicado una oferta, su aplicación Bisq necesita estar en línea para reaccionar cuando otro comerciante quiera tomar la oferta (la transacción de depósito multisig se crea en el proceso de tomar la oferta). Asegúrese de que ha desactivado el modo en suspensión  de la computadora para que la aplicación Bisq pueda mantenerse online (el stand-by del monitor no es un problema).</p> <p>Si su aplicación Bisq se desconecta, su oferta se eliminará del libro de ofertas distribuido. Será vuelta a publicar la próxima vez que inicie la aplicación Bisq.</p> <p>Despueś de que una oferta haya sido tomada y el proceso de intercambio haya comenzado, ningún comerciante necesita permanecer en línea contínuamente, pero cada comerciante necesitará estar en línea periódicamente para comprobar si alguna acción se necesita de su lado (v.g enviar fiat/altcoin, confirmar el recibo de pago, etc).</p>
+
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="edit-offer">¿Cómo puedo editar mi oferta?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    <p>La <a href="https://github.com/bisq-network/bisq/releases/tag/v0.7.0">versión 0.7.0</a> introdujo la edición de ofertas en la sección Portafolio > Mis ofertas abiertas sin pagar tasas adicionales.</p>
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="will-bank-know">¿Sabrá mi banco que estoy comprando bitcoins?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    <p>Se sabe de casos en que algunos bancos han cerrado cuentas de cientes al notar actividad con Bitcoin.</p> <p>El texto de referencia (a veces llamado "razón de pago" o parecido) de la transferencia bancaria usada para intercambiar con Bisq debe siempre introducir <span class='font-italic'>solo</span> la ID de intercambio Bisq, que es una secuencia de caracteres aleatorios, como cuaquier otra ID de compra. Poner cualquier otra "razón de pago" se considera una violación de el protocolo de intercambio y resultará en disputa.</p> <p>Para evitar problemas, recomendamos configurar una cuenta bancaria para comprar y vender bitcoins. Si el banco bloqueara esa cuenta, le causaría menos problemas que si el banco bloqueara su cuenta principal.</p> <p>Nunca mencione nada más que la ID de intercambio Bisq en el campo correspondiente.</p>
+
+  </div>
+</div>
+
+
+<h4 class="pt-5 mt-5 pb-3">Resolucińo de disputas</h4>
+<div class="accordion border-bottom mb-5">
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="how-arbitration-works">¿Cómo funciona el proceso de arbitraje?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    <p>En Bisq, los árbitros determinan soluciones a las disputas en los intercambios. Los árbitros tienen que pagar una muy alta <a href="https://docs.bisq.network/dao/phase-zero.html" target="_blank" rel="noopener"> garantía BSQ</a>, que asegure evaluaciones justas y prevengan de la colusión con los comerciantes.</p> <p>Los árbitros se eligen aleatoriamente para cada intercambio.</p> <p>Si el comerciante A no confirma el recibo de una transferencia con moneda nacional en el <a href='#trade-periods'>tiempo establecido</a>, un botón para contactar al árbitro aparecerá para ambos comerciantes. El comerciante B podrá
+  enviar evidencia al árbitro de que realmente envió la moneda nacional. Alternativamente, si el comerciante B nunca envió la moneda nacional, el comerciante A puede enviar evidencia a el árbitro de que los fondos nunca se recibieron.</p>
+  <p>La evidencia emitida deberá ser criptográficamente segura con el uso de 
+  <a href="https://tlsnotary.org/" target="_blank">PageSigner</a> o declaraciones bancarias firmadas digitalmente. Si estos métodos fallan, se podrán emplear rutas de detección más tradicionales.</p>
+  <p>En nuestra experiencia la gran mayoría de disputas no son causadas con
+  intenciones malignas, sino por problemas menores como incidencias de red, errores de software, incidencias bancarias, usabilidad, etc.
+</p> <p>Una vez que el árbitro ha clarificado la situación, firmarán la dirección multifirma 2-de-3 en favor de la parte apropiada.</p>
+
+  </div>
+
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="preventing-arbitrator-collusion">¿Cómo se previene la colusión entre árbitros y comerciantes?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    <p>Como se mencionó anteriormente, los árbitros deben bloquear una gran <a href="https://docs.bisq.network/dao/phase-zero.html" target="_blank" rel="noopener">garantía BSQ</a> para poder ser árbitros (una garantía mucho más elevada que el límite de intercambio. Si ambos comerciantes no están de acuerdo con la resolución del árbitro, pueden solicitar una confiscación de la garantía BSQ del árbitro.</p> <p>Si se da lugar a colusión, el árbitro con mala conducta perderá su garantía BSQ. Esto supondrá una pérdida significante, ya que la garantía BSQ es mayor que lo que ganó siendo deshonesto.</p>
+
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="chargeback-details">¿Qué pasa si la persona que compra bitcoin hace una devolución de cargo después de que los bitcoins sean liberados de la dirección multifirma?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    <p>Bisq solo soporta métodos de pago donde las devoluciones de cargo no son fáciles (por eso PayPal o las tarjetas de crédito no están disponibles). Pero aún hay cierto riesgo de devolución de cargo con los bancos. Si un banco ejecuta una devolución de cargo después de que los BTC se liberen, no hay nada que
+  pueda hacer el árbitro.</p>
+<p>La meta de Bisq es hacer este escenario lo más difícil posible, usando tres mecanismos principales</a>:</p> <ol>
+  <li>Hay un límite por intercambio, que es generalmente muy pequeño como para atraer a criminales.</li>
+  <li>Los métodos de pago de monedas nacionales que se usan para hacer devoluciones de cargo son rápidamente eliminados.</li>
+  <li>Con la versión 0.6.0, se añadió una nueva <a href="https://docs.bisq.network/payment-account-age-witness.html" target="_blank">característica de edad de cuenta</a>. Esta característica hace que las cuentas fiat recientemente añadidas a Bisq tengan <a href='#trade-limits'>límites de intercambio más bajos</a>, y estos límites se incrementan con el tiempo. Esto añade protección contra timos  de cuentas bancarias robadas.</li>
+</ol>
+
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="arbitration-alternatives">¿Un sistema de solo reputación entre comerciantes no haría los árbitros inncesarios?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    <p>El sistema de arbitraje de solo reputación es un sistema de protección débil, ya que no puedes evitar ataques
+  <a href="https://en.wikipedia.org/wiki/Sybil_attack" target="_blank">sybil</a> o
+  <a href="https://en.wikipedia.org/wiki/Confidence_trick" target="_blank">long con</a> </p>
+<p>Este mecanismo también es problemático para proteger la privacidad  y mantener el servicio descentralizado.</p>
+
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="become-arbitrator">¿Puedo ser árbitro?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    <p>La <a href="https://docs.bisq.network/dao/phase-zero.html" target="_blank" rel="noopener">garantía BSQ</a>requerida es muy alta y actualmente hay muy pocas personas que hayan contribuido lo suficiente a Bisq para haber ganado tantos BSQ.</p>
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="contact-trading-peer">¿Puedo contactar a mi par de intercambio?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    <p>Hasta ahora, Bisq intencionalmente ha evitado ofrecer un medio para que los pares de intercambio se pongan en contacto. Normalmente no hay necesidad de este mecanismo, y ofrecer uno abriría una 'caja de problemas' respecto a la seguridad: usuarios maliciosos podrían engañar a sus pares a intercambiar sin usar Bisq, y explotar luego la falta de seguridad para timarlos, o usar el canal directo para otras actividades fraudulentas (estafas de ingeniería social, spam, etc).</p> <p>En vez de eso, en caso de que haya problemas, los usuarios pueden abrir una disputa y resolver la incidencia con la ayuda del árbitro. También está disponible el  <a href='https://bisq.community' target='_blank'>foro Bisq</a> y el <a href='https://bisq.network/slack-invite' target='_blank'>canal Slack</a> para que los usarios consigan ayuda.</p> <p>Nota: con el lanzamiento del <a href='https://github.com/bisq-network/proposals/issues/52' target='_blank'>nuevo protocolo de intercambio</a>, aún así, habrá medios para los pares de comuncarse directamente entre ellos.</p>
+
+  </div>
+</div>
+
+<h4 class="pt-5 mt-5 pb-3">La DAO Bisq</h4>
+<div class="accordion border-bottom mb-5">
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="about-dao">¿Qué es la DAO Bisq?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    <p>La DAO Bisq (organización autónoma descentralizada) es un mecanismo de gobernanza descentralizada para el software Bisq. Toma el lugar de una compañía. ¿Cuán bueno puede ser un software descentralizado si está controlado por una única entidad, como una compañía? </p> <p>El software descentralizado no es bueno sin gobernanza descentralizada.</p> <p>Esta es la razón por la que Bisq no es una compañía o una entidad legal de ningún tipo. Está organizada como una DAO. La DAO se encarga de dotar de fondos el software y crear la estrategia para que la red Bisq prospere, y al mismo tiempo, endurecerse contra ataques en la infraestructura, reforzando su liderazgo y operativa. </p> <p>En unas palabras, la DAO Bisq permite a Bisq ser aún más resistente a la censura, un <a href='https://docs.bisq.network/intro.html' target='_blank'>principio central de el proyecto</a> desde el principio.</p> <p>Lea más acerca de la DAO Bisq en <a href='https://docs.bisq.network/user-dao-intro.html' target='_blank'>este documento introductorio</a>.</p>
+
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="how-dao-works">¿Cómo funciona la DAO Bisq?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+      <p>Los propósitos primarios de la DAO Bisq son financiar el proyecto y determinar la estrageia.</p> <ul>
+    <li>Las tasas de intercambio se distribuyen directamente desde los comerciantes a los contribuyentes con un token (bitcoin coloreado) llamado BSQ.</li>
+    <li>La estrategia se determina colectivamente a través de la votación hecha en el software Bisq y registrada en la red Bitcoin.</li>
+</ul> <p>Aprenda más acerca de cómo funciona en realidad con <a href='https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e' target='_blank'>esta serie de videos cortos de 3-5 minutos</a>.</p>
+
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="dao-for-traders">¿Como comerciante, qué necesito saber acerca de la DAO?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+      <p>Como la DAO Bisq es un mecanismo de gobernanza, prácticamente no faceta al uso diario del software.</p> <p>Una cosa que se debe tener en cuenta es lo que hace el token BSQ realmente. Siendo prácticos, pagarás tasas de intercambio menores usando BSQ en vez de BTC.</p> <p>¿Pero por qué es necesario un token? Porque permite a los contribuyentes Bisq pagar por su trabajo sin monederos centrales o puntos de control. Cuando compra BSQ, está pagando directamente a un contribuyente Bisq por su trabajo, y en el proceso, ayudando a mantener todo el proyecto. La dinámica que este token permite<a href='https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/'>no es posible con simples bitcoins</a>.</p> <p>Cuando usa BSQ para pagar tasas de intercambio, se destruyen y "queman" fuera de existencia..</p> <p>Vea más acerca de cómo este proceso funciona en <a href='https://docs.bisq.network/user-dao-intro.html' target='_blank'>este documento</a> o en <a href='https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e' target='_blank'>esta serie de videos</a>.</p>
+
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="without-bsq">¿Puedo usar Bisq sin BSQ y sin esta DAO?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+      <p>Se puede. Todo lo que tiene que hacer es pagar sus tasas de intercambio con BTC en vez de BSQ. Pero esperamos que no lo haga, porque haciéndolo el proyecto se tornaría insostenible.</p> <p>Antes de la DAO Bisq, las tasas de intercambio iban a unos pocos monederos de contribuyentes de Bisq muy específicos (árbitros). Todos los otros contribuyentes no recibían pagos. Bisq necesita que sus contribuyentes sean pagados de forma regular, con medios predecibles que aseguren un continuo (y fiable) desarrollo, servicio y crecimiento; la DAO Bisq permite que esto ocurra distribuyendo las tasas de intercambio a todos los contribuyentes de una forma totalmente descentralizada.</p> <p>La DAO Bisq y el token BSQ permiten dotar de fondos y mecanismos de gobernanza que<a href='https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/'>no son posibles con bitcoins simples</a>. Recomendamos encarecidamente que compruebe <a href='https://docs.bisq.network/dao.html' target='_blank'>nuestra documentación</a> y <a href='https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e' target='_blank'>la serie de videos</a> para aprender más.</p>
+
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="why-dao">¿Bisq hace esto porque necesita dinero? ¿cuál es el calendario de emisión del token?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+      <p>Bisq ya tiene ingresos de las tasas de intercambio. Lanzar esta DAO y el token BSQ no es para  <span class='font-italic'>conseguir</span> ingresos—Se lanza para <span class='font-italic'>distribuir</span> los ingresos que ya gana a más gente sin puntos centrales de control.</p> <p>Los tokens BSQ se emiten cada vez que la solicitud de compensación de un contribuyente es aprobada a través de votación, y los tokens son destruidos cada vez que un comerciante usa BSQ para pagar tasas de intercambio.</p> <p>La emisión de BSQ no es un evento único, y su propósito no es aumentar capital. Puede ver una guía del proceso de emisión de BSQ en  <a href='https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e' target='_blank'>esta serie de videos</a>.</p>
+
+  </div>
+</div>
+
+
+
+<h4 class="pt-5 mt-5 pb-3">Miscelánea</h4>
+<div class="accordion border-bottom mb-5">
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="why-security-deposit">¿Si no tengo bitcoins, cómo puedo obtener algunos para pagar el depósito de seguridad y tasas de minado de mi primer intercambio?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+
+    <p>Los depósitos de seguridad en bitcoin son necesarios para proteger a los comerciantes de Bisq del fraude y abuso.</p> <p>Los depósitos de seguridad se establecen  como porcentaje de la cantidad a intercambiar (2% por defecto) pero pueden ajustarse por el creador de la oferta.</p>
+<p>Sabemos que este requerimiento puede ser una barrera para principiantes en bitcoin, pero hay muchas maneras de conseguir los primeros bitcoins: amigos y familia, reuniones de Bitcoin, cajeros Bitcoin, cupones, trabajar a cambio de bitcoin, etc.</p>
+
+  </div>
+
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="new-payment-accounts">¿Bisq soporta pagos con 'XYZ'?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+
+    <p>Bisq ya soporta una amplia variedad de métodos de pago de monedas nacionales, pero se podrán añadir nuevos siempre y cuando:</p> <ul>
+  <li>las reversiones de pago sean raras</li>
+  <li>los árbitros puedan conseguir evidencia de la transacción</li>
+</ul> <p>Las transferencias bancarias nacionales estań soportadas en cada país.</p> <p>Puede sugerir nuevos métodos de pago en el <a href='https://bisq.community' target='_blank'>foro</a>, <a href='https://bisq.network/slack-invite' target='_blank'>Slack</a>, o <a href='https://github.com/bisq-network/bisq/issues' target='_blank'>GitHub</a>.</p>
+
+  </div>
+
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="software-bugs">¿Qué pasa si hay errores de software?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+
+    <p>Si la aplicación Bisq reconoce que está teniendo un problema, mostrará un botón de "ticket de soporte". Su árbitro enviará el reporte del error a los desarrolladores, que comenzarán una investigación del problema. Podrían preguntarte
+  por el archivo de registro para asistir al proceso.
+</p> <p>Si el botón no aparece, puede abrir un ticket de soporte pulsando Cmd+o (o Ctrl+o, dependiendo de su sistema) cuando el intercambio es seleccionado en la lista Portafolio > Intercambios abiertos.</p>
+
+  </div>
+
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="whats-multisig">¿Qué es una 'dirección multifirma'?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+
+
+    <p>También conocido como “<a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">Multisig</a>”, está construida dentro de Bitcoin como una versión simple de contrato inteligente. Una dirección multifirma es generada con múltiples claves públicas y una especificación de cuántas de esas claves deben ser firmadas para liberar los fondos.</p> <p>Bisq usa direcciones multifirma 2-de-3. Esto significa que se usan tres claves públicas para crear la dirección de pago (la del comprador, vendedor y árbitro) y la transacción debe ser firmada por dos de las tres partes para que los fondos se liberen.</p> <p>Normalmente, el comprador y el vendedor firman cada transacción para liberar los fondos. Pero en caso de disputa, el árbitro se pondrá de lado de alguna de las partes y hará la segunda firma necesaria para liberar los fondos.</p>
+
+  </div>
+
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="more-questions">Tengo una pregunta  no resuelta aquí...</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+
+    <p>Por favor abra un post con su pregunta en el <a href="https://bisq.community/" target="_blank">foro Bisq</a> o en el<a href='https://bisq.network/slack-invite' target='_blank'>canal Slack</a>.</p>
+  </div>
+</div>
+
+      </div>
+    </div>
+</div>
+
+                  
+                </div>
+
+            
+
+<!-- Select includes/footer according to page lang -->
+              
+                <footer class="page-footer font-small blue pt-2 pt-md-5 dark-grey">
+
+
+    <div class="container-fluid text-md-left px-0">
+
+      <div class="row mx-0 pb-md-5 pb-sm-5">
+
+        <div class="col-12 col-lg-4 mt-md-0 mt-3 pl-md-5 pl-sm-3 small px-sm-4 px-4">
+          <h5 class="text-uppercase small grey">App de notificaciones de celular Bisq</h5>
+          <a target="_blank" rel="noopener" class="app-link" href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq"><img class="badge-img" alt="Get it on Google Play" src="http://localhost:4001/images/badge_google_play.svg"/></a>
+          &nbsp;
+          <a target="_blank" rel="noopener" class="app-link" href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411"><img class="badge-img" alt="Get it on the App Store" src="http://localhost:4001/images/badge_app_store.svg"/></a>
+
+
+          <div class="text-left small grey pt-4">
+            © 2019 Bisq
+          </div>
+
+
+
+
+
+
+        </div>
+
+        <hr class="clearfix w-100 d-lg-none pb-3">
+
+        <div class="col-12 col-lg-5 mb-md-0 mb-3 pr-md-5 pr-sm-2 small px-4 px-md-5">
+          <h5 class="text-uppercase small grey">Recursos</h5>
+          <ul class="list-unstyled divide-3col" style="column-gap: 3rem;">
+            <!--<li>
+              <a href="http://localhost:4001/press">Press</a>
+            </li>-->
+            <li>
+              <a href="http://localhost:4001/es/downloads_es">Descargas</a>
+            </li>
+            <li>
+              <a href="http://localhost:4001/roadmap">Hoja de ruta</a>
+            </li>
+            <li>
+              <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">Contribuir</a>
+            </li>
+            <li>
+              <a href="https://markets.bisq.network/api/" target="_blank" rel="noopener">API datos de mercado</a>
+            </li>
+            <!--
+            lets activate it once we have a dynamic content
+            <li>
+               <a href="http://localhost:4001/stats">Stats</a>
+             </li>-->
+          </ul>
+        </div>
+
+        <hr class="clearfix w-100 d-lg-none pb-3">
+
+        <div class="col-12 col-lg-3 mb-md-0 mb-3 small px-4 px-md-5 pb-1 pb-5">
+
+          <h5 class="text-uppercase small grey">Unirse a Bisq</h5>
+
+          <span id="community-footer">
+            <a target="_blank" rel="noopener" title="GitHub" href="https://github.com/bisq-network"> <img src="http://localhost:4001/images/community/github_w.svg" alt="github"> </a>
+            <a target="_blank" rel="noopener" title="Twitter" href="https://twitter.com/bisq_network"> <img src="http://localhost:4001/images/community/twitter_w.svg" alt="twitter"> </a>
+            <a target="_blank" rel="noopener" title="YouTube" href="https://www.youtube.com/c/bisq-network"><img src="http://localhost:4001/images/community/youtube_w.svg" alt="youtube"> </a>
+            <a target="_blank" rel="noopener" title="Slack" href="https://bisq.network/slack-invite"><img src="http://localhost:4001/images/community/slack_w.svg" alt="slack"> </a>
+            <a target="_blank" rel="noopener" title="Bisq Forum" href="https://bisq.community"><img src="http://localhost:4001/images/community/forum_w.svg" alt="forum"> </a>
+            <a target="_blank" rel="noopener" title="Mailing List" href="https://lists.bisq.network/listinfo/bisq-contrib"><img src="http://localhost:4001/images/community/mailinglist_w.svg" alt="mailinglist"> </a>
+            <a target="_blank" rel="noopener" title="IRC" href="https://webchat.freenode.net/?channels=bisq"><img src="http://localhost:4001/images/community/irc_w.svg" alt="irc"> </a>
+            <a target="_blank" rel="noopener" title="Reddit" href="https://www.reddit.com/r/bisq"><img src="http://localhost:4001/images/community/reddit_w.svg" alt="reddit"> </a>
+          </span>
+
+          </div>
+      </div>
+    </div>
+
+
+
+  </footer>
+
+              
+
+
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-104074395-1', 'auto');
+            
+            ga('send', 'pageview');
+            
+        </script>
+
+    </body>
+</html>
