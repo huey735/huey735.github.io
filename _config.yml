@@ -1,5 +1,5 @@
 title: Bisq
-url: "https://huey735.github.io"
+url: "https://bisq.network"
 markdown: kramdown
 permalink: /blog/:title/
 livereload: true
@@ -19,7 +19,7 @@ exclude:
   - Gemfile
 paginate: 10
 paginate_path: "/blog/page/:num/"
-client_version: "1.1.1"
+client_version: "1.1.3"
 description: "Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative crypto currencies."
 sass:
   style: compressed
@@ -29,4 +29,3 @@ webrick:
     X-XSS-Protection: "1; mode=block"
     X-Content-Type-Options: "nosniff"
     X-Frame-Options: "SAMEORIGIN"
-port: 4001

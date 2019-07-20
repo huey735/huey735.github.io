@@ -1,4 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4001/blog/feed.atom" rel="self" type="application/atom+xml" /><link href="http://localhost:4001/" rel="alternate" type="text/html" /><updated>2019-06-11T13:51:46+01:00</updated><id>http://localhost:4001/blog/feed.atom</id><title type="html">Bisq</title><subtitle>Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative crypto currencies.</subtitle><entry><title type="html">Time for the DAO to take over</title><link href="http://localhost:4001/blog/let-the-dao-work/" rel="alternate" type="text/html" title="Time for the DAO to take over" /><published>2019-05-16T00:00:00+01:00</published><updated>2019-05-16T00:00:00+01:00</updated><id>http://localhost:4001/blog/let-the-dao-work</id><content type="html" xml:base="http://localhost:4001/blog/let-the-dao-work/">&lt;p&gt;Dear Bisq community,&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/blog/feed.atom" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-07-19T17:32:15+01:00</updated><id>http://localhost:4000/blog/feed.atom</id><title type="html">Bisq</title><subtitle>Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative crypto currencies.</subtitle><entry><title type="html">Bitcoin and the Store of Value Narrative</title><link href="http://localhost:4000/blog/bitcoin-and-the-store-of-value-narrative/" rel="alternate" type="text/html" title="Bitcoin and the Store of Value Narrative" /><published>2019-06-04T00:00:00+01:00</published><updated>2019-06-04T00:00:00+01:00</updated><id>http://localhost:4000/blog/bitcoin-and-the-store-of-value-narrative</id><content type="html" xml:base="http://localhost:4000/blog/bitcoin-and-the-store-of-value-narrative/">&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Manuel writes at &lt;a href=&quot;https://www.juandemariana.org&quot;&gt;juandemariana.org&lt;/a&gt;, is a perpetual student of monetary theory, and is a Bitcoin quasi-maximalist (he is almost there).&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you’d like to contribute a post, please reach out on &lt;a href=&quot;https://bisq.network/slack-invite&quot;&gt;Slack&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Since Bitcoin’s inception, there has been an endless debate about the explanation of its value. What backs Bitcoin? Does Bitcoin have intrinsic value? Why is Bitcoin demanded? To answer these questions many Bitcoin advocates refer to the principles established by the Austrian School of Economics concluding that Bitcoin’s main source of value is being a store of value. I believe this conclusion is the result of the toxic block size debate by which both sides of the debate wrongly narrowed the concept of a medium of exchange to money (cash).&lt;/p&gt;
+
+&lt;p&gt;To make my position clear about the block size, I absolutely advocate for small blocks. I believe that running a Bitcoin full node should be as easy and affordable as possible so the system is not only decentralized but fully distributed where final users have full sovereignty over their Bitcoins.&lt;/p&gt;
+
+&lt;p&gt;Going back to the principles of the Austrian school, the most widely followed monetary theorist of this school, Ludwig Von Mises, developed the &lt;a href=&quot;https://wiki.mises.org/wiki/Regression_theorem&quot;&gt;Regression Theorem&lt;/a&gt; in his book titled &lt;a href=&quot;https://mises.org/library/theory-money-and-credit&quot;&gt;“The Theory of Money and Credit”&lt;/a&gt;. The theorem states that for an economic good to be money it must primarily have other non-monetary uses before it can become money. Bitcoin does not fit this description. Some economists like &lt;a href=&quot;https://mises.org/library/bitcoin-regression-theorem-and-emergence-new-medium-exchange&quot;&gt;Block and Davidson&lt;/a&gt; have tried to reinterpret this theorem in order to shoehorn Bitcoin into it by claiming that the Regression Theorem applies only to barter economies and does not apply when there are already monetary prices. I don’t think that interpretation is correct and it is also incoherent in and of itself (see &lt;a href=&quot;https://juanramonrallo.com/mises-y-block-se-equivocan-sobre-sus-teoremas-regresivos-del-dinero/&quot;&gt;Juan Ramón Rallo rebuttal&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Mises’ Regression Theorem is based on the observations made by Carl Menger in his seminal work &lt;a href=&quot;https://mises-media.s3.amazonaws.com/On%20the%20Origins%20of%20Money_5.pdf&quot;&gt;“On the Origins of Money”&lt;/a&gt; where he describes the process of how money arose from commodities. But, what Menger did was make a historical observation, not a theoretical explanation. It was Mises who wrongly took those observations into theory with his unfortunate Regression Theorem.&lt;/p&gt;
+
+&lt;p&gt;In an attempt to dodge the Regression Theorem debate others have retorted with Nick Szabo’s views in his remarkable essay &lt;a href=&quot;https://nakamotoinstitute.org/shelling-out/&quot;&gt;“Shelling out: The Origins of Money”&lt;/a&gt;, using the collectible and store of value arguments. Szabo’s excellent work is also a historical explanation like Menger, but more detailed and precise from an anthropological point of view.&lt;/p&gt;
+
+&lt;p&gt;I shall not spend much time rebutting the claim that Bitcoin’s source of value at the very beginning was being a collectible in the literal meaning of the term. That was not what Szabo meant and it is not credible at all to say that the first Bitcoin owners demanded it because it was a whimsy, rather than demanding it because they thought it could potentially become a medium of exchange. Bitcoin’s first owners knew well why Bitcoin was invented and for what purpose it was intended.&lt;/p&gt;
+
+&lt;p&gt;A popular &lt;a href=&quot;https://medium.com/@vijayboyapati/the-bullish-case-for-bitcoin-6ecc8bdecc1&quot;&gt;narrative amongst Bitcoin supporters&lt;/a&gt; that apply Szabo’s views claim that money &lt;strong&gt;always&lt;/strong&gt; evolves through the following stages:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Collectible&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Store of Value&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Medium of exchange&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Unit of account&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In my view, the above narrative is scientifically inconsistent and as such, it could be easily utilized against Bitcoin by academia and governments to spread negative propaganda like accusing Bitcoin of being a reckless speculative bubble and that there is no scientific support of its value other than “It’s valuable because people value it”. It’s not that I fear too much that they can stop anything - I believe Bitcoin will thrive or not regardless of what haters and supporters claim - though, they might be able to slow down the adoption process a bit.&lt;/p&gt;
+
+&lt;p&gt;The narrative is scientifically inconsistent because it deviates from the &lt;a href=&quot;https://en.wikipedia.org/wiki/Subjective_theory_of_value&quot;&gt;Subjective Theory of Value&lt;/a&gt; as it puts value in front of utility. I don’t want to claim that this theory is set in stone but, if it has to be amended, it has to be very well justified. In my view, there are absolutely no grounds for amendment within the above narrative. As I fully reject the collectible whimsy argument to explain Bitcoin bootstrapping, the only argument left is that the collectible is valuable because it is a store of value, which is obviously circular and therefore explains nothing. Game theory does not resolve that circularity either. Moreover, it is also confusing that the narrative assigns to store of value the properties which belong to medium of exchange (portable, fungible, divisible, quickly verifiable, etc).&lt;/p&gt;
+
+&lt;p&gt;Here I will explain how Bitcoin fits very well within the Subjective Theory of Value and also within the historical stages of exchange described by Carl Menger. Leaving apart deferred exchanges (i.e. credit), the basic first three stages of spot exchange are the following:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Direct exchange&lt;/strong&gt;: Barter.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Indirect exchange&lt;/strong&gt;: When exchange is done in two steps using an intermediate good. Szabo’s concept of “collectible” is a particular case within this category, which is using goods for long term indirect exchange.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Money&lt;/strong&gt;: When a good used for indirect exchange is widely accepted.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We would deal separately with the concept of Unit of Account because this function fulfills the need for economic calculus which is an extremely important need, but different than fulfilling the need for exchange. Regarding the store of value function, it is not exclusive to money or proto-money, as all economic goods are by definition a better or worse store of value.&lt;/p&gt;
+
+&lt;p&gt;So going back to Menger, we find that to overcome the problems of direct exchange (barter) humans began to use some goods for indirect exchange, that is, demanding or hoarding a good not for consumption but for exchanging it for other goods in the future. For example, if they had the possibility to decide on hoarding cereal or eggs, it is reasonable that they chose cereal as it is more durable and divisible. As the concept of a medium of exchange is still not imaginable for them, they wouldn’t be able to assess how cereal could be demanded by others to use it also for indirect exchange. They would just rely on others demanding it as food in the future (durable) while they could potentially use it for several different exchanges (divisible). &lt;strong&gt;Once this experience is repeated, the concept of medium of exchange clearly reveals itself and it is immediately picked up by human entrepreneurship to be further exploited.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Each individual might choose completely different goods for indirect exchange depending on what they have available and when they are expecting to need them for exchange, so a convergence between individuals to choose the same good for this purpose is initially not necessary. The convergence would come naturally afterward, once humans have discovered the concept of medium of exchange, and that’s when the most salable goods begin to compete for being a generalized medium of exchange (i.e. Money). The game theory concept of &lt;a href=&quot;https://en.wikipedia.org/wiki/Focal_point_(game_theory)&quot;&gt;focal point&lt;/a&gt; kicks in at this stage reinforcing the demand for the most salable good.&lt;/p&gt;
+
+&lt;p&gt;A key concept in this debate is the term of the exchange. For a good to be money it is implicit that it serves well its purpose in the short term. This is also implicit in the words “most salable” within Menger’s definition of money &lt;em&gt;“the &lt;strong&gt;most salable&lt;/strong&gt; of commodities”&lt;/em&gt;, which &lt;a href=&quot;http://www.carlosbondone.com/en/theory-of-economic-time/economic-theory/development-of-concepts.html&quot;&gt;Carlos Bondone&lt;/a&gt; has generalized to “the most salable present economic good”. If it only serves its purpose in longer terms it might not be money but, it would still be a medium of indirect exchange.&lt;/p&gt;
+
+&lt;p&gt;But, in this post, we are interested in the bootstrapping process to achieve that salability. Let’s refer back to the stage of goods being just a medium of indirect exchange. I stated above that humans would rely on cereal’s utility as food to foresee its future demand because the concept of medium of indirect exchange would still be an unknown abstraction for them. If we fast forward to a context where humans already conceptually grasp a medium of exchange, why should they not be able to foresee the monetary demand of any good, regardless if it has other uses or not– that is, its ease of transport, divisibility, durability, and unfalsifiability. This is clearly the case for Szabo’s “collectibles” and also Bitcoin’s case. From a historical point of view, I find it rather unlikely that humans used otherwise useless goods as a medium of exchange without first having discovered the medium of exchange concept through other consumptive goods, but it is certainly theoretically possible.&lt;/p&gt;
+
+&lt;p&gt;In the same way that discovering the concepts of adding and subtracting quantities is more natural through comparing physical quantities (i.e. beads, as in an abacus), that does not necessarily prevent humans to skip that step and directly invent written numerals and ledgers. Even though we once used the abacus and its sexagesimal numeral system, it does not mean that all other numeral systems must first be accounted through the sexagesimal system.. We must not confuse the supporting medium by which we historically experiment and discover a concept (i.e. beads or commodities) with the concept itself (arithmetics or Money).&lt;/p&gt;
+
+&lt;p&gt;If something arises (bitcoin) that can fulfill the sole use case of a medium of exchange better than the incumbents (barter, salt, gold, fiat etc.), then that is where the demand can be found. Can this demand can be speculative? Yes, it is speculation on the possibility of the good becoming money in the future.&lt;/p&gt;
+
+&lt;p&gt;Mises had the following concern regarding new monetary goods that have no other use than a medium of exchange: (&lt;em&gt;Human Action&lt;/em&gt; – Chapter 17 section 4 – “The determination of purchasing power of money”)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“A value judgment is, with reference to money, only possible if it can be based on appraisement. The acceptance of a new kind of money presupposes that the thing in question already has previous exchange value on account of the services it can render directly to consumption or production. Neither a buyer nor a seller could judge the value of a monetary unit if he had no information about its exchange value–its purchasing power–in the immediate past.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So, how is it that a completely new monetary good’s price is discovered? That is the least of the problems. The owner of Bitcoin might arbitrarily ask for a price and buyers can accept it or bid at a lower price until they agree on the same price. At that point, the first exchange takes place. In the beginning, the price might be totally erratic, but as more market participants are interested, demand and supply builds and the price stabilizes. This continuous auction process is indeed how prices of goods have always been discovered and it is nothing special for money nor anything new that Bitcoin brought. The fact that many other speculators join in later just for the “lambos” without caring about Bitcoin’s monetary utility is completely irrelevant in relation to Bitcoin’s primary source of value. A subject for another blog post is whether or not speculators and traders are beneficial for Bitcoin.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Bitcoin’s origin of value can be fully explained on the grounds of the subjective theory of value and Menger’s definition of money.  Because the need for exchange is a basic human need, any good that has the qualities to satisfy that need, (even if it only satisfies that one need), is useful and therefore subject to being demanded.&lt;/p&gt;</content><author><name>Manuel Polavieja</name></author><summary type="html">Manuel posits that Bitcoin's value cannot be explained with a store-of-value approach.</summary></entry><entry><title type="html">Time for the DAO to take over</title><link href="http://localhost:4000/blog/let-the-dao-work/" rel="alternate" type="text/html" title="Time for the DAO to take over" /><published>2019-05-16T00:00:00+01:00</published><updated>2019-05-16T00:00:00+01:00</updated><id>http://localhost:4000/blog/let-the-dao-work</id><content type="html" xml:base="http://localhost:4000/blog/let-the-dao-work/">&lt;p&gt;Dear Bisq community,&lt;/p&gt;
 
 &lt;p&gt;With the successful launch of the DAO, Bisq is entering a new phase. The bootstrapping phase where founders are steering the project forward is over, and the Bisq DAO is now the infrastructure which enables that Bisq is managed by its stakeholders and contributors. The DAO was envisioned from the very beginning of the project. It was also clear from the beginning that the founders need to step back to ensure that the project can develop to its full potential as a decentralised organisation. We see in all crypto-currency projects where the founder is still around that those projects suffers from some sort of centralisation. Satoshi did Bitcoin a great favour by stepping out. Bitcoin would not be the same if he would be still around as an authority, and Bitcoin developers would not be able to develop their full potential. Of course such events might be a bit disruptive and challenging for some but it really should be seen as that what it is: &lt;strong&gt;a necessary step to enable Bisq to be a decentralized autonomous organization.&lt;/strong&gt;&lt;/p&gt;
 
@@ -30,7 +101,7 @@
 
 &lt;p&gt;So you can see a lot of challenging work is waiting for talented developers who want to become part of Bisq and help to build the infrastructure Bitcoin deserves: &lt;strong&gt;a privacy protecting on-ramp which follows the principles of Bitcoin and not those of the banks.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;If you are interested to work in a project that’s permissionless and non-hierarchical by design, Bisq might be your &lt;a href=&quot;https://docs.bisq.network/contributor-checklist.html&quot;&gt;place&lt;/a&gt;.&lt;/p&gt;</content><author><name>Manfred Karrer</name></author><summary type="html">With the DAO in place Bisq has to evolve its organisational structure without its founders. The departure of the founders was planned from the very beginning. Now it is time to fulfill that plan.</summary></entry><entry><title type="html">Why Some Bitcoin Companies Go Rogue: An Interview with Janine from Block Digest</title><link href="http://localhost:4001/blog/ricardo-janine-rogue-bitcoin-interview/" rel="alternate" type="text/html" title="Why Some Bitcoin Companies Go Rogue: An Interview with Janine from Block Digest" /><published>2019-04-30T00:00:00+01:00</published><updated>2019-04-30T00:00:00+01:00</updated><id>http://localhost:4001/blog/ricardo-janine-rogue-bitcoin-interview</id><content type="html" xml:base="http://localhost:4001/blog/ricardo-janine-rogue-bitcoin-interview/">&lt;hr /&gt;
+&lt;p&gt;If you are interested to work in a project that’s permissionless and non-hierarchical by design, Bisq might be your &lt;a href=&quot;https://docs.bisq.network/contributor-checklist.html&quot;&gt;place&lt;/a&gt;.&lt;/p&gt;</content><author><name>Manfred Karrer</name></author><summary type="html">With the DAO in place Bisq has to evolve its organisational structure without its founders. The departure of the founders was planned from the very beginning. Now it is time to fulfill that plan.</summary></entry><entry><title type="html">Why Some Bitcoin Companies Go Rogue: An Interview with Janine from Block Digest</title><link href="http://localhost:4000/blog/ricardo-janine-rogue-bitcoin-interview/" rel="alternate" type="text/html" title="Why Some Bitcoin Companies Go Rogue: An Interview with Janine from Block Digest" /><published>2019-04-30T00:00:00+01:00</published><updated>2019-04-30T00:00:00+01:00</updated><id>http://localhost:4000/blog/ricardo-janine-rogue-bitcoin-interview</id><content type="html" xml:base="http://localhost:4000/blog/ricardo-janine-rogue-bitcoin-interview/">&lt;hr /&gt;
 
 &lt;p&gt;&lt;em&gt;Ricardo writes for &lt;a href=&quot;https://coincache.net&quot;&gt;Coincache.net&lt;/a&gt; and is a Bitcoin maximalist, who lives with his wife and son in Colombia.&lt;/em&gt;&lt;/p&gt;
 
@@ -177,7 +248,7 @@ As far as Segwit 2x, a lot of those companies were based in or around Silicon Va
 
 &lt;p&gt;You can &lt;a href=&quot;https://twitter.com/brian_trollz&quot;&gt;follow Shinobi on Twitter here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;You can &lt;a href=&quot;https://twitter.com/cryptorick&quot;&gt;follow Rick on Twitter here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Ricardo Martinez</name></author><summary type="html">Ricardo Martinez interviews Janine of Block Digest. They discuss a peculiar phenomenon—the tendency for people and companies made successful by Bitcoin to turn against Bitcoin—and why it happens.</summary></entry><entry><title type="html">Bisq DAO Launches with Bisq v1.0</title><link href="http://localhost:4001/blog/dao-launch-third-anniversary/" rel="alternate" type="text/html" title="Bisq DAO Launches with Bisq v1.0" /><published>2019-04-17T00:00:00+01:00</published><updated>2019-04-17T00:00:00+01:00</updated><id>http://localhost:4001/blog/dao-launch-third-anniversary</id><content type="html" xml:base="http://localhost:4001/blog/dao-launch-third-anniversary/">&lt;hr /&gt;
+&lt;p&gt;You can &lt;a href=&quot;https://twitter.com/cryptorick&quot;&gt;follow Rick on Twitter here&lt;/a&gt;.&lt;/p&gt;</content><author><name>Ricardo Martinez</name></author><summary type="html">Ricardo Martinez interviews Janine of Block Digest. They discuss a peculiar phenomenon—the tendency for people and companies made successful by Bitcoin to turn against Bitcoin—and why it happens.</summary></entry><entry><title type="html">Bisq DAO Launches with Bisq v1.0</title><link href="http://localhost:4000/blog/dao-launch-third-anniversary/" rel="alternate" type="text/html" title="Bisq DAO Launches with Bisq v1.0" /><published>2019-04-17T00:00:00+01:00</published><updated>2019-04-17T00:00:00+01:00</updated><id>http://localhost:4000/blog/dao-launch-third-anniversary</id><content type="html" xml:base="http://localhost:4000/blog/dao-launch-third-anniversary/">&lt;hr /&gt;
 
 &lt;p&gt;&lt;em&gt;Steve contributes documentation, copywriting, speaking, media correspondence, and more to the Bisq network. Follow him &lt;a href=&quot;https://jain.io&quot;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
@@ -217,7 +288,7 @@ As far as Segwit 2x, a lot of those companies were based in or around Silicon Va
 
 &lt;p&gt;But while there’s lots to celebrate from the past, we also realize this is also a celebration of a &lt;em&gt;beginning&lt;/em&gt; for the future. There’s lots to do, and success is never guaranteed.&lt;/p&gt;
 
-&lt;p&gt;We thank everyone for their support over the past several years, and look forward to an even brighter future.&lt;/p&gt;</content><author><name>Steve Jain</name></author><summary type="html">After years in the making, the Bisq DAO has launched on mainnet with the v1.0 release of the Bisq software, just days before Bisq celebrates 3 years in production.</summary></entry><entry><title type="html">Why I Am a Bisq Contributor: Aruna Surya</title><link href="http://localhost:4001/blog/why-aruna-surya/" rel="alternate" type="text/html" title="Why I Am a Bisq Contributor: Aruna Surya" /><published>2019-04-08T00:00:00+01:00</published><updated>2019-04-08T00:00:00+01:00</updated><id>http://localhost:4001/blog/why-aruna-surya</id><content type="html" xml:base="http://localhost:4001/blog/why-aruna-surya/">&lt;hr /&gt;
+&lt;p&gt;We thank everyone for their support over the past several years, and look forward to an even brighter future.&lt;/p&gt;</content><author><name>Steve Jain</name></author><summary type="html">After years in the making, the Bisq DAO has launched on mainnet with the v1.0 release of the Bisq software, just days before Bisq celebrates 3 years in production.</summary></entry><entry><title type="html">Why I Am a Bisq Contributor: Aruna Surya</title><link href="http://localhost:4000/blog/why-aruna-surya/" rel="alternate" type="text/html" title="Why I Am a Bisq Contributor: Aruna Surya" /><published>2019-04-08T00:00:00+01:00</published><updated>2019-04-08T00:00:00+01:00</updated><id>http://localhost:4000/blog/why-aruna-surya</id><content type="html" xml:base="http://localhost:4000/blog/why-aruna-surya/">&lt;hr /&gt;
 
 &lt;p&gt;&lt;em&gt;Aruna is a Bisq contributor with a non-technical background. You can learn more about her creative work at Bisq &lt;a href=&quot;https://github.com/arunasurya/academy.bisq.network/blob/master/Bisq.md&quot;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
@@ -247,7 +318,7 @@ As far as Segwit 2x, a lot of those companies were based in or around Silicon Va
 
 &lt;p&gt;Apart from autonomy, what I like most about working at Bisq is the interaction with the amazing contributors from all over the world. I have had great conversations with writers, developers and translators who were generous with their time and provided valuable advice. I now know that the strength of Bisq is in its contributors. They are here because they believe that Bisq is important, and their values are aligned.&lt;/p&gt;
 
-&lt;p&gt;Being a Bisq contributor made me think more carefully about privacy and IT security, and be more open to new ways of collaboration. Although I still find transparency in communication quite challenging, I can see the value in it. I have done a wide range of tasks such as writing, editing, reporting bugs and coordinating projects, and now I have a much clearer idea of how I can contribute best. Working remotely without any organizational hierarchy is definitely a challenge, and some miscommunication is bound to happen. However, I am amazed by how quickly the contributors react and mobilize their forces to fix problems, so I am very optimistic about this new approach to working together.&lt;/p&gt;</content><author><name>Aruna Surya</name></author><summary type="html">Aruna Surya discusses her experience with being a Bisq contributor—why she started contributing, why she continues contributing, and how there's still a lot to like for a non-technical person with diverging interests.</summary></entry><entry><title type="html">Privacy Best Practices &amp;amp; Bisq: An Interview with Max Hillebrand</title><link href="http://localhost:4001/blog/max-hillebrand-interview-privacy/" rel="alternate" type="text/html" title="Privacy Best Practices &amp; Bisq: An Interview with Max Hillebrand" /><published>2019-03-29T00:00:00+00:00</published><updated>2019-03-29T00:00:00+00:00</updated><id>http://localhost:4001/blog/max-hillebrand-interview-privacy</id><content type="html" xml:base="http://localhost:4001/blog/max-hillebrand-interview-privacy/">&lt;hr /&gt;
+&lt;p&gt;Being a Bisq contributor made me think more carefully about privacy and IT security, and be more open to new ways of collaboration. Although I still find transparency in communication quite challenging, I can see the value in it. I have done a wide range of tasks such as writing, editing, reporting bugs and coordinating projects, and now I have a much clearer idea of how I can contribute best. Working remotely without any organizational hierarchy is definitely a challenge, and some miscommunication is bound to happen. However, I am amazed by how quickly the contributors react and mobilize their forces to fix problems, so I am very optimistic about this new approach to working together.&lt;/p&gt;</content><author><name>Aruna Surya</name></author><summary type="html">Aruna Surya discusses her experience with being a Bisq contributor—why she started contributing, why she continues contributing, and how there's still a lot to like for a non-technical person with diverging interests.</summary></entry><entry><title type="html">Privacy Best Practices &amp;amp; Bisq: An Interview with Max Hillebrand</title><link href="http://localhost:4000/blog/max-hillebrand-interview-privacy/" rel="alternate" type="text/html" title="Privacy Best Practices &amp; Bisq: An Interview with Max Hillebrand" /><published>2019-03-29T00:00:00+00:00</published><updated>2019-03-29T00:00:00+00:00</updated><id>http://localhost:4000/blog/max-hillebrand-interview-privacy</id><content type="html" xml:base="http://localhost:4000/blog/max-hillebrand-interview-privacy/">&lt;hr /&gt;
 
 &lt;p&gt;&lt;em&gt;Ricardo writes for &lt;a href=&quot;https://coincache.net&quot;&gt;Coincache.net&lt;/a&gt; and is a Bitcoin maximalist, who lives with his wife and son in Colombia.&lt;/em&gt;&lt;/p&gt;
 
@@ -397,7 +468,7 @@ As far as Segwit 2x, a lot of those companies were based in or around Silicon Va
 
 &lt;p&gt;You can see Max’s shows—&lt;a href=&quot;https://www.youtube.com/playlist?list=PLPj3KCksGbSZtGhC7nIr_Mf1oCeP8U1tV&quot;&gt;Bitcoin to the Max&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=41y_eGsdy2U&amp;amp;list=PLPj3KCksGbSb1h33FZbsrtr1feIIwTBHt&quot;&gt;Open Source Everything&lt;/a&gt;, and &lt;a href=&quot;https://www.youtube.com/watch?v=NAXwLHgYHjo&amp;amp;list=PLPj3KCksGbSY9pV6EI5zkHcut5UTCs1cp&quot;&gt;Bitcoin Optech Newsletter&lt;/a&gt;—on the &lt;a href=&quot;https://www.youtube.com/user/WorldCryptoNetwork/&quot;&gt;World Crypto Network&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Finally, you can check out my blog for more Bitcoin content like this, &lt;a href=&quot;https://www.coincache.net&quot;&gt;right here&lt;/a&gt;. I hope this article was useful for you.&lt;/p&gt;</content><author><name>Ricardo Martinez</name></author><summary type="html">Ricardo Martinez interviews Max Hillebrand of the World Crypto Network. They discuss privacy in general, privacy with respect to bitcoin, privacy with respect to Bisq, and more.</summary></entry><entry><title type="html">How to Set Up a Bitcoin Regtest Environment</title><link href="http://localhost:4001/blog/how-to-set-up-bitcoin-regtest/" rel="alternate" type="text/html" title="How to Set Up a Bitcoin Regtest Environment" /><published>2019-03-22T00:00:00+00:00</published><updated>2019-03-22T00:00:00+00:00</updated><id>http://localhost:4001/blog/how-to-set-up-bitcoin-regtest</id><content type="html" xml:base="http://localhost:4001/blog/how-to-set-up-bitcoin-regtest/">&lt;hr /&gt;
+&lt;p&gt;Finally, you can check out my blog for more Bitcoin content like this, &lt;a href=&quot;https://www.coincache.net&quot;&gt;right here&lt;/a&gt;. I hope this article was useful for you.&lt;/p&gt;</content><author><name>Ricardo Martinez</name></author><summary type="html">Ricardo Martinez interviews Max Hillebrand of the World Crypto Network. They discuss privacy in general, privacy with respect to bitcoin, privacy with respect to Bisq, and more.</summary></entry><entry><title type="html">How to Set Up a Bitcoin Regtest Environment</title><link href="http://localhost:4000/blog/how-to-set-up-bitcoin-regtest/" rel="alternate" type="text/html" title="How to Set Up a Bitcoin Regtest Environment" /><published>2019-03-22T00:00:00+00:00</published><updated>2019-03-22T00:00:00+00:00</updated><id>http://localhost:4000/blog/how-to-set-up-bitcoin-regtest</id><content type="html" xml:base="http://localhost:4000/blog/how-to-set-up-bitcoin-regtest/">&lt;hr /&gt;
 
 &lt;p&gt;&lt;em&gt;Tomáš is a Bisq contributor, crypto enthusiast, libertarian, and voluntarist.&lt;/em&gt;&lt;/p&gt;
 
@@ -506,7 +577,7 @@ As far as Segwit 2x, a lot of those companies were based in or around Silicon Va
 
 &lt;p&gt;Interested in how to spend the reward, what a coinbase transaction is, and how a Bitcoin transaction works?&lt;/p&gt;
 
-&lt;p&gt;Join me next time, where we will continue working with the blockchain we just created.&lt;/p&gt;</content><author><name>Tomáš Kanócz</name></author><summary type="html">In this post, Tomáš shows you how to set up your very own Bitcoin regtest environment with bitcoin-qt and make your own blocks!</summary></entry><entry><title type="html">Benefits of the Bisq DAO, Part I: Funding FLOSS &amp;amp; Avoiding Surveillance Capitalism</title><link href="http://localhost:4001/blog/dao-benefits-funding/" rel="alternate" type="text/html" title="Benefits of the Bisq DAO, Part I: Funding FLOSS &amp; Avoiding Surveillance Capitalism" /><published>2019-03-13T00:00:00+00:00</published><updated>2019-03-13T00:00:00+00:00</updated><id>http://localhost:4001/blog/dao-benefits-funding</id><content type="html" xml:base="http://localhost:4001/blog/dao-benefits-funding/">&lt;hr /&gt;
+&lt;p&gt;Join me next time, where we will continue working with the blockchain we just created.&lt;/p&gt;</content><author><name>Tomáš Kanócz</name></author><summary type="html">In this post, Tomáš shows you how to set up your very own Bitcoin regtest environment with bitcoin-qt and make your own blocks!</summary></entry><entry><title type="html">Benefits of the Bisq DAO, Part I: Funding FLOSS &amp;amp; Avoiding Surveillance Capitalism</title><link href="http://localhost:4000/blog/dao-benefits-funding/" rel="alternate" type="text/html" title="Benefits of the Bisq DAO, Part I: Funding FLOSS &amp; Avoiding Surveillance Capitalism" /><published>2019-03-13T00:00:00+00:00</published><updated>2019-03-13T00:00:00+00:00</updated><id>http://localhost:4000/blog/dao-benefits-funding</id><content type="html" xml:base="http://localhost:4000/blog/dao-benefits-funding/">&lt;hr /&gt;
 
 &lt;p&gt;&lt;em&gt;This is an essay which contains some subjective statements. Steve contributes documentation, copywriting, speaking, media correspondence, and more to the Bisq network. Follow him &lt;a href=&quot;https://jain.io&quot;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
@@ -695,7 +766,7 @@ As far as Segwit 2x, a lot of those companies were based in or around Silicon Va
 &lt;br /&gt;&lt;br /&gt;
 &lt;sup&gt;2&lt;/sup&gt; The company is a hugely beneficial entity. As Ronald Coase articulated in his article &lt;em&gt;The Nature of the Firm&lt;/em&gt; in 1937, companies dramatically lower transaction and coordination costs in the pursuit of business. The advent of the modern limited-liability joint-stock company has been a drastically under-appreciated enabler of modern progress.
 &lt;br /&gt;&lt;br /&gt;
-&lt;sup&gt;3&lt;/sup&gt; Furthermore, it’s worth noting that &lt;a href=&quot;https://github.com/bisq-network/bisq&quot;&gt;the software&lt;/a&gt; makes it technically impossible to collect very much data in the first place.&lt;/p&gt;</content><author><name>Steve Jain</name></author><summary type="html">The Bisq DAO enables value transfer and decision-making for the Bisq network. But it has several additional benefits too, which we'll focus on in this series.In this post, Part I of this series, we'll discuss how Bisq's revenue model offers a new approach to funding open-source software development that, by design, avoids incentives to exploit user privacy altogether.</summary></entry><entry><title type="html">How to Earn BSQ by Contributing to Bisq</title><link href="http://localhost:4001/blog/how-to-earn-bsq/" rel="alternate" type="text/html" title="How to Earn BSQ by Contributing to Bisq" /><published>2019-03-06T00:00:00+00:00</published><updated>2019-03-06T00:00:00+00:00</updated><id>http://localhost:4001/blog/how-to-earn-bsq</id><content type="html" xml:base="http://localhost:4001/blog/how-to-earn-bsq/">&lt;hr /&gt;
+&lt;sup&gt;3&lt;/sup&gt; Furthermore, it’s worth noting that &lt;a href=&quot;https://github.com/bisq-network/bisq&quot;&gt;the software&lt;/a&gt; makes it technically impossible to collect very much data in the first place.&lt;/p&gt;</content><author><name>Steve Jain</name></author><summary type="html">The Bisq DAO enables value transfer and decision-making for the Bisq network. But it has several additional benefits too, which we'll focus on in this series.In this post, Part I of this series, we'll discuss how Bisq's revenue model offers a new approach to funding open-source software development that, by design, avoids incentives to exploit user privacy altogether.</summary></entry><entry><title type="html">How to Earn BSQ by Contributing to Bisq</title><link href="http://localhost:4000/blog/how-to-earn-bsq/" rel="alternate" type="text/html" title="How to Earn BSQ by Contributing to Bisq" /><published>2019-03-06T00:00:00+00:00</published><updated>2019-03-06T00:00:00+00:00</updated><id>http://localhost:4000/blog/how-to-earn-bsq</id><content type="html" xml:base="http://localhost:4000/blog/how-to-earn-bsq/">&lt;hr /&gt;
 
 &lt;p&gt;&lt;em&gt;This post is by John Forsyth. John is a non-technical enthusiast for cryptocurrencies and decentralized autonomous organizations. &lt;a href=&quot;https://www.instagram.com/daokid1/&quot;&gt;Follow him here&lt;/a&gt; for more content about DAOs and cryptocurrencies.&lt;/em&gt;&lt;/p&gt;
 
@@ -847,7 +918,7 @@ As far as Segwit 2x, a lot of those companies were based in or around Silicon Va
 
 &lt;p&gt;So what are you waiting for?&lt;/p&gt;
 
-&lt;p&gt;Get to work and start earning!&lt;/p&gt;</content><author><name>John Forsyth</name></author><summary type="html">Bisq is an open-source software project, but it has a built-in revenue model to compensate its contributors—and anyone is welcome to contribute!</summary></entry><entry><title type="html">An Overview of the Bisq Network</title><link href="http://localhost:4001/blog/an-overview-of-the-bisq-network/" rel="alternate" type="text/html" title="An Overview of the Bisq Network" /><published>2019-02-25T00:00:00+00:00</published><updated>2019-02-25T00:00:00+00:00</updated><id>http://localhost:4001/blog/an-overview-of-the-bisq-network</id><content type="html" xml:base="http://localhost:4001/blog/an-overview-of-the-bisq-network/">&lt;hr /&gt;
+&lt;p&gt;Get to work and start earning!&lt;/p&gt;</content><author><name>John Forsyth</name></author><summary type="html">Bisq is an open-source software project, but it has a built-in revenue model to compensate its contributors—and anyone is welcome to contribute!</summary></entry><entry><title type="html">An Overview of the Bisq Network</title><link href="http://localhost:4000/blog/an-overview-of-the-bisq-network/" rel="alternate" type="text/html" title="An Overview of the Bisq Network" /><published>2019-02-25T00:00:00+00:00</published><updated>2019-02-25T00:00:00+00:00</updated><id>http://localhost:4000/blog/an-overview-of-the-bisq-network</id><content type="html" xml:base="http://localhost:4000/blog/an-overview-of-the-bisq-network/">&lt;hr /&gt;
 
 &lt;p&gt;&lt;em&gt;Aruna is a Bisq contributor with a non-technical background who is currently leading the Blog and Translation efforts.&lt;/em&gt;&lt;/p&gt;
 
@@ -874,129 +945,4 @@ Unlike centralized exchanges, you preserve your privacy when trading on Bisq sin
 
 &lt;h2 id=&quot;further-reading&quot;&gt;Further Reading&lt;/h2&gt;
 &lt;p&gt;You can learn more about Bisq &lt;a href=&quot;https://docs.bisq.network/intro.html&quot;&gt;here&lt;/a&gt; and how to install the Bisq software &lt;a href=&quot;https://docs.bisq.network/getting-started.html&quot;&gt;here&lt;/a&gt;.
-For more technical details of the Bisq P2P network, please visit &lt;a href=&quot;https://bisq.network/blog/new-p2p-network/&quot;&gt;this blog post by Manfred Karrer&lt;/a&gt;.&lt;/p&gt;</content><author><name>Aruna Surya</name></author><summary type="html">If you are into cryptocurrencies, you may be interested in Bisq, a decentralized exchange that enables you to trade bitcoin for fiat currencies and other cryptocurrencies. Unlike centralized exchanges, you preserve your privacy when trading on Bisq since there is no need for registration or approval from any central authorities. In this post, I will give you an overview of the Bisq software and the Bisq network.</summary></entry><entry><title type="html">Bisq DAO for Bitcoin Maximalists</title><link href="http://localhost:4001/blog/bisq-dao-for-bitcoin-maximalists/" rel="alternate" type="text/html" title="Bisq DAO for Bitcoin Maximalists" /><published>2019-02-18T00:00:00+00:00</published><updated>2019-02-18T00:00:00+00:00</updated><id>http://localhost:4001/blog/bisq-dao-for-bitcoin-maximalists</id><content type="html" xml:base="http://localhost:4001/blog/bisq-dao-for-bitcoin-maximalists/">&lt;hr /&gt;
-
-&lt;p&gt;&lt;em&gt;Steve contributes writing in the form of documentation, copywriting, media correspondence, and more to the Bisq network. Follow him &lt;a href=&quot;https://jain.io&quot;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;If you’d like to contribute a post, please reach out on &lt;a href=&quot;https://bisq.network/slack-invite&quot;&gt;Slack&lt;/a&gt; or &lt;a href=&quot;https://bisq.community/t/call-for-blog-writers/7040&quot;&gt;on our forum&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Let’s cut to the chase: the Bisq DAO is built on the Bitcoin network, and the BSQ token is just colored bitcoin.&lt;/p&gt;
-
-&lt;p&gt;Bisq needs a DAO to decentralize its own governance, so that it can become as resistant to censorship as possible.&lt;/p&gt;
-
-&lt;p&gt;Furthermore, note that Bisq has already been in operation for almost 3 years, and it makes real revenue right now. &lt;strong&gt;This is not a capital raise.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;not-a-company&quot;&gt;Not a company&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Bisq is not a company or legal entity of any kind&lt;/strong&gt;, so new tools are needed to handle governance functions (decision-making and revenue collection) that an entity would otherwise handle.&lt;/p&gt;
-
-&lt;p&gt;You may counter that Bisq is working just fine right now without a DAO. And you’d be right, kinda.&lt;/p&gt;
-
-&lt;p&gt;Observe:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;../../images/dao-before-after.png&quot; alt=&quot;DAO Before/After&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The network functions just fine for traders in both cases: it’s distributed with no single points of failure.&lt;/p&gt;
-
-&lt;p&gt;But take another look at the left panel. See how all trading fees go to one place? And how decision-making is largely concentrated in that one place too? That’s not fine. Governance is so centralized right now that Bisq might as well just become a company.&lt;/p&gt;
-
-&lt;p&gt;But the ambition is greater:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Is it possible to operate the project with no central decision-makers?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Is it possible to collect and distribute revenue without any central financial accounts?&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The Bisq DAO and BSQ token are answers to these questions. They’ve been devised over the past ~5 years, tested over the past several months, and will soon be deployed on Bitcoin mainnet.&lt;/p&gt;
-
-&lt;h2 id=&quot;common-misconceptions&quot;&gt;Common Misconceptions&lt;/h2&gt;
-
-&lt;p&gt;We’ve explained how the Bisq DAO works elsewhere (&lt;a href=&quot;https://docs.bisq.network/user-dao-intro.html&quot;&gt;here’s a write-up&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e&quot;&gt;here’s a short video-series&lt;/a&gt;), so we won’t cover those details here.&lt;/p&gt;
-
-&lt;p&gt;Instead, we’ll cover common questions and misconceptions:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Is Bisq launching a token because it needs money?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;No. The BSQ token does not raise capital. Its purpose is to route trading fees from traders to contributors without any financial accounts.&lt;/p&gt;
-
-&lt;p&gt;Bisq has bootstrapped itself to facilitate 22,000+ total trades in the ~3 years since April 2016. It makes real revenue right now.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;All tokens are useless. So why create one?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Many tokens seem to lack utility since they’re issued by legal entities like companies and foundations. Often, these entities could accomplish their goals without tokens.&lt;/p&gt;
-
-&lt;p&gt;However, when there is no entity, as in Bisq’s case, things change. New tools are needed to collect revenue and make policy. Where can revenue be collected if there is no central wallet? Who determines policy if there is no leadership team?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Explain to this to me, simply. Please.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Here’s a concrete example of how this mechanism allows traders to pay contributors without any central wallets. We use round numbers for simplicity.&lt;/p&gt;
-
-&lt;p&gt;Developer does $1000 of work on Bisq software. He requests $1000 of BSQ, and includes 1000 satoshis with his request. DAO stakeholders vote to approve his request, coloring his 1000 satoshis into BSQ worth $1000. Traders buy this BSQ with $1000 of BTC, and then use the BSQ to pay trading fees.&lt;/p&gt;
-
-&lt;p&gt;BSQ is just a placeholder for a BTC payment until the other party is known. The DAO is just a mechanism for collective decision-making in the absence of a CEO.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Isn’t that just creating money out of thin air? That’s sketchy.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;BSQ token issuance mirrors the act of human labor: the very act of human labor is creating something out of nothing. Take a developer, for instance. When they implement a feature, they’ll add code where there wasn’t any before. If they do it right, the code they added will result in new functionality. Voilà! They’ve just created something out of nothing.&lt;/p&gt;
-
-&lt;p&gt;The BSQ token is a tool to capture this newly-created value in an exchangeable medium. Bitcoin miners create money out of thin air too, right? This is no different, just with human labor and subjective validation instead of machine labor and automated validation.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Why can’t you just do this with plain bitcoin?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Because the sender of bitcoin is not known when compensation is earned.&lt;/p&gt;
-
-&lt;p&gt;Consider trading fees. You need a sender and a recipient to do a Bitcoin transaction, right? But there’s a gap between the time a contributor does work and the time a trader places a trade, and nowhere to hold the value to be transferred in the interim. BSQ is a tool to hold the value of a contributor’s labor until a trader shows up to pay for it.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Practically, what changes for me as a user?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Not much. You can choose to continue paying trading fees with BTC, or you can choose to pay trading fees with BSQ. If you choose BSQ, you’ll just have to buy BSQ first.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Why would I go to the trouble of buying BSQ?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;BSQ trading fees will be dramatically cheaper than plain BTC trading fees, at first. Also, the BTC you pay to buy BSQ actually goes to Bisq contributors and helps sustain the project.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Will I be required to use BSQ to trade on Bisq?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;No, you can choose to continue paying trading fees with plain bitcoin instead of BSQ—just note that you’ll pay more than you would pay by using BSQ, and that your fees won’t help to sustain the project since they won’t be routed to Bisq contributors.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;But…Bisq works just fine without a token right now. Why do a token?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Because Bisq is adapting its governance model. It’s going from a centralized control structure (funding and policy determined by founders) to a decentralized control structure (funding and policy determined collectively by users and contributors).&lt;/p&gt;
-
-&lt;p&gt;With the old model, all fees went to arbitrators. The new model enables fees to be distributed meritocratically to all contributors, and a token is needed to make it work.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Why is Bisq adapting its governance model?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Because decentralized software is not good enough. What’s the point, if the team in charge of the software is still a single point of failure?&lt;/p&gt;
-
-&lt;p&gt;This is why we call it the Bisq Network and not the Bisq Project. This has been the plan from the beginning.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What is the issuance schedule for BSQ tokens?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;New BSQ is issued every time a contributor’s request is approved through DAO voting. BSQ issuance is not a one-time event. Issuance is not a capital raise like an ICO—it happens continually as contributors do work.&lt;/p&gt;
-
-&lt;p&gt;BSQ is also burned out of existance continually as traders use it to pay trading fees.&lt;/p&gt;
-
-&lt;p&gt;This issuance and burning creates a scarcity dynamic for the BSQ token.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Many tokens sound good in theory. How do you know yours will work in practice?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Good question. Theory cannot be tested until it’s put into practice. However, quite a few aspects of the token and DAO have already been put into practice. People have been paying real bitcoin to use Bisq for almost 3 years now, so the token must have value at launch.&lt;/p&gt;
-
-&lt;p&gt;As for the DAO, Bisq contributors have approximated DAO functions with ‘low-tech’ tools like GitHub and Google Sheets for several months. The DAO merely formalizes these processes.&lt;/p&gt;
-
-&lt;h2 id=&quot;learn-more&quot;&gt;Learn More&lt;/h2&gt;
-
-&lt;p&gt;And here’s the first of a series of short videos we made on the Bisq DAO:&lt;/p&gt;
-
-&lt;div class=&quot;responsive-youtube-container&quot;&gt;
-    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/videoseries?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;It’s fair to question whether Bisq needs to avoid organizing itself under a legal entity, but if you can accept that doing so could have benefits, then a DAO and token are the only reasonable ways to make it work.&lt;/p&gt;</content><author><name>Steve Jain</name></author><summary type="html">Let's cut to the chase: the Bisq DAO is built on the Bitcoin network, and the BSQ token is just colored bitcoin.</summary></entry></feed>
+For more technical details of the Bisq P2P network, please visit &lt;a href=&quot;https://bisq.network/blog/new-p2p-network/&quot;&gt;this blog post by Manfred Karrer&lt;/a&gt;.&lt;/p&gt;</content><author><name>Aruna Surya</name></author><summary type="html">If you are into cryptocurrencies, you may be interested in Bisq, a decentralized exchange that enables you to trade bitcoin for fiat currencies and other cryptocurrencies. Unlike centralized exchanges, you preserve your privacy when trading on Bisq since there is no need for registration or approval from any central authorities. In this post, I will give you an overview of the Bisq software and the Bisq network.</summary></entry></feed>

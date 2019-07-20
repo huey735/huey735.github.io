@@ -1,6 +1,6 @@
  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top pl-md-5 pr-md-5 pl-sm-3 pr-0">
 
-    <a class="navbar-brand" href="{{ site.url }}/{{ page.lang }}/index_{{ page.lang }}"><img src="{{ site.url }}/images/bisq-logo.svg" height="30"/></a>
+    <a class="navbar-brand" href="{{ site.url }}/{{ page.lang }}/"><img src="{{ site.url }}/images/bisq-logo.svg" height="30"/></a>
     <button class="navbar-toggler pr-3 pr-md-0 collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -13,7 +13,7 @@
         <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           {{ page.language }}
         </button>
-        <div class="dropdown-menu w-auto" aria-labelledby="dropdownMenuButton" style="min-width: 0;">
+        <div class="dropdown-menu w-auto" aria-labelledby="dropdownMenuButton">
           {% assign pages = site.pages | where:"ref", page.ref | sort: 'lang' %}
           {% for page in pages %}
           <a class="dropdown-item" href="{{ page.url }}">{{ page.language }}</a>
@@ -47,7 +47,7 @@
 
 {% assign item = site.data[page.lang].main_nav %}
           <li class="downloads-mobile nav-item {% if page.url == item.url %}current{% endif %}">
-              <a class="nav-link" href="{{ site.url }}/{{ page.lang }}/downloads_{{ page.lang }}">{{ item.liDownloads }}</a>
+              <a class="nav-link" href="{{ site.url }}/{{ page.lang }}/downloads">{{ item.liDownloads }}</a>
           </li>
 
           <li class="downloads-desktop more-info-desktop nav-item dropdown">
@@ -69,7 +69,7 @@
 
               <div class="dropdown-item btn-icon">
                 <div class="float-right">
-                  <a href="{{ site.url }}/community/">{{ item.liCommunity }}</a>
+                  <a href="{{ site.url }}/{{ page.lang }}/community/">{{ item.liCommunity }}</a>
                 </div>
               </div>
             </div>

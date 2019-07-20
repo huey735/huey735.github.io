@@ -1,28 +1,28 @@
 links:
 
-  - title: Vision
-    url: /vision/
+- title: Vision
+  url: /vision/
 
-  - title: Bisq DAO
-    url: /dao/
+- title: Bisq DAO
+  url: /dao/
 
-  - title: Statistics
-    url: /stats/
+- title: Statistics
+  url: /stats/
 
-  - title: FAQ
-    url: /faq/
+- title: FAQ
+  url: /faq/
 
-  - title: Markets
-    url: /markets/
+- title: Markets
+  url: /markets/
 
 mobile_links:
 
-  - title: Community
-    url: /community/
+- title: Community
+  url: /community/
 
-  - title: Blog
-    url: /blog/
+- title: Blog
+  url: /blog/
 
-  - title: Documentation
-    url: https://docs.bisq.network/
-    target: _blank
+- title: Documentation
+  url: https://docs.bisq.network/
+  target: _blank

@@ -2,8 +2,6 @@
 layout: page
 title: Roadmap &lsaquo; Bisq - The decentralized Bitcoin exchange
 banner: /images/roadmap1.png
-ref: roadmap
-lang: en
 ---
 # Roadmap
 
@@ -21,9 +19,83 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ##### Version 2.0
 {: .mt-5 .mb-2}
  - New trade protocol
+ 
+##### Version 1.2.0
+{: .mt-5 .mb-2}
+- Account signing
 
 ## Releases
 {: .mt-5 .pt-5}
+
+##### Version 1.1.3
+{: .mt-5 .mb-2}
+Released [July 16th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.1.3)
+
+This is a bug fix and network improvement release. You'll see faster startup and synchronization times and it includes lots of smaller bug fixes and improvements as well.
+
+###### DAO
+- [Handling of revealing of late votes](https://github.com/bisq-network/bisq/pull/2888)
+- [Limit BSQ validator to 10M BSQ](https://github.com/bisq-network/bisq/pull/2889)
+- [Display changed param value at proposal time](https://github.com/bisq-network/bisq/pull/2890)
+- [Handle null tx for unconfirmed BSQ change output](https://github.com/bisq-network/bisq/pull/2903)
+- [Don't dump blockchain data during initial parsing](https://github.com/bisq-network/bisq/pull/2951)
+- [Limit number of blocks sent in GetBlocksResponse](https://github.com/bisq-network/bisq/pull/2953)
+- [Fixes for initial block sync](https://github.com/bisq-network/bisq/pull/2963)
+
+###### UI
+- [Hide extreme offers in chart](https://github.com/bisq-network/bisq/pull/2884)
+- [Label offers correctly for removed assets](https://github.com/bisq-network/bisq/pull/2947)
+
+###### Trading
+- [Fix acknowledgement message for available offers](https://github.com/bisq-network/bisq/pull/2917)
+- [Use tempTradingPeerNodeAddress if the trade doesn't have a trading peer set yet](https://github.com/bisq-network/bisq/pull/2928)
+- [Fix offer editing for low volume offers](https://github.com/bisq-network/bisq/pull/2929)
+- [Fix missing payment info on SEPA Instant trades](https://github.com/bisq-network/bisq/pull/2934)
+- [Exclude non executed BSQ trade](https://github.com/bisq-network/bisq/pull/2937)
+
+###### Wallet
+- [Update BitcoinJ checkpoint files](https://github.com/bisq-network/bisq/pull/2909)
+- [Wait for initialized wallet before processing dispute msgs](https://github.com/bisq-network/bisq/pull/2915)
+- [Add option to ignore local bitcoin node](https://github.com/bisq-network/bisq/pull/2954)
+
+###### Network
+- Bundling of envelopes: [1](https://github.com/bisq-network/bisq/pull/2939), [2](https://github.com/bisq-network/bisq/pull/2952)
+
+###### Monitoring
+- [Monitor is aware of the DAO](https://github.com/bisq-network/bisq/pull/2870) ([monitor.bisq.network](https://monitor.bisq.network/d/iVpBgXXmk/dao-sync-status?refresh=5m&orgId=1))
+- [Monitor reports BSQBlock head](https://github.com/bisq-network/bisq/pull/2943)
+
+###### Development
+- [Improve setup instructions for Windows](https://github.com/bisq-network/bisq/pull/2905)
+- [Resurrect testnet](https://github.com/bisq-network/bisq/pull/2920)
+- [Update command to generate blocks](https://github.com/bisq-network/bisq/pull/2945)
+
+###### Assets
+Added four new asset: Genesis (GENX), Know Your Developer (KYD), Myce (YCE), Starwels (USDH)
+
+##### Version 1.1.2
+{: .mt-5 .mb-2}
+Released [June 3rd 2019](https://github.com/bisq-network/bisq/releases/tag/v1.1.2)
+
+This version fixes DAO synchronization issues with seed nodes on startup and also includes additional bug fixes and improvements.
+
+###### DAO
+- [Add missing dust check](https://github.com/bisq-network/bisq/pull/2827)
+- [Fix synchronization issue with seed nodes on startup](https://github.com/bisq-network/bisq/pull/2821)
+- [Fix DAO sync text after restore from seed](https://github.com/bisq-network/bisq/pull/2836)
+- [Fix confirm lockup transaction prompt showing incorrect estimated time](https://github.com/bisq-network/bisq/pull/2844)
+- [Fix peer handling for address display and signing](https://github.com/bisq-network/bisq/pull/2854)
+
+###### UI
+- [Fix linguistic issues in the English version](https://github.com/bisq-network/bisq/pull/2858)
+- [Fix issue with label width in contract window and add deposits in dispute summary](https://github.com/bisq-network/bisq/pull/2830)
+
+###### Trading
+- [Use minTakerFee when calculating taker fee](https://github.com/bisq-network/bisq/pull/2846)
+
+###### Privacy
+- [Fix useless use of IPv6 (Tails interop issue)](https://github.com/bisq-network/bisq/issues/2840)
+
 
 ##### Version 1.1.1
 {: .mt-5 .mb-2}
@@ -39,7 +111,7 @@ Released [May 2nd 2019](https://github.com/bisq-network/bisq/releases/tag/v1.1.0
 
 As there is hardly any scam risk for crypto-to-crypto trades, this release decreases the security deposit amount for these trades back to the pre-DAO state. Also with this release, the time to synchronize the Bisq DAO state should be reduced a lot, and there are many smaller bug fixes and improvements.
 
-Most importantly, this release also includes a temporary restriction that blocks accounts that were created recently to trade in certain markets where we had scammers. **Users running older clients (< 1.1.0) will be completely blocked from trading**, so it is critical that you update as soon as possible! The upcoming release 1.2.0 will include a more robust set of features that should make it nearly impossible to scam traders on Bisq anymore.
+Most importantly, this release also includes a temporary restriction that blocks accounts that were created recently to trade in certain markets where we had scammers. **Users running older clients (< 1.1.0) will be completely blocked from trading**, so it is critical that you update as soon as possible! The upcoming release 1.2.0 will include a more robust set of features that should make it nearly impossible to scam traders on Bisq anymore. 
 
 ###### DAO
 - [Request blocks in case we have not received it](https://github.com/bisq-network/bisq/pull/2730)

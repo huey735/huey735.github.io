@@ -13,7 +13,7 @@
         <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           {{ page.language }}
         </button>
-        <div class="dropdown-menu w-auto" aria-labelledby="dropdownMenuButton" style="min-width: 0;">
+        <div class="dropdown-menu w-auto" aria-labelledby="dropdownMenuButton">
           {% assign pages = site.pages | where:"ref", page.ref | sort: 'lang' %}
           {% for page in pages %}
           <a class="dropdown-item" href="{{ page.url }}">{{ page.language }}</a>
